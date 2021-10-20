@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gradientBottom">@color/backgroundColor</color>
+    <color name="gradientTop">@color/backgroundColor</color>
+    <color name="backgroundColor">#1C1C26</color>
+    <color name="textColor">#ffffff</color>
+
+    <color name="monerujoToolbarText">@color/monerujoBackground</color>
+
+    <color name="monerujoBackground">#FFF6EF</color>
+    <color name="monerujoPrimary">#048BF1</color>
+    <color name="monerujoPrimaryVariant">#CCC3BD</color>
+    <color name="monerujoOrange">#FA5544</color>
+    <color name="monerujoGreen">#00C691</color>
+    <color name="monerujoPink">#F0006B</color>
+    <color name="monerujoPinkAlpha">#20F0006B</color>
+    <color name="monerujoE">#FFFDFB</color>
+
+</resources>

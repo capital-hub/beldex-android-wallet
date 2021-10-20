@@ -1,0 +1,982 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 21 min SDK version: x86_64",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2141384268
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\.cxx\\RelWithDebInfo\\2x4a0395\\x86_64\\android_gradle_build.json due to:",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1738936069
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\.cxx\\RelWithDebInfo\\2x4a0395\\x86_64\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1130619841
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\.cxx\\RelWithDebInfo\\2x4a0395\\x86_64\\metadata_generation_command.txt, will remove stale json folder",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -45677185
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 953073087
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\.cxx\\RelWithDebInfo\\2x4a0395\\x86_64\u0027",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 107781885
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\.cxx\\RelWithDebInfo\\2x4a0395\\x86_64\u0027",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 399439985
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake Executable : C:\\Users\\Blockhash\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe\narguments : \n-HC:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d21\n-DANDROID_PLATFORM\u003dandroid-21\n-DANDROID_ABI\u003dx86_64\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86_64\n-DANDROID_NDK\u003dC:\\Users\\Blockhash\\AppData\\Local\\Android\\Sdk\\ndk\\17.2.4988734\n-DCMAKE_ANDROID_NDK\u003dC:\\Users\\Blockhash\\AppData\\Local\\Android\\Sdk\\ndk\\17.2.4988734\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\Blockhash\\AppData\\Local\\Android\\Sdk\\ndk\\17.2.4988734\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\Blockhash\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe\n-DCMAKE_CXX_FLAGS\u003d-std\u003dc++11\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\2x4a0395\\obj\\x86_64\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\2x4a0395\\obj\\x86_64\n-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\n-BC:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\.cxx\\RelWithDebInfo\\2x4a0395\\x86_64\n-GNinja\n-DANDROID_STL\u003dc++_shared\njvmArgs : \n\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2029356446
+  },
+  {
+    "level_": 0,
+    "message_": "\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1289571459
+  },
+  {
+    "level_": 0,
+    "message_": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1828279895
+  },
+  {
+    "level_": 0,
+    "message_": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1112895286
+  },
+  {
+    "level_": 0,
+    "message_": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 222111767
+  },
+  {
+    "level_": 0,
+    "message_": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"C:/Users/Blockhash/StudioProjects/repository_beldex_android_wallet/app\",\n  \"buildDirectory\": \"C:/Users/Blockhash/StudioProjects/repository_beldex_android_wallet/app/.cxx/RelWithDebInfo/2x4a0395/x86_64\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -455635256
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2064612200
+  },
+  {
+    "level_": 0,
+    "message_": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d21\",\n    \"-DANDROID_PLATFORM\\u003dandroid-21\",\n    \"-DANDROID_ABI\\u003dx86_64\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003dx86_64\",\n    \"-DANDROID_NDK\\u003dC:\\\\Users\\\\Blockhash\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\17.2.4988734\",\n    \"-DCMAKE_ANDROID_NDK\\u003dC:\\\\Users\\\\Blockhash\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\17.2.4988734\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003dC:\\\\Users\\\\Blockhash\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\17.2.4988734\\\\build\\\\cmake\\\\android.toolchain.cmake\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003dC:\\\\Users\\\\Blockhash\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.10.2.4988404\\\\bin\\\\ninja.exe\",\n    \"-DCMAKE_CXX_FLAGS\\u003d-std\\u003dc++11\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003dC:\\\\Users\\\\Blockhash\\\\StudioProjects\\\\repository_beldex_android_wallet\\\\app\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\2x4a0395\\\\obj\\\\x86_64\",\n    \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\\u003dC:\\\\Users\\\\Blockhash\\\\StudioProjects\\\\repository_beldex_android_wallet\\\\app\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\2x4a0395\\\\obj\\\\x86_64\",\n    \"-DCMAKE_BUILD_TYPE\\u003dRelWithDebInfo\",\n    \"-DANDROID_STL\\u003dc++_shared\"\n  ]\n}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 643003800
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: C:/Users/Blockhash/AppData/Local/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe\",\"type\":\"message\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1632547403
+  },
+  {
+    "level_": 0,
+    "message_": "Check for working C compiler: C:/Users/Blockhash/AppData/Local/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1135505453
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2056014358
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: C:/Users/Blockhash/AppData/Local/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works\",\"type\":\"message\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1337438763
+  },
+  {
+    "level_": 0,
+    "message_": "Check for working C compiler: C:/Users/Blockhash/AppData/Local/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -442680973
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1597561616
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting C compiler ABI info",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1061794072
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -192856885
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1924472257
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting C compiler ABI info - done",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -488744569
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1165439115
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting C compile features",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1734651347
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1967331861
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1256821901
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1131552231
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -723606972
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting C compile features - done",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 111045692
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: C:/Users/Blockhash/AppData/Local/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe\",\"type\":\"message\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 900008917
+  },
+  {
+    "level_": 0,
+    "message_": "Check for working CXX compiler: C:/Users/Blockhash/AppData/Local/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 646804045
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -775040933
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: C:/Users/Blockhash/AppData/Local/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works\",\"type\":\"message\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -448276469
+  },
+  {
+    "level_": 0,
+    "message_": "Check for working CXX compiler: C:/Users/Blockhash/AppData/Local/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -374432941
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -697174160
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting CXX compiler ABI info",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -551871640
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 581619474
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 734412735
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting CXX compiler ABI info - done",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -330138361
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 501747211
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting CXX compile features",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1158393517
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1413250942
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -36971450
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 908752711
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1687276099
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -222194492
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting CXX compile features - done",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1269311300
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"ABI_INFO\u003dx86_64\",\"type\":\"message\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1378916030
+  },
+  {
+    "level_": 0,
+    "message_": "ABI_INFO\u003dx86_64",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -974643786
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"EXTERNAL_LIBS_DIR:C:/Users/Blockhash/StudioProjects/repository_beldex_android_wallet/app/../external-libs\",\"type\":\"message\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1139629614
+  },
+  {
+    "level_": 0,
+    "message_": "EXTERNAL_LIBS_DIR:C:/Users/Blockhash/StudioProjects/repository_beldex_android_wallet/app/../external-libs",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -879776566
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 313523563
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 86297774
+  },
+  {
+    "level_": 0,
+    "message_": "Configuring done",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1805899126
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 580322347
+  },
+  {
+    "level_": 0,
+    "message_": "{\"type\":\"compute\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -732220480
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 196366461
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2076400568
+  },
+  {
+    "level_": 0,
+    "message_": "Generating done",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1554096123
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1617877680
+  },
+  {
+    "level_": 0,
+    "message_": "{\"type\":\"cmakeInputs\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -660985439
+  },
+  {
+    "level_": 0,
+    "message_": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"../../../AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"../../../AppData/Local/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake\",\"../../../AppData/Local/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\".cxx/RelWithDebInfo/2x4a0395/x86_64/CMakeFiles/3.10.2/CMakeSystem.cmake\",\".cxx/RelWithDebInfo/2x4a0395/x86_64/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/RelWithDebInfo/2x4a0395/x86_64/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\".cxx/RelWithDebInfo/2x4a0395/x86_64/CMakeFiles/feature_tests.c\",\".cxx/RelWithDebInfo/2x4a0395/x86_64/CMakeFiles/feature_tests.c\",\".cxx/RelWithDebInfo/2x4a0395/x86_64/CMakeFiles/feature_tests.c\",\".cxx/RelWithDebInfo/2x4a0395/x86_64/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/RelWithDebInfo/2x4a0395/x86_64/CMakeFiles/feature_tests.cxx\",\".cxx/RelWithDebInfo/2x4a0395/x86_64/CMakeFiles/feature_tests.cxx\",\".cxx/RelWithDebInfo/2x4a0395/x86_64/CMakeFiles/feature_tests.cxx\",\".cxx/RelWithDebInfo/2x4a0395/x86_64/CMakeFiles/feature_tests.cxx\",\".cxx/RelWithDebInfo/2x4a0395/x86_64/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\"]}],\"cmakeRootDirectory\":\"C:/Users/Blockhash/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"C:/Users/Blockhash/StudioProjects/repository_beldex_android_wallet/app\",\"type\":\"reply\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 869873468
+  },
+  {
+    "level_": 0,
+    "message_": "{\"type\":\"codemodel\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -962139017
+  },
+  {
+    "level_": 0,
+    "message_": "{\"configurations\":[{\"name\":\"RelWithDebInfo\",\"projects\":[{\"buildDirectory\":\"C:/Users/Blockhash/StudioProjects/repository_beldex_android_wallet/app/.cxx/RelWithDebInfo/2x4a0395/x86_64\",\"name\":\"Project\",\"sourceDirectory\":\"C:/Users/Blockhash/StudioProjects/repository_beldex_android_wallet/app\",\"targets\":[{\"artifacts\":[\"C:/Users/Blockhash/StudioProjects/repository_beldex_android_wallet/app/build/intermediates/cxx/RelWithDebInfo/2x4a0395/obj/x86_64/libmonerujo.so\"],\"buildDirectory\":\"C:/Users/Blockhash/StudioProjects/repository_beldex_android_wallet/app/.cxx/RelWithDebInfo/2x4a0395/x86_64\",\"fileGroups\":[{\"compileFlags\":\"-isystem C:/Users/Blockhash/AppData/Local/Android/Sdk/ndk/17.2.4988734/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__\u003d21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror\u003dformat-security -std\u003dc++11 -std\u003dc++11 -O2 -g -DNDEBUG -fPIC  \",\"defines\":[\"monerujo_EXPORTS\"],\"includePath\":[{\"path\":\"C:/Users/Blockhash/StudioProjects/repository_beldex_android_wallet/app/../external-libs/monero/include\"},{\"isSystem\":true,\"path\":\"C:/Users/Blockhash/AppData/Local/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/llvm-libc++/include\"},{\"isSystem\":true,\"path\":\"C:/Users/Blockhash/AppData/Local/Android/Sdk/ndk/17.2.4988734/sources/android/support/include\"},{\"isSystem\":true,\"path\":\"C:/Users/Blockhash/AppData/Local/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/llvm-libc++abi/include\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"src/main/cpp/monerujo.cpp\"]}],\"fullName\":\"libmonerujo.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -nostdlib++ --sysroot C:/Users/Blockhash/AppData/Local/Android/Sdk/ndk/17.2.4988734/platforms/android-21/arch-x86_64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -LC:/Users/Blockhash/AppData/Local/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/llvm-libc++/libs/x86_64 -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now\",\"linkLibraries\":\"..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\libwallet_api.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\libwallet.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\libcryptonote_core.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\libcryptonote_basic.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\libmnemonics.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\libringct.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\libringct_basic.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\libnet.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\libcommon.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\libcncrypto.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\libblockchain_db.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\liblmdb.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\libeasylogging.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\libunbound.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\libepee.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\libcheckpoints.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\libdevice.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\libdevice_trezor.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\libmultisig.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\libversion.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\monero\\\\lib\\\\x86_64\\\\librandomx.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\boost\\\\lib\\\\x86_64\\\\libboost_chrono.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\boost\\\\lib\\\\x86_64\\\\libboost_date_time.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\boost\\\\lib\\\\x86_64\\\\libboost_filesystem.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\boost\\\\lib\\\\x86_64\\\\libboost_program_options.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\boost\\\\lib\\\\x86_64\\\\libboost_regex.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\boost\\\\lib\\\\x86_64\\\\libboost_serialization.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\boost\\\\lib\\\\x86_64\\\\libboost_system.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\boost\\\\lib\\\\x86_64\\\\libboost_thread.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\boost\\\\lib\\\\x86_64\\\\libboost_wserialization.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\sqlite\\\\lib\\\\x86_64\\\\libsqlite3.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\openssl\\\\lib\\\\x86_64\\\\libssl.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\openssl\\\\lib\\\\x86_64\\\\libcrypto.a ..\\\\..\\\\..\\\\..\\\\..\\\\external-libs\\\\libsodium\\\\lib\\\\x86_64\\\\libsodium.a -llog -latomic -lm \\\"C:/Users/Blockhash/AppData/Local/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/llvm-libc++/libs/x86_64/libc++_shared.so\\\"\",\"linkerLanguage\":\"CXX\",\"name\":\"monerujo\",\"sourceDirectory\":\"C:/Users/Blockhash/StudioProjects/repository_beldex_android_wallet/app\",\"sysroot\":\"C:/Users/Blockhash/AppData/Local/Android/Sdk/ndk/17.2.4988734/sysroot\",\"type\":\"SHARED_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1675395252
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 640726836
+  },
+  {
+    "level_": 0,
+    "message_": "write command file C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\.cxx\\RelWithDebInfo\\2x4a0395\\x86_64\\metadata_generation_command.txt",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1044986481
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt",
+    "tag_": "alphaMainnetRelease|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1716167376
+  }
+]

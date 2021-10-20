@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="daynight_themes">
+        <item>Auto</item>
+        <item>Day</item>
+        <item>Night</item>
+    </string-array>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Selecionar um app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESATIVADO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ATIVADO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"espaço"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Pesquisar…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartilhar com <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string name="about_close">Fechar</string>
+    <string name="about_version">Versão %1$s (%2$d)</string>
+    <string name="about_whoami">Eu sou o monerujo</string>
+    <string name="accounts_drawer_new">Criar Conta</string>
+    <string name="accounts_new">Conta nova adicionada #%1$d</string>
+    <string name="accounts_progress_new">A criar conta</string>
+    <string name="archive_progress">A arquivar</string>
+    <string name="backup_failed">Cópia de segurança falhou!</string>
+    <string name="backup_progress">A efectuar cópia de segurança</string>
+    <string name="backup_success">Backup bem sucedido</string>
+    <string name="bad_fingerprint">Impressão diginal não reconhecida. Tenta novamente.</string>
+    <string name="bad_ledger_seed">Semente do Ledger invalida!</string>
+    <string name="bad_password">Palavra passe incorrecta!</string>
+    <string name="bad_saved_password">Palavra passe gravada incorrecta.\nInsere a palavra passe manualmente.</string>
+    <string name="bad_wallet">A carteira não existe!</string>
+    <string name="changepw_failed">Erro ao alterar a palavra passe!</string>
+    <string name="changepw_progress">A altear a palavra passe</string>
+    <string name="changepw_success">Palavra passe alterada</string>
+    <string name="credits_text"><![CDATA[
+        <b>Créditos</b>
+        <br/>
+        m2049r, baltsar777, anhdres, keejef,
+        rehrar, EarlOfEgo et al.
+        <br/><br/>
+        <a href="https://monerujo.io/">monerujo.io</a>
+        ]]></string>
+    <string name="delete_alert_message">This wallet will be deleted. Your funds will be gone forever unless you have your seed or a working backup to recover it.</string>
+    <string name="delete_alert_no">Não obrigado!</string>
+    <string name="delete_alert_yes">Sim, faz isso!</string>
+    <string name="delete_failed">Delete failed!</string>
+    <string name="deletecache_alert_message">This wallet will be reset, losing all off-chain data (like notes, account &amp; subaddress names, private transaction keys, ...)! Use this ONLY if this wallet is corrupt and does not load!</string>
+    <string name="details_alert_message">Dados sensíveis vão ser mostrados.\nOlha à tua volta!</string>
+    <string name="details_alert_no">Volta atrás!</string>
+    <string name="details_alert_yes">Estou seguro</string>
+    <string name="details_title">Detalhes</string>
+    <string name="fab_create_new">Criar nova carteira</string>
+    <string name="fab_restore_key">Restaurar carteira a partir de chaves privadas</string>
+    <string name="fab_restore_ledger">Restaurar de Ledger Nano S</string>
+    <string name="fab_restore_seed">Restaurar carteira a partir da semente de 25 palavras</string>
+    <string name="fab_restore_viewonly">Restaurar carteira apenas de visualização</string>
+    <string name="generate_address_hint">Endereço Público</string>
+    <string name="generate_address_label">Endereço público</string>
+    <string name="generate_address_label_sub">Subaddress Publico #%1$d: %2$s</string>
+    <string name="generate_bad_passwordB">As frases-passe não são iguais</string>
+    <string name="generate_buttonGenerate">Faz-me lá uma carteria!</string>
+    <string name="generate_button_accept">Eu apontei a minha Semente Mnemónica</string>
+    <string name="generate_check_address">Introduz um endereço válido</string>
+    <string name="generate_check_key">Introduz uma chave válida</string>
+    <string name="generate_check_mnemonic">Introduz a semente de 25 palavras</string>
+    <string name="generate_crazypass_label">Restaurar palavra passe dos ficheiros de cateira</string>
+    <string name="generate_empty_passwordB">Frase-passe não pode ser vazia</string>
+    <string name="generate_fingerprint_hint">Permitir abrir a carteira com a impressão digital</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>Autenticação por impressão digital</strong>
+        <p> Com a autenticação através da impressão digital, podes ver o teu saldo e receber fundos
+            sem introduzir a palavra passe.</p>
+        <p>Mas para segurança adicional, o monerujo vai sempre pedir para introduzir a palavra passe
+        para ver os detalhes da carteira ou enviar fundos.</p>
+        <strong>Aviso de segurança</strong>
+        <p> Finalmente, o monerujo quer relembrar que qualquer pessoa que consiga obter a tua
+        impressão digital vai conseguir cuscar o teu saldo da carteira.</p>
+        <p> Por exemplo, um utilizador malicioso pode abrir a tua carteira enquanto estiveres a dormir.</p>
+        <strong>Tens a certeza que queres activar esta funcionalidade?</strong>
+    ]]></string>
+    <string name="generate_mnemonic_hint">Chave Mnemónica de 25 Palavras</string>
+    <string name="generate_mnemonic_label">Semente mnemónica</string>
+    <string name="generate_name_hint">Nome da Carteira</string>
+    <string name="generate_password_hint">Frase-passe da Carteira</string>
+    <string name="generate_restoreheight_error">Introduzir número ou data (AAAA-MM-DD)</string>
+    <string name="generate_restoreheight_hint">Restaurar de Altura ou Data (AAAA-MM-DD)</string>
+    <string name="generate_spendkey_hint">Chave de utilização</string>
+    <string name="generate_spendkey_label">Chave de utilização</string>
+    <string name="generate_title">Criar Carteira</string>
+    <string name="generate_viewkey_hint">Chave de visualização</string>
+    <string name="generate_viewkey_label">Chave de visualização</string>
+    <string name="generate_wallet_created">Carteira criada</string>
+    <string name="generate_wallet_creating">A criar carteira</string>
+    <string name="generate_wallet_dot">Não pode começar com .</string>
+    <string name="generate_wallet_exists">A carteira já exite!</string>
+    <string name="generate_wallet_name">Dá-me um nome!</string>
+    <string name="generate_wallet_type_key">Chaves</string>
+    <string name="generate_wallet_type_new">Nova</string>
+    <string name="generate_wallet_type_seed">Semente</string>
+    <string name="generate_wallet_type_view">Visualizar</string>
+    <string name="gunther_says">There is nothing here\nPlease create or restore a wallet</string>
+    <string name="help_create_keys"><![CDATA[
+        <h1>Criar Carteira - Chaves</h1>
+        <p>Se estás a recuperar a tua carteira a partir das tuas chaves!</p>
+        <p>Introduz nome e palavra passe únicos para a carteira. A palavra passe é utilizada para proteger os dados da carteira. Utiliza uma passe forte - melhor ainda é utilizar uma frase passe.</p>
+        <p>Introduz o teu Endereço Monero no campo \"Endereço público\" e preenche a \"Chave de Visualização\" e a \"Chave de utilização\".</p>
+        <p>Se sabes o número do bloco da primeira transacção deste endereço, introduz no campo
+        \"Restaurar de Altura\" - deixar em branco vai verificar <em>toda</em> a blockchain para
+        encontrar as transacções do teu endereço. Isto demora <em>imenso</em> tempo.</p>
+    ]]></string>
+    <string name="help_create_ledger"><![CDATA[
+        <h1>Criar carteira - Ledger</h1>
+        <p>Se quiseres recuperar a tua carteira apartir do teu dispositivo Ledger Nano S.</p>
+	<p>As tuas chaves secretas nunca saem do teu dispositivo Ledger, consequentemente 
+	tens de conetar o mesmo sempre que quiseres aceder à tua carteira.</p>
+        <p>Introduz um nome e palavra passe unicos. A palavra passe é usada para garantir a segurança 
+	da tua informação no dispositivo Android. Usa uma palavra passe forte!</p>
+	<p>Introduz o numero do bloco da primeira transação correspondente a este endereço no campo
+	 \"Restore Height\". Podes tambem usar o formato ano mês dia ANO-MES-DIA. Se não tiveres 
+	certeza, introduz uma data/numero do bloco aproximada <em>antes</em> da primeira utilização
+	da carteira.</p>
+    ]]></string>
+    <string name="help_create_new"><![CDATA[
+        <h1>Criar Carteira - Nova</h1>
+        <p>Se precisas de um endereço Monero novo!</p>
+        <p>Introduz nome e palavra passe únicos para a carteira.
+        A palavra passe é utilizada para proteger os dados da carteira. Utiliza uma passe forte -
+        melhor ainda é utilizar uma frase passe.</p>
+        <h2>Toma nota da tua Semente Mnemónica!</h2>
+        <p>No próximo ecrã vai estar a tua \"Semente Mnemónica\" de 25 palavras.
+        Esta semente é suficiente para recuperar a tua carteira mais tarde
+        e ganhar total acesso aos teus fundos.
+        Mantê-la segura e privada é muito importante, já que pode dar acesso total aos
+        teus fundos a <em>qualquer pessoa</em>!
+        <p>Se perderes a palavra passe da tua carteira, podes recuperar a carteira com a Semente Mnemónica.</p>
+        <p>Não há forma de recuperar a Semente Mnemónica, se a perderes todos os teus fundos serão perdidos!
+        A Semente Mnemónica não pode ser alterada, e se for roubada ou comprometida de outra forma,
+        tens de transferir os teus fundos para uma carteira nova (com uma nova Semente Mnemónica). Por isso,
+        é melhor fazer uma cópia de segurança da Semente escrevendo-a fisicamente e guardando-a em
+        <em>vários</em> lugares seguros.</p>
+    ]]></string>
+    <string name="help_create_seed"><![CDATA[
+        <h1>Crirar Carteira - Semente</h1>
+        <p>Se já tens um Endereço Monero e queres recuperar as transacções da blockchain!</p>
+        <p>Introduz nome e palavra passe únicos para a carteira. A palavra passe é utilizada para proteger os dados da carteira. Utiliza uma passe forte - melhor ainda é utilizar uma frase passe.</p>
+        <p>Introduz a tua Semente no campo \"Semente Mnemónica\".<p>
+        <p>Se sabes o número do bloco da primeira transacção deste endereço, introduz no campo
+        \"Restaurar de Altura\" - deixar em branco vai verificar <em>toda</em> a blockchain para
+        encontrar as transacções do teu endereço. Isto demora <em>imenso</em> tempo.</p>
+    ]]></string>
+    <string name="help_create_view"><![CDATA[
+        <h1>Criar Carteira - Visualização</h1>
+        <p>Se apenas queres ver as transacções de depósito numa carteira!</p>
+        <p>Introduz nome e palavra passe únicos para a carteira. A palavra passe é utilizada para proteger os dados da carteira. Utiliza uma passe forte - melhor ainda é utilizar uma frase passe.</p>
+        <p>Introduz o teu Endereço Monero no campo \"Endereço público\" e preenche a \"Chave de Visualização\".</p>
+        <p>Se sabes o número do bloco da primeira transacção deste endereço, introduz no campo
+        \"Restaurar de Altura\" - deixar em branco vai verificar <em>toda</em> a blockchain para
+        encontrar as transacções do teu endereço. Isto demora <em>imenso</em> tempo.</p>
+    ]]></string>
+    <string name="help_details"><![CDATA[
+        <h1>Detalhes da Carteira</h1>
+        <h2>Endereço público</h2>
+        O teu endereço público é como o teu número de conta bancário e podes partilhá-lo livremente
+        sem qualquer receio de perderes os teus Monero. As pessoas enviam dinheiro para a tua carteira
+        através deste endereço.
+        <h2>Semente Mnemónica</h2>
+        Este é o único dado necessário para recuperar a tua carteira no futuro e ganhar acesso total aos
+        teus fundos. Manter esta informação privada e protegida é muito importante, já que dá a <em>qualquer</em>
+        pessoa acesso aos teus Monero! Se não escreveste a semente nalgum sítio seguro, por favor fá-lo!
+        <h2>Palavra passe dos Ficheiros da Carteira</h2>
+        Certifica-te que escreves esta palavra passe. Se formatares o teu dispositivo ou desinstalares esta
+        app, vais precisar precisar disto para acederes à tua carteira.<br/>
+        <h3>passLoUCa</h3>
+        Se a palavra passe mostrada aqui tem 52 caracteres alfanuméricos em grupos de 4 - parabéns!
+        Os teus ficheiros estão seguros com uma chave de 256-bits gerada pelas funcionalidades de segurança
+        do teu dispositivo através da frase passe que escolheste (na criação ou alterando-a). Isto
+        torna-a extremamente difícil de piratear!<br/>
+        Esta funcionalidade é obrigatória para todas as carteiras novas.
+        <h3>Palavra passe antiga</h3>
+        Se vês a tua frase passe aqui, os ficheiros da tua carteira não estão tão seguros quanto
+        se estivesses a usar a passLoUCa. Para corrigir isto, selecciona \"Alterar palavra passe\" no
+        menu. Após introduzir a nova palavra passe (podes usar a mesma) a aplicação gera uma passLoUCa para
+        ti e protege os ficheiros da tua carteira com ela. Escreve-a nalgum lado!
+        <h3>Carteiras com passLoUCa</h3>
+        Se precisares de reinstalar o Monerujo (por exemplo, depois de formatares o telemóvel ou trocares
+        para um novo) ou quiseres utilizar os ficheiros da carteira num dispositivo diferente ou PC, tens
+        que usar esta Palavra passe de Recuperação de forma a aceder à tua carteira novamente.<br/>
+        Ao seleccionar \"Alterar palavra passe\" do menu, podes escolher uma palavra passe nova. Cuidado
+        que isto vai fazer gerar uma nova Palavra passe de Recuperação. Escreve-a nalgum lado!
+        <h2>Chave de Visualização</h2>
+        A tua chave de visualização pode ser usada para ver as transacções de depósito sem dar permissão
+        para gastar os fundos da tua carteira.
+        <h2>Spend key</h2>
+        A tua chave de utilização permite a qualquer pessoa de gaster os Monero associados à tua carteira,
+        por isso não a reveles a ninguém, mantém-a segura assim como a tua Semente Mnemónica.
+    ]]></string>
+    <string name="help_list"><![CDATA[
+        <h1>Lista de Carteiras</h1>
+        <h2>Nó</h2>
+        <p>O Monerujo utiliza um Nó Remoto para comunicar com a rede Monero sem ter que descarregar e
+        guardar uma cópia da blockchain inteira. Podes encontrar uma lista de nós remotos populares ou
+        aprende como correr o teu próprio nó remoto em https://moneroworld.com/<p>
+        <p>O Monerujo vem com alguns Nós Remotos predefinidos. O histórico dos últimos 5 nós é guardado.</p>
+        <h2>Carteiras</h2>
+        <p>Aqui vês as tuas carteiras. Estão localizadas na pasta <tt>monerujo</tt>
+        na memória interna do teu dispositivo. Podes utilizar um explorador de ficheiros
+        para vê-las. Deves fazer cópias de segurança desta pasta regularmente para outro
+        dispositivo para o caso dele explodir ou ser roubado.</p>
+        <p>Selecciona u carteir para a abrir ou pressiona \"+\" para criar uma nova.
+        Ou selecciona uma das operações:</p>
+        <h3>Detalhes</h3>
+        <p>Mostra os detalhes da carteira, semente &amp; chaves.</p>
+        <h3>Receber</h3>
+        <p>Cria um código QR para receber Moneroj.</p>
+        <h3>Renomear</h3>
+        <p>Renomeia a carteira. As cópias de segurança não são renomeadas.</p>
+        <h3>Cópia de segurança</h3>
+        <p>Faz uma cópia da carteira na pasta <tt>cópias de segurança</tt> dentro do
+        <tt>monerujo</tt> reescrevendo cópias anteriores que lá estejam.</p>
+        <h3>Arquivar</h3>
+        <p>Faz uma cópia de segurança e de seguida apaga a carteira. a cópia permanece na pasta de
+        <tt>cópias de segurança</tt>. Se já não precisas das tuas cópias de segurança, deves apagá-las
+        num sistema de gestão de ficheiros ou com uma app que apaga de forma segura.</p>
+    ]]></string>
+    <string name="help_node"><![CDATA[
+        <h1>Nós</h1>
+        <h2>TL;DR</h2>
+	<p>Refresca a lista de Nós puxando para baixo &amp; favorito 3&#8211;5 nós para permitir que
+	o Monerujo escolha o melhor para ti!</p>
+        <h2>O que é&apos;s um Nó?</h2>
+	<p>O Monerujo usa um Nó remoto (por vezes chamado Daemon) para comunicar com a Rede do Monero
+	sem ter de descarregar e gravar uma copia inteira da blockchain.</p>
+        <h2>Lista de Nós</h2>
+	<p>Se a lista estiver vazia, podes adicionar um Nó manualmente ou deixar o Monerujo fazer um
+	scan à Rede por ti. Ou ambos. Continuar a ler em&#8230;</p>
+      	<p>A lista de nós mostra todos os nós actualmente conhecidos. Adicionalmente, o timestamp do
+	ultimo bloco conhecido é listado em cada nome do nó. Um icon a representar o tempo de resposta
+	do nó&apos; (que indica o nivel de conetividade esperado) é mostrado junto de cada nó.</p>
+        <p>Qualquer nó na lista pode ser adicionado aos favoritos por forma a usar mais tarde.
+	Nós que não forem adicionados como favoritos serão esquecidos.<p>
+        <p>O Monerujo irá escolher o melhor nó favorito cada vez que o usas.
+	Faz isto verificando a Altura (quanto mais actualizado esta cada nó) assim como a velocidade de
+	resposta (quão rapido responde este nó?).</p>
+        <p>A lista é disposta consoante estas caracteristicas, assim sendo no topo estará o nó que o 
+	Monerujo escolheria a cada momento. No fundo da lista ficam os nós mais lentos ou indisponiveis.</p>
+        <h2>Adicionar um Nó</h2>
+	<p>Tocando no botão &quot;Adicionar Nó&quot; no fundo, poderás adicionar os detalhes 
+	na janela de dialogo.
+	Em &quot;Endereço&quot; está o hostname ou endereço IP do nó - este é o unico campo necessário.
+	Introduz a &quot;Porta&quot; se o nó corre com uma porta nao standard (ex 18089).
+	Podes opcionalmente introduzir também um nome para mais facilmente o identificares mais tarde.
+	Alguns nós requerem credenciais para os usar, introduz o nome de usuario &amp;
+	e palavra passe nos campos disponibilizados. Agora podes &quot;Testar&quot; estas configurações. 
+        Os &quot;Resultados do Teste&quot; mostrarão a altura do bloco, tempo de resposta e IP usados.
+	O resultado pode também ser um erro - geralmente porque o Endereço introduzido está indisponivel
+	dentro de tempo util ou as credenciais estão incorretas.
+	Ou a combinação endereço/porta não aponta para um Nó de Monero!
+	Assim que o teste passar (sem erros) - podes&apos;pressionar &quot;OK&quot; para gravar &amp; 
+        favorito este nó.</p>
+        <h2>Procurar Nós</h2>
+	<p>Adicionalmente, podes procurar nós na Rede de Monero. O Monerujo vai realizar
+	uma busca na rede por nós remotos na porta 18089. Vai começar por procurar nos teus
+	nós favoritos por outros pares na rede P2P do Monero e depois continua perguntando 
+	a esses pares, e por ai fora. Se não tiveres nenhum nó favorito na tua lista o 
+	Monerujo irá usar directamente os nós base que estão inscritos no codigo do Monero.
+	A procura irá parar assim que encontrar 10 nós remotos no total.</p>
+    ]]></string>
+    <string name="help_ok">Entendido!</string>
+    <string name="help_send"><![CDATA[
+        <h1>Enviar</h1>
+        <h2>Endereço do Destinatário</h2>
+        <p> Este é o endereço público da carteira para a qual vais enviar Moneroj, podes copiar esta
+        informação da área de transferência, capturara um código QR, ou introduzir manualmente. Confirma
+        atentamente que não estás a enviar para o endereço errado.</p>
+        <p>Para alem de usar um endereço de XMR também podes usar
+        <ul>
+            <li>Um OpenAlias para XMR ou BTC</li>
+            <li>um endereço de BTC</li>
+        </u>
+	Não deixar de notar que, enviar BTC é processado através do serviço SideShift.ai (ver https://sideshift.ai
+	para detalhes). Ver a secção enviar BTC.</p>
+        <h1>Enviar BTC</h1>
+        <h2>SideShift.ai</h2>
+        <p>SideShift.ai é um serviço de terceiros que funciona como intercâmbio de Monero para Bitcoin.
+        Nós utilizamos a API do SideShift.ai para integrar pagamentos de Bitcoin no Monerujo. Por favor
+        vai a https://sideshift.ai e decide por ti próprio se queres utilizar este serviço. A equipa
+        do Monerujo não está associada com o SideShift.ai e não te pode ajudar com este serviço.</p>
+        <h2>Taxa de câmbio SideShift.ai<h2>
+        <p>No ecrã de \"Quantidade\" vais ver os parâmetros actuais do serviço SideShift.ai. Estes
+        incluem a taxa de câmbio assim como os limites superiores e inferiores em BTC. Nota que
+        esta taxa ainda não é garantido.</p>
+        <h2>Pedido SideShift.ai<h2>
+        <p>No ecrão de \"Confirmação\", vais ver o pedido actual SideShift.ai. Este pedido é válido
+        por um período limitado de tempo - podes reparar que exite uma contagem decrescente no
+        botão de \"Enviar\". A taxa de câmbio pode ser diferente da taxa indicativa mostrada
+        nos ecrãs anteriores.</p>
+        <h2>Chave Secreta SideShift.ai<h2>
+        <p>Como o Monerujo só controla a parte Monero da transacção, a chave secreta SideShift.ai
+        pode ser utilizada para monitorar a parte Bitcoin da transacção na página pricipal do
+        SideShift.ai.</p>
+        <h2>Contagem decrescente SideShift.ai!</h2>
+        <p>Quando a contagem chega a zero, precisas de obter uma nova taxa de câmbio do SideShift.ai
+        indo ao passo anterior e depois voltando ao ecrã de \"Confirmar\".</p>
+    ]]></string>
+    <string name="help_tx_details"><![CDATA[
+        <h1>Detalhes da Transacção</h1>
+        <h2>Destino</h2>
+        O endereço público para o qual enviaste Moneroj
+        <h2>ID do Pagamento</h2>
+        Utiliza-se o ID do Pagamento para identificar a razão porque foram transaccionados Moneroj.
+        Isto é opcional e privado. Por exemplo, isto permite que um negócio identifique que item
+        é que uma determinada transacção está a pagar.
+        <h2>ID TX</h2>
+        Este é o ID da tua Transacção que podes utilizar para identificar a tua transacção ofuscada
+        num explorador da Monero Blockchain como o <a href="https://xmrchain.net/">https://xmrchain.net/</a>
+        <h2>Chave TX (Chave da Transacção)</h2>
+        Esta é a chave privada da tua transacção, mantém-a segura já que revelá-la a um terceiro
+        revela qual a tua assinatura num anel, fazendo com que a tua transacção seja transparente.
+        <h2>Bloco</h2>
+        O bloco em que a tua transacção foi incluída.
+    ]]></string>
+    <string name="help_uri"><![CDATA[
+        <h1>Usando Endereço de Pagamento</h1>
+	<p>Iniciaste o Monerujo com um endereço de pagamento. Para enviar fundos, por favor faz o seguinte:</p>
+        <p>
+	1. Abre a carteira de onde pretendes gastar<br>
+	2. Espera até a carteira sincronizar &amp; e o botão "Enviar" aparecer<br>
+	3. Carrega no butão "Enviar"
+        </p>
+	<p>Os detalhes do pagamento serão automaticamente preenchidos. Verifica e continua como em outra qualquer transação</p>
+    ]]></string>
+    <string name="help_wallet"><![CDATA[
+        <h1>A Carteira</h1>
+        <h2>Street Mode</h2>
+        <p>O Street mode pode ser ligado/desligado no menu ou na cabeça do icon Gunther. Neste modo
+	o teu saldo não é mostrado no teu ecrã para que possas usar a tua carteira de forma segura 
+	na rua, num bar ou outro local publico. As transações anteriores são também escondidas. As novas 
+	transações serão mostradas, para que cossas ver se enviaste/recebeste os teus preciosos Moneroj!</p>
+        <h2>A Examinar</h2>
+        Como o Monero gosta de manter as coisas privadas, cada vez que abres uma carteira Monerujo temos
+        que examinar a blockchain para ver se novos Moneroj foram enviados para a tua carteira. Apenas
+        informação correspondente à tua carteira é guardada no telefone. Por vezes pode demorar algum tempo
+        por já não sincronizares há algum tempo.
+        <h2>O Saldo</h2>
+        <p><b>Ajudem! O saldo da minha carteira desapareceu ou está não-confirmado!</b><br/>
+        Não entres em pânico! Quando envias fundos da tua carteira, algum do teu saldo aparece temporariamente
+        como não confirmado.
+        Isto acontece como resultado da forma como os Moneroj são trocados na blockchain.
+        Podes ler mais sobre iston em https://getmonero.org/resources/moneropedia/change.html
+        <h2>Lista de Transacções</h2>
+        <p>Uma lista de transacções da carteira. Em carteiras de visualização, apenas são mostradas transacções
+        de depósito.</p>
+    ]]></string>
+    <string name="help_xmrto"><![CDATA[
+        <h1>Enviar BTC</h1>
+        <h2>SideShift.ai</h2>
+        <p>SideShift.ai é um serviço de terceiros que funciona como intercâmbio de Monero para Bitcoin.
+        Nós utilizamos a API do SideShift.ai para integrar pagamentos de Bitcoin no Monerujo. Por favor
+        vai a https://sideshift.ai e decide por ti próprio se queres utilizar este serviço. A equipa
+        do Monerujo não está associada com o SideShift.ai e não te pode ajudar com este serviço.</p>
+        <h2>Taxa de câmbio SideShift.ai<h2>
+        <p>No ecrã de \"Quantidade\" vais ver os parâmetros actuais do serviço SideShift.ai. Estes
+        incluem a taxa de câmbio assim como os limites superiores e inferiores em BTC. Nota que
+        esta taxa ainda não é garantido.</p>
+        <h2>Pedido SideShift.ai<h2>
+        <p>No ecrão de \"Confirmação\", vais ver o pedido actual SideShift.ai. Este pedido é válido
+        por um período limitado de tempo - podes reparar que exite uma contagem decrescente no
+        botão de \"Enviar\". A taxa de câmbio pode ser diferente da taxa indicativa mostrada
+        nos ecrãs anteriores.</p>
+        <h2>Chave Secreta SideShift.ai<h2>
+        <p>Como o Monerujo só controla a parte Monero da transacção, a chave secreta SideShift.ai
+        pode ser utilizada para monitorar a parte Bitcoin da transacção na página pricipal do
+        SideShift.ai.</p>
+        <h2>Contagem decrescente SideShift.ai!</h2>
+        <p>Quando a contagem chega a zero, precisas de obter uma nova taxa de câmbio do SideShift.ai
+        indo ao passo anterior e depois voltando ao ecrã de \"Confirmar\".</p>
+    ]]></string>
+    <string name="info_ledger_enabled">Ledger activa, toca para mais informação.</string>
+    <string name="info_nodes_enabled">Node-o-matiC ativado, tocar para mais info.</string>
+    <string name="info_paymentid_integrated">✔ ID do pagamento integrado</string>
+    <string name="info_prepare_tx">A preparar a transacção</string>
+    <string name="info_send_xmrto_error">Erro SideShift.ai (%1$s)</string>
+    <string name="info_send_xmrto_paid">Confirmação Pendente</string>
+    <string name="info_send_xmrto_parms"><![CDATA[
+        <b>Pode enviar %1$s &#8212; %2$s %4$s</b>.<br/>
+        <i><b>SideShift.ai</b> está com uma taxa de conversão de <b>%3$s %4$s/XMR</b> <u>neste momento</u></i>.
+    ]]></string>
+    <string name="info_send_xmrto_query">A comunicar …</string>
+    <string name="info_send_xmrto_sent">%1$s Enviadas!</string>
+    <string name="info_send_xmrto_success_btc">%1$s %2$s</string>
+    <string name="info_send_xmrto_success_order_label">SideShift.ai Order</string>
+    <string name="info_send_xmrto_unpaid">Pagamento Pendente</string>
+    <string name="info_xmrto"><![CDATA[
+        <b>Introduziu um endereço %1$s.</b><br/>
+        <i>Vai enviar em XMR e o destinatário vai receber %1$s através do serviço <b>SideShift.ai</b></i>
+    ]]></string>
+    <string name="info_xmrto_ambiguous"><![CDATA[
+        <b>Ambiguous address.</b><br/>
+        <i>Please select the type above.</i>
+    ]]></string>
+    <string name="info_xmrto_enabled">Pagamento em BTC activado, toca para mais informação.</string>
+    <string name="info_xmrto_help"><![CDATA[
+        <b>Please enter or scan a %1$s address.</b><br/>
+        <i>You&apos;ll send XMR and the receiver will get %2$s using the <b>SideShift.ai</b> service.</i>
+    ]]></string>
+    <string name="info_xmrto_help_xmr"><![CDATA[
+        <b>Please enter or scan a Monero address.</b>
+    ]]></string>
+    <string name="label_cancel">Cancelar</string>
+    <string name="label_close">Fechar</string>
+    <string name="label_copy_address">Endereço público</string>
+    <string name="label_copy_viewkey">Ver chave</string>
+    <string name="label_copy_xmrtokey">Chave</string>
+    <string name="label_credits">Créditos</string>
+    <string name="label_daemon">Nó</string>
+    <string name="label_generic_xmrto_error">ERRO SideShift.ai</string>
+    <string name="label_login_wallets">Carteiras</string>
+    <string name="label_nodes">Nós</string>
+    <string name="label_ok">OK</string>
+    <string name="label_receive_info_gen_qr_code">Toca para código QR</string>
+    <string name="label_restoreheight">Restaurar de Altura</string>
+    <string name="label_send_address">Endereço de destino</string>
+    <string name="label_send_btc_address">Endereço %1$s de destino</string>
+    <string name="label_send_btc_amount">Quantidade</string>
+    <string name="label_send_btc_xmrto_info">Vai a SideShift.ai para suporte &amp; seguimento</string>
+    <string name="label_send_btc_xmrto_key">SideShift.ai Chave secreta</string>
+    <string name="label_send_btc_xmrto_key_lb">Chave secreta\nSideShift.ai</string>
+    <string name="label_send_done">Feito</string>
+    <string name="label_send_notes">Notas</string>
+    <string name="label_send_progress_create_tx">A preparar a transacção Monero</string>
+    <string name="label_send_progress_queryparms">A obter os parâmetros SideShift.ai</string>
+    <string name="label_send_progress_xmrto_create">A criar um pedido SideShift.ai</string>
+    <string name="label_send_progress_xmrto_query">A actualizar o pedido SideShift.ai</string>
+    <string name="label_send_success">Enviado com sucesso</string>
+    <string name="label_send_txid">ID da Transacção</string>
+    <string name="label_test">Testar ligação</string>
+    <string name="label_wallet_advanced_details">Toca para informação detalhada</string>
+    <string name="label_wallet_receive">Receber</string>
+    <string name="label_wallet_send">Enviar</string>
+    <string name="label_watchonly">(Ver apenas)</string>
+    <string name="language_system_default">Usar linguagem de sistema</string>
+    <string name="max_account_warning">Too many unused accounts - use some to enable creating more!</string>
+    <string name="max_subaddress_warning">Too many unused addresses - use some to enable creating more!</string>
+    <string name="menu_about">Sobre nós</string>
+    <string name="menu_backup">Cópia de segurança</string>
+    <string name="menu_changepw">Alterar palavra passe</string>
+    <string name="menu_daynight">Dark Mode</string>
+    <string name="menu_default_nodes">Restore default nodes</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_deletecache">Reset wallet!</string>
+    <string name="menu_help">Ajuda</string>
+    <string name="menu_info">Mostrar Segredos</string>
+    <string name="menu_language">Linguagem</string>
+    <string name="menu_ledger_seed">Converter semente do Ledger</string>
+    <string name="menu_privacy">Política de Privacidade</string>
+    <string name="menu_receive">Receber</string>
+    <string name="menu_rename">Renomear</string>
+    <string name="menu_rescan">Rescan!</string>
+    <string name="menu_restore">Import wallet</string>
+    <string name="menu_share">Partilhar</string>
+    <string name="menu_streetmode">Street Mode</string>
+    <string name="message_camera_not_permitted">Sem câmara = Sem códigos QR!</string>
+    <string name="message_copy_address">Endereço da carteira copiado para a área de transferência!</string>
+    <string name="message_copy_txid">ID da transacção copiado para a área de transferência!</string>
+    <string name="message_copy_viewkey">Chave de visualização copiada para a área de transferência</string>
+    <string name="message_copy_xmrtokey">Chave copiada para a área de transferência!</string>
+    <string name="message_exchange_failed">Não foi possível obter a taxa de conversão!\nUsa XMR/XMR ou tenta outra vez</string>
+    <string name="message_nocopy">Copiar está desactivo por razões de segurança!</string>
+    <string name="message_strorage_not_permitted">Nós preciamos mesmo da permissão de escrever no espaço externo!</string>
+    <string name="message_strorage_not_writable">Não é possível escrever no espaço externo! Pânico!</string>
+    <string name="nfc_tag_read_undef">Eu não percebo a Tag!</string>
+    <string name="nfc_tag_read_what">Eu não percebo o que queres fazer!</string>
+    <string name="nfc_tag_size">A Tag tem %1$d bytes, mas nós precisamos de %2$d!</string>
+    <string name="nfc_tag_tap">NFC Disponivel!</string>
+    <string name="nfc_tag_unsupported">A Tag não suporta NDEF!</string>
+    <string name="nfc_write_failed">A escrita do Tag falhou!</string>
+    <string name="nfc_write_successful">Escrita do Tag bem sucedida</string>
+    <string name="node_address_hint">Hostname</string>
+    <string name="node_auth_error">AUTENTIFICAÇÃO FALHOU</string>
+    <string name="node_create_hint">Tocar para selecionar Nós.</string>
+    <string name="node_fab_add">Adicionar Nó</string>
+    <string name="node_general_error">ERRO LIGAÇÂO</string>
+    <string name="node_height">Ultimo bloco actualizado: %1$s</string>
+    <string name="node_host_empty">Precisamos disto!</string>
+    <string name="node_host_unresolved">Não foi possivel resolver host</string>
+    <string name="node_name_hint">Nome do Nó (Opcional)</string>
+    <string name="node_nobookmark">Adicionar aos bookmarks os melhores %1$d nós automaticamente</string>
+    <string name="node_pass_hint">Palavra passe (Optional)</string>
+    <string name="node_port_hint">Port</string>
+    <string name="node_port_numeric">Tem de ser numérico</string>
+    <string name="node_port_range">Tem de ser 1–65535</string>
+    <string name="node_pull_hint">Adicionar Nós manualmente ou puxa para fazer scan</string>
+    <string name="node_refresh_hint">Tocar para refrescar!</string>
+    <string name="node_refresh_wait">Por favor espera que o scan acabe</string>
+    <string name="node_result">Altura: %1$s (v%2$d), Ping: %3$.0fms, IP: %4$s</string>
+    <string name="node_result_label">Resultado do teste:</string>
+    <string name="node_scanning">A fazer scan á rede …</string>
+    <string name="node_test_error">ERRO LIGAÇÃO %1$d</string>
+    <string name="node_testing">A testar IP: %1$s …</string>
+    <string name="node_updated_days">Last Block: %1$d days ago</string>
+    <string name="node_updated_hours">Last Block: %1$d hours ago</string>
+    <string name="node_updated_mins">Last Block: %1$d minutes ago</string>
+    <string name="node_updated_now">Last Block: %1$d seconds ago</string>
+    <string name="node_user_hint">Nome de usuario (Optional)</string>
+    <string name="onboarding_agree">I get it!</string>
+    <string name="onboarding_button_next">Next</string>
+    <string name="onboarding_button_ready">I\'m ready!</string>
+    <string name="onboarding_fpsend_information">You\'re now able to send XMR with just your fingerprint if you enabled it. To request the password, just disable fingerprint access.</string>
+    <string name="onboarding_fpsend_title">Send with fingerprint</string>
+    <string name="onboarding_nodes_information">Nodes connect you to the Monero network. Choose between public nodes or go full cypherpunk using your own.</string>
+    <string name="onboarding_nodes_title">Nodes, your way</string>
+    <string name="onboarding_seed_information">The seed grants full access to whoever has it. If you lose it, we cannot help you recover it and you lose your beloved moneroj.</string>
+    <string name="onboarding_seed_title">Keep your seed safe</string>
+    <string name="onboarding_welcome_information">This app allows you to create and use Monero wallets. You can store your sweet moneroj in them.</string>
+    <string name="onboarding_welcome_title">Welcome to Monerujo!</string>
+    <string name="onboarding_xmrto_information">Monerujo has SideShift.ai support built-in. Just paste or scan a BTC, LTC, ETH, DASH or DOGE address and you\'ll be sending these cryptos by spending XMR.</string>
+    <string name="onboarding_xmrto_title">Send Crypto</string>
+    <string name="open_wallet_ledger_missing">Reconeta o teu Ledger</string>
+    <string name="password_fair">Meh …</string>
+    <string name="password_good">Tu consegues fazer melhor!</string>
+    <string name="password_strong">Está quase lá …</string>
+    <string name="password_very_strong">Está forte, está!</string>
+    <string name="password_weak">Continua a escrever …</string>
+    <string name="privacy_policy"><![CDATA[
+        <h1>Política de Privacidade</h1>
+        <p>Esta página contém informação acerca das nossas políticas de recolha, uso
+        e divulgação das informações pessoais que recebemos dos utilizadores
+        da nossa app (monerujo: Monero Wallet).
+        </p>
+        <p>Ao utilizar esta app está a concordar com a recolha e uso de
+        informação de acordo com esta política.
+        </p>
+        <h2>Dados Recolhidos</h2>
+        <p> Dados pessoais são todo o tipo de dados que permitem identificar um indivíduo.
+        </p>
+        <p>As chaves e endereços Monero são recolhidos e processados pela app localmente
+        para o propósito de processar transacções e transmiti-las à rede Monero de forma
+        encriptada.
+        </p>
+        <p>Quaisquer outros dados pessoais não são recolhidos pela app.</p>
+        <p>Se utilizar a conversão para USD/EUR, o monerujo obtém as taxas de conversão a
+        partir da API pública do kraken.com.
+        Confirme a política de privacidade deste serviço em https://www.kraken.com/legal/privacy para
+        mais detalhes em como estes pedidos são processados (especialmente a
+        secção "Informação que recolhemos automaticament").</p>
+        <p>Se utilizar esta app para pagar em BTC, você estará a utilizar o serviço SideShift.ai.
+        Veja a sua política de privacidade em https://sideshift.ai/ para mais detalhes. O monerujo envia
+        para este serviço a quantidade e o endereço de destino das BTC. O seu IP vai ser registado.</p>
+        <h2>Permissões da app</h2>
+        <ul>
+        <li>INTERNET : Ligar à rede Monero</li>
+        <li>READ_EXTERNAL_STORAGE : Ler as carteiras Monero guardadas no dispositivo</li>
+        <li>WRITE_EXTERNAL_STORAGE : Escrever as carteiras Monero no dispositivo</li>
+        <li>WAKE_LOCK : Manter o dispositivo ligado enquanto sincroniza</li>
+        <li>CAMERA : Ler códigos QR para receber Monero</li>
+        </ul>
+        <h2>Alterações a esta política de privacidade</h2>
+        <p>Nós podemos alterar esta política de privacidade de tempos em temps. Iremos notificar
+        quaisquer alterações actualizando esta política de privacidade na app e no
+        website oficial (www.monerujo.io)
+        É aconselhável que reveja esta política de privacidade periodicamente para conferir quaisquer alterações.
+        <p>A última actualização à política de privacidade foi em: 10 de Novembro de 2017.
+        </p>
+        <h2>Contacte-nos</h2>
+        <p>Se tiver alguma questão acerca da nossa política de privacidade,
+        ou sobre como os seus dados são recolhidos e processados,
+        por favor envie um email para privacy@monerujo.io.
+        </p>
+        ]]></string>
+    <string name="progress_ledger_confirm">Confirmação com Ledger necessária!</string>
+    <string name="progress_ledger_lookahead">Recuperando subaddresses</string>
+    <string name="progress_ledger_mlsag">Produzindo hashes</string>
+    <string name="progress_ledger_opentx">A cozinhar os numeros</string>
+    <string name="progress_ledger_progress">A comunicar com o Ledger</string>
+    <string name="progress_ledger_verify">Verificando chaves</string>
+    <string name="progress_nfc_write">Escrevendo Tag</string>
+    <string name="prompt_changepw">Nova frase passe para %1$s</string>
+    <string name="prompt_changepwB">Repetir frase passe para %1$s</string>
+    <string name="prompt_daemon_missing">O endereço do serviço tem que estar definido!</string>
+    <string name="prompt_fingerprint_auth">Também podes abrir a carteira utilizando a impressão digital.\nPor favor, toca no sensor.</string>
+    <string name="prompt_ledger_phrase">Palavra passe do Ledger (opcional)</string>
+    <string name="prompt_ledger_seed">Palavras da semente do Ledger</string>
+    <string name="prompt_ledger_seed_warn">Introduzir a semente do Ledger aqui comporta um elevado risco de segurança!</string>
+    <string name="prompt_open_wallet">A abrir a carteira…</string>
+    <string name="prompt_password">Palavra passe para %1$s</string>
+    <string name="prompt_rename">Renomear %1$s</string>
+    <string name="prompt_wrong_net">A carteira não combina com a rede seleccionada</string>
+    <string name="receive_amount_hint">Quantidade</string>
+    <string name="receive_amount_nan">XMR não é um número</string>
+    <string name="receive_amount_negative">Mín. 0</string>
+    <string name="receive_amount_too_big">Max. %1$s</string>
+    <string name="receive_cannot_open">Não foi possível abrir a carteira!</string>
+    <string name="receive_desc_hint">Descrição (opcional)</string>
+    <string name="rename_failed">Erro ao renomear!</string>
+    <string name="rename_progress">A renomear</string>
+    <string name="restore_failed">Import failed!</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Pesquisar"</string>
+    <string name="send_address_hint">Receptor</string>
+    <string name="send_address_invalid">Não é um endereço válido</string>
+    <string name="send_address_no_dnssec">OpenAlias sem DNSSEC - endereço pode estar spoofed </string>
+    <string name="send_address_not_openalias">Endereço OpenAlias não disponivel.</string>
+    <string name="send_address_openalias">OpenAlias seguro ✔</string>
+    <string name="send_address_resolve_openalias">Resolvendo OpenAlias…</string>
+    <string name="send_address_title">Endereço</string>
+    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount_label">Quantidade</string>
+    <string name="send_amount_title">Quantidade</string>
+    <string name="send_available">Saldo: %1$s XMR</string>
+    <string name="send_available_btc">Saldo: %2$s %3$s (%1$s XMR)</string>
+    <string name="send_confirm_title">Confirmar</string>
+    <string name="send_create_tx_error_title">Erro ao criar a transacção</string>
+    <string name="send_fee">+%1$s Taxa</string>
+    <string name="send_fee_btc_label">Taxa (XMR)</string>
+    <string name="send_fee_label">Taxa</string>
+    <string name="send_generate_paymentid_hint">Gerar</string>
+    <string name="send_notes_hint">Notas privadas (opcional)</string>
+    <string name="send_qr_address_invalid">Não é um código QR válido</string>
+    <string name="send_qr_invalid">Não é um código QR</string>
+    <string name="send_send_label">Gasta os meus queridos Moneroj</string>
+    <string name="send_send_timed_label">Gasta os meus queridos Moneroj (%1$s)</string>
+    <string name="send_success_title">Feito</string>
+    <string name="send_sweepall">Enviar todos os fundos confirmados para esta conta!</string>
+    <string name="send_title">Enviar</string>
+    <string name="send_total_btc_label">Total (XMR)</string>
+    <string name="send_total_label">Total</string>
+    <string name="send_xmrto_timeout">Já esperaste demasiado tempo!</string>
+    <string name="service_busy">Ainda estou ocupado com a tua última carteira …</string>
+    <string name="service_description">Serviço monerujo</string>
+    <string name="service_progress">A concluir o processamento …\nIsto pode demorar!</string>
+    <string name="shift_checkamount">Check amount and try again</string>
+    <string name="shift_noquote">Cannot get quote</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="status_remaining">Blocos remanescentes</string>
+    <string name="status_synced">Sincronizado:</string>
+    <string name="status_syncing">A examinar:</string>
+    <string name="status_transaction_failed">Transacção falhou: %1$s</string>
+    <string name="status_wallet_connect_failed">Erro ao conectar!\nConfirma o utilizador/palavra passe</string>
+    <string name="status_wallet_connect_ioex">Não foi possível chegar ao nó!\nTenta novamente ou outro.</string>
+    <string name="status_wallet_connect_wrongversion">Versão do Nó incompativel - atualizar por favor!</string>
+    <string name="status_wallet_connecting">A conectar …</string>
+    <string name="status_wallet_disconnected">Desconectado</string>
+    <string name="status_wallet_loading">A carregar a carteira …</string>
+    <string name="status_wallet_node_invalid">Nó inválido!\nTenta outro.</string>
+    <string name="status_wallet_unload_failed">Erro ao gravar a carteira!</string>
+    <string name="status_wallet_unloaded">Carteira guardada</string>
+    <string name="street_sweep_amount">A TOTALIDADE!</string>
+    <string name="subaddress_details_hint">Long-press for details</string>
+    <string name="subaddress_notx_label">No transactions for this subaddress yet</string>
+    <string name="subaddress_select_label">Select a subaddress</string>
+    <string name="subaddress_tx_label">Transactions for this subaddress:</string>
+    <string name="subbaddress_name_hint">Subaddress Name</string>
+    <string name="subbaddress_title">Subaddresses</string>
+    <string name="text_generic_xmrto_error">Código: %1$d</string>
+    <string name="text_noretry">Ups, SideShift.ai não parece estar disponível neste momento!</string>
+    <string name="text_noretry_monero">Agora estamos emperrados aqui!</string>
+    <string name="text_retry">Toca para voltar a tentar</string>
+    <string name="text_send_btc_amount">%1$s %3$s = %2$s XMR</string>
+    <string name="text_send_btc_rate">(Rácio: %1$s %2$s/XMR)</string>
+    <string name="toast_default_nodes">Restoring already in progress…</string>
+    <string name="toast_ledger_attached">%1$s Ligado</string>
+    <string name="toast_ledger_detached">%1$s Desligado</string>
+    <string name="toast_ledger_start_app">Start Monero App on %1$s</string>
+    <string name="tx_account">Conta #</string>
+    <string name="tx_amount">Quantidade</string>
+    <string name="tx_blockheight">Bloco</string>
+    <string name="tx_destination">Destino</string>
+    <string name="tx_failed">FALHADA</string>
+    <string name="tx_fee">Taxa</string>
+    <string name="tx_id">ID TX</string>
+    <string name="tx_key">Chave TX</string>
+    <string name="tx_list_amount_failed">(%1$s)</string>
+    <string name="tx_list_amount_negative">- %1$s</string>
+    <string name="tx_list_amount_positive">+ %1$s</string>
+    <string name="tx_list_failed_text">falhou</string>
+    <string name="tx_list_fee">- Taxa %1$s</string>
+    <string name="tx_notes">Notas</string>
+    <string name="tx_notes_hint">(opcional)</string>
+    <string name="tx_paymentId">ID Pagamento</string>
+    <string name="tx_pending">PENDENTE</string>
+    <string name="tx_subaddress">Subaddress</string>
+    <string name="tx_timestamp">Data/hora</string>
+    <string name="tx_title">Detalhes da Transacção</string>
+    <string name="tx_transfers">Transferências</string>
+    <string name="wallet_activity_name">Carteira</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s BDX não confirmado</string>
+</resources>

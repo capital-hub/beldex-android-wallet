@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="daynight_themes">
+        <item>Auto</item>
+        <item>Day</item>
+        <item>Night</item>
+    </string-array>
+    <string name="about_close">Tancar</string>
+    <string name="about_version">Versió %1$s (%2$d)</string>
+    <string name="about_whoami">Sóc en monerujo</string>
+    <string name="accounts_drawer_new">Crear Compte</string>
+    <string name="accounts_new">Nou compte afegit #%1$d</string>
+    <string name="accounts_progress_new">Creant compte</string>
+    <string name="archive_progress">Arxiu en curs</string>
+    <string name="backup_failed">Còpia de seguretat fallida!</string>
+    <string name="backup_progress">Còpia de seguretat en curs</string>
+    <string name="backup_success">Còpia de seguretat amb èxit</string>
+    <string name="bad_fingerprint">Empremta no reconeguda. Torni-ho a intentar.</string>
+    <string name="bad_ledger_seed">Llavor de Ledger no vàlida!</string>
+    <string name="bad_password">Contrasenya incorrecta!</string>
+    <string name="bad_saved_password">La contrasenya desada és incorrecta.\nIntrodueixi la contrasenya manualment.</string>
+    <string name="bad_wallet">El portamonedes no existeix!</string>
+    <string name="changepw_failed">Canvi de contrasenya fallit!</string>
+    <string name="changepw_progress">Canvi de contrasenya en curs</string>
+    <string name="changepw_success">La contrasenya ha canviat</string>
+    <string name="credits_text"><![CDATA[
+        <b>Credits</b>
+        <br/>
+        m2049r, baltsar777, anhdres, keejef,
+        rehrar, EarlOfEgo, ErCiccione et al.
+        <br/><br/>
+        <a href="https://monerujo.io/">monerujo.io</a>
+        ]]></string>
+    <string name="delete_alert_message">This wallet will be deleted. Your funds will be gone forever unless you have your seed or a working backup to recover it.</string>
+    <string name="delete_alert_no">No gràcies!</string>
+    <string name="delete_alert_yes">Si, fes-ho!</string>
+    <string name="delete_failed">Delete failed!</string>
+    <string name="deletecache_alert_message">This wallet will be reset, losing all off-chain data (like notes, account &amp; subaddress names, private transaction keys, ...)! Use this ONLY if this wallet is corrupt and does not load!</string>
+    <string name="details_alert_message">Ara es mostrarà informació delicada.\nEsteu a l\'aguait!</string>
+    <string name="details_alert_no">Torna\'m enrere!</string>
+    <string name="details_alert_yes">Estic segur</string>
+    <string name="details_title">Detalls</string>
+    <string name="fab_create_new">Crear un nou portamonedes</string>
+    <string name="fab_restore_key">Restablir portamonedes desde les claus privades</string>
+    <string name="fab_restore_ledger">Restablir desde Ledger Nano S</string>
+    <string name="fab_restore_seed">Restablir portamonedes desde la llavor de 25 paraules</string>
+    <string name="fab_restore_viewonly">Restablir portamonedes de només lectura</string>
+    <string name="generate_address_hint">Adreça Pública</string>
+    <string name="generate_address_label">Adreça Pública</string>
+    <string name="generate_address_label_sub">Subadreces Públiques #%1$d: %2$s</string>
+    <string name="generate_bad_passwordB">La contrasenya no coincideix</string>
+    <string name="generate_buttonGenerate">Fes-me un portamonedes ara mateix!</string>
+    <string name="generate_button_accept">Ja ho he apuntat tot!</string>
+    <string name="generate_check_address">Introduïu una adreça vàlida</string>
+    <string name="generate_check_key">Introduïu una clau vàlida</string>
+    <string name="generate_check_mnemonic">Introduïu la vostra llavor de 25 paraules</string>
+    <string name="generate_crazypass_label">Contrasenya de Restauració per l\'Arxiu del Portamonedes</string>
+    <string name="generate_empty_passwordB">La contrasenya no pot estar buida</string>
+    <string name="generate_fingerprint_hint">Permetre obrir el portamonedes amb l\'empremta digital</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>Autenticació d’empremta digitals</strong>
+        <p>Amb l’autenticació d’empremta digital habilitada podeu veure el balanç del portamonedes i rebre fons
+         sense la necessitat d’introduir la contrasenya.</p>
+        <p>Per a més seguretat, monerujo encara us demanarà que introduïu la contrasenya per
+         veure els detalls del portamonedes o enviar fons.</p>
+        <strong>Advertència de seguretat</strong>
+        <p>Finalment, monerujo vol recordar-li que qualsevol que pugui obtenir la seva empremta digital serà
+         capaç d’observar el balanç del seu portamonedes.</p>
+        <p>Per exemple, un usuari maliciós del vostre voltant pot obrir la vostra cartera quan esteu dormint.</p>
+        <strong>Esteu segurs d’habilitar aquesta funcionalitat?</strong>
+    ]]></string>
+    <string name="generate_mnemonic_hint">Llavor Mnemòtica de 25 paraules</string>
+    <string name="generate_mnemonic_label">Llavor Mnemòtica</string>
+    <string name="generate_name_hint">Nom del portamonedes</string>
+    <string name="generate_password_hint">Contrasenya del portamonedes</string>
+    <string name="generate_restoreheight_error">Introduïu un número o una data (AAAA-MM-DD)</string>
+    <string name="generate_restoreheight_hint">Restablir Alçada o Data (AAAA-MM-DD)</string>
+    <string name="generate_spendkey_hint">Clau de Despeses</string>
+    <string name="generate_spendkey_label">Clau de Despeses</string>
+    <string name="generate_title">Crear portamonedes</string>
+    <string name="generate_viewkey_hint">Clau de Visualització</string>
+    <string name="generate_viewkey_label">Clau de Visualització</string>
+    <string name="generate_wallet_created">Portamonedes creat</string>
+    <string name="generate_wallet_creating">Creant portamonedes</string>
+    <string name="generate_wallet_dot">No pot començar amb .</string>
+    <string name="generate_wallet_exists">El portamonedes ja existeix!</string>
+    <string name="generate_wallet_name">Dona\'m un nom!</string>
+    <string name="generate_wallet_type_key">Claus</string>
+    <string name="generate_wallet_type_new">Nou</string>
+    <string name="generate_wallet_type_seed">Llavor</string>
+    <string name="generate_wallet_type_view">Visualitzar</string>
+    <string name="gunther_says">There is nothing here\nPlease create or restore a wallet</string>
+    <string name="help_create_keys"><![CDATA[
+        <h1>Crear Portamonedes - Claus</h1>
+        <p>Si voleu recuperar el vostre portamonedes fent servir les vostres claus!</p>
+        <p>Introduïu un nom i contrasenya únics del portamonedes. La contrasenya s’utilitza per protegir les dades de la seva cartera al dispositiu. Utilitzeu una contrasenya sòlida 	- encara millor si utiliza una frase.<p>
+        <p>Introduïu la vostra Adreça Monero en el camp \"Adreça Pública\" i ompliu \"Clau de Visualització\" i  \"Clau de Despesa\" </p>
+        <p>Introduïu el número de bloc de la primera transacció realitzada en aquesta adreça en el
+         camp "Restaurar Alçada". També podeu utilitzar una data en el format AAAA-MM-DD. Si no esteu segurs, introduïu una data / alçada de bloc aproximada <em> abans </em> d’haver 	fer servir aquesta adreça del portamonedes.</p>
+    ]]></string>
+    <string name="help_create_ledger"><![CDATA[
+        <h1>Crear Portamonedes - Ledger</h1>
+        <p>Si voleu recuperar el vostre portamonedes desde un dispositiu Ledger Nano S!</p>
+        <p>Les vostres claus secretes no surten mai del dispositiu Ledger, de manera que necessiteu que estigui connectat sempre que vulgueu accedir aal vostre portamonedes.</p>
+        <p>Introduïu un nom i contrasenya únics del portamonedes. La contrasenya s’utilitza per protegir les dades de la seva cartera al dispositiu Android. Utilitzeu una 		contrasenya sòlida - encara millor si utiliza una frase.</p>
+        <p>Introduïu el número de bloc de la primera transacció realitzada en aquesta adreça en el camp "Restaurar Alçada". També podeu utilitzar una data en el format AAAA-MM-DD. 	Si no esteu segurs, introduïu una data / alçada de bloc aproximada <em> abans </em> d’haver fer servir aquesta adreça del portamonedes.</p>
+    ]]></string>
+    <string name="help_create_new"><![CDATA[
+        <h1>Crear Portamonedes - New</h1>
+        <p>Per si necessiteu una nova adreça de Monero!</p>
+        <p>Introduïu un nom i contrasenya únics del portamonedes.
+         La contrasenya s’utilitza per protegir les dades del seu portamonedes en el dispositiu. Utilitzeu una contrasenya sòlida - encara millor si utiliza una frase.</p>
+        <h2>Apunteu la vostra llavor mnemotècnica!</h2>
+        <p>A la pantalla següent trobareu la vostra "Llavor Mnemotècnica" de 25 paraules.
+         Aquestes són les úniques dades necessàries per a recuperar el vostre portamonedes i obtenir accés total als vostres fons.
+         Mantenir-la segura i privada és molt important ja que permet que <em> qualsevol persona</em> tingui accés total als vostres fons!.</p>
+        <p>Si perdeu la contrasenya del portamonedes encara podrieu recuperar-lo amb la llavor Mnemotècnica.</p>
+        <p>La llavor Mnemotècnica tampoc no es pot canviar mai, i si és robada o compromesa d’alguna manera haureu de traslladar els vostres fons a un nou portamonedes (amb una nova 	llavor mnemotècnica). Per tant, es recomana que feu còpies de seguretat de la vostra llavor mnemotècnica escrivint-la i emmagatzemant-la a <em> múltiple </em> llocs de forma 	segura.</p>
+    ]]></string>
+    <string name="help_create_seed"><![CDATA[
+        <h1>Crear Portamonedes - Llavor</h1>
+        <p>Si ja teniu una adreça Monero i voleu recuperar les transaccions de la blockchain!</p>
+        <p>Introduïu un nom i contrasenya únics del portamonedes.
+         La contrasenya s’utilitza per protegir les dades del seu portamonedes en el dispositiu. Utilitzeu una contrasenya sòlida - encara millor si utiliza una frase.</p>
+        <p>Introduïu la Llavor en el camp \"Llavor Mnemotècnica\".<p>
+        <p>Introduïu el número de bloc de la primera transacció realitzada en aquesta adreça en el camp "Restaurar Alçada". També podeu utilitzar una data en el format AAAA-MM-DD. 	Si no esteu segurs, introduïu una data / alçada de bloc aproximada <em> abans </em> d’haver fer servir aquesta adreça del portamonedes.</p>
+    ]]></string>
+    <string name="help_create_view"><![CDATA[
+        <h1>Crear Portamonedes - Només de Lectura</h1>
+        <p>Si només voleu monitoritzar les transaccions entrants del portamonedes!</p>
+        <p>Introduïu un nom i contrasenya únics del portamonedes. La contrasenya s’utilitza per protegir les dades de la seva cartera al dispositiu. Utilitzeu una contrasenya sòlida 	- encara millor si utiliza una frase.<p>
+        <p>Introduïu la vostra Adreça Monero en el camp \"Adreça Pública\" i ompliu \"Clau de Visualització\".</p>
+        <p>Introduïu el número de bloc de la primera transacció realitzada en aquesta adreça en el camp "Restaurar Alçada". També podeu utilitzar una data en el format AAAA-MM-DD. 	Si no esteu segurs, introduïu una data / alçada de bloc aproximada <em> abans </em> d’haver fer servir aquesta adreça del portamonedes.</p>
+    ]]></string>
+    <string name="help_details"><![CDATA[
+        <h1>Detalls del portamonedes</h1>
+        <h2>Adreça pública</h2>
+        La vostra adreça pública és com el vostre número de compte bancari que podeu compartir amb qualsevol persona sense haver de tenir por de perdre el vostres Monero. La gent 	enviarà Monero al seu portamonedes mitjançant aquesta adreça.
+        <h2>Clau Mnemotècnica</h2>
+       	Aquestes són les úniques dades necessàries per a recuperar el vostre portamonedes i obtenir accés total als vostres fons.
+         Mantenir-la segura i privada és molt important ja que permet que <em> qualsevol persona</em> tingui accés total als vostres fons! Si no us heu escrit en cap lloc segur, 	feu-ho!
+        <h2>Contrasenya de Recuperació d’Arxius del Portamonedes</h2>
+	Assegureu-vos que heu escrit aquesta contrasenya. Si restabliu el dispositiu o desinstal·leu l’aplicació, la necessitarà per tornar a accedir al seu portamonedes.<br/>
+        <h3>CrAzYsenya</h3>
+        Si la contrasenya que es mostra aquí és de 52 caràcters alfanumèrics en grups de 4 - felicitats!
+        Els fitxers del portamonedes estan protegits amb una clau de 256 bits generada per la funció de seguretat del vostre dispositiu basades en la contrasenya que heu triat 	(durant la creació o al canviar-la). Això ho fa extremadament difícil de piratejar!<br/>
+      	Aquesta opció és obligatoria per a tots els nous portamonedes.
+        <h3>Contrasenya de Llegat</h3>
+	Si veieu la vostra contrasenya aquí, els fitxers del portamonedes no estan tan segurs com quan s’utilitza la CrAzYsenya. Per solucionar-ho, seleccioneu \"Canviar 		Contrasenya\" des del menú. Després d’entrar una nova contrasenya (potser fins i tot la mateixa que abans) l’aplicació generarà una CrAzYsenya per a protegir els vostres 	arxius del portamonedes. Anoteu-la!
+        <h3>CrAzYsenya del Portamonedes</h3>
+	Si mai necessiteu tornar a instal·lar Monerujo (per exemple, després de restablir el telèfon o canviar-lo per un de nou) o voleu utilitzar els arxius del portamonedes en un 	altre dispositiu o PC, cal que ho feu utilitzant aquesta Contrasenya de Recuperació (CrAzYsenya) per tornar a accedir al vostre portamonedes. <br/>
+        En seleccionar \"Canviar Contrasenya\" des del menú, podeu triar una nova contrasenya. Aneu amb compte que això generarà una nova Contrasenya de Recuperació (CrAzYsenya). 	Anoteu-la!
+        <h2>Clau de Visualització</h2>
+   	La vostra clau de visualització es pot utilitzar per monitoritzar les transaccions entrants al vostre portamonedes sense donar-ne permís per gastar els fons a dins seu.
+        <h2>Clau de Despesa</h2>
+        La vostra clau de despesa permet a qualsevol persona gastar els Monero associats al seu portamonedes, així que no ho compartiu amb ningú, mantingueu-la segura com la vostra 	Llavor Mnemotècnica.
+    ]]></string>
+    <string name="help_list"><![CDATA[
+        <h1>Llista de Portamonedes</h1>
+        <h2>Node</h2>
+        <p>Monerujo utilitza un node remot per comunicar-se amb la xarxa Monero sense necessitat
+         de descarregar i emmagatzemar una còpia de tota la blockchain sencera. Podeu trobar una llista dels nodes remots més populars o aprendre a configurar el vostre propi node 	remot aquí https://moneroworld.com/<p>
+        <p>Monerujo té alguns Nodes remots incorporats. Se’n recorda dels últims cinc nodes empleats.</p>
+        <h2>Portamonedes</h2>
+        <p>Aquí podeu veure els portamonedes. Es troben a la carpeta <tt> monerujo </tt>
+         dins l’emmagatzematge intern del dispositiu. Podeu utilitzar una aplicació d’exploració d’arxius per veure’ls. Haurieu de fer còpies de seguretat d’aquesta carpeta de 	manera regular en un emmagatzematge extern al dispositiu en cas que el vostre dispositiu exploti o el robin.</p>
+        <p>Seleccioneu una portamonedes per obrir-lo o premeu el botó "+" per crear-ne un de nou.
+         O seleccioneu una de les operacions del portamonedes:</p>
+        <h3>Detalls</h3>
+        <p>Mostra els detalls del portamonedes, la llavor i les seves claus.</p>
+        <h3>Rebre</h3>
+        <p>Crea un codi QR per rebre Moneroj.</p>
+        <h3>Canvi de Nom</h3>
+        <p>Canvia el nom del portamonedes. El canvi de nom no afecta a les còpies de seguretat.</p>
+        <h3>Còpia de Seguretat</h3>
+        <p>Feu una còpia del portamonedes en la carpeta <tt> backups </tt> dins del <tt> monerujo </tt>
+         per a sobreescriure còpies anteriors.</p>
+        <h3>Arxiu</h3>
+        <p>Feu una còpia de seguretat i a continuació elimineu el portamonedes. La còpia es mantindrà a la carpeta <tt> backups </tt>. Si ja no necessiteu les vostres còpies de 	seguretat les haureu d’eliminar amb un explorador d’arxius o una aplicació segura.</p>
+    ]]></string>
+    <string name="help_node"><![CDATA[
+        <h1>Nodes</h1>
+        <h2>TL;DR</h2>
+        <p>Actualitzeu la llista de nodes prement cap avall; marqueu 3&#8211;5 nodes per permetre a Monerujo
+         triar el millor per a tu!</p>
+        <h2>Què és un Node?</h2>
+        <p>Monerujo utilitza un Node Remot (de vegades també anomenat daemon) per comunicar-se
+         la xarxa Monero sense haver de descarregar i emmagatzemar una còpia de
+         tota la blockchain mateixa.<p>
+        <h2>Llista de Nodes</h2>
+        <p>Si la llista està buida, podeu afegir nous nodes manualment o deixar que Monerujo
+         escanegi la xarxa per vostè. O ambdós. Llegiu &#8230;</p>
+        <p>La llista de nodes mostra tots els nodes coneguts. A més, la marca de temps
+         de l’últim bloc conegut per a cada node es mostra sota el nom del node. La icona
+         que representa el temps de resposta del node
+         (que indica el nivell de connectivitat estimat)
+         es mostra al costat de cada node.</p>
+        <p>Es pot marcar qualsevol node de la llista per utilitzar-lo més endevant.
+         Es descartaràn els nodes que no hagin estat seleccionats.<p>
+        <p>Monerujo escollirà el node òptim (marcat) cada vegada que l’utilitzeu.
+         Això ho fa mitjançant la comprovació de l’alçada de bloc (com d’actualitzat
+         està el node?), així com el temps de resposta (què tan ràpidament respon el node a les peticions?).</p>
+        <p>La llista s’ordena per aquestes característiques, de manera que el node superior seria el que Monerujo
+         triaria ara mateix. La part inferior de la llista mostraria els nodes més lents o no disponibles.</p>
+        <h2>Afegir Node</h2>
+        <p>Si premeu el botó &quot;Afegir Node&quot; a la part inferior, se us demanarà
+        que introduïu els detalls del node al següent diàleg.
+        El &quot;Adreça&quot; és el nom del servidor o adreça IP del node - aquesta és la única
+        entrada obligatòria.
+        Introduïu el &quot;Port&quot; si el node s’executa en un port no predeterminat (per exemple, 18089).
+        També podeu anomenar opcionalment el node, de manera que el pugueu identificar més fàcilment més endavant.
+        Alguns nodes necessiten credencials per utilitzar-los. Introduïu el nom d’usuari i
+        contrasenya proporcionats als camps corresponents. Ara podeu &quot;Test&quot; aquesta configuració.
+        Els &quot;Resultats de les Proves&quot; mostraran l’alçada de bloc, el temps de resposta i l’IP real.
+        El resultat també pot ser un error - generalment perquè el nom del servidor proporcionat no és
+        accessible dins d’un temps raonable o les credencials són incorrectes.
+        O la combinació de nom del servidor/port no apunta cap a un node real de Monero!
+        Un cop aprovada la prova (sense error), ja estás llest per prémer &quot;D’acord&quot; per desar iamp;
+        marcar aquest node.</p>
+        <h2>Escanejar Nodes</h2>
+        <p>A més, podeu escanejar la xarxa per buscar nodes. Monerujo començarà
+         escanejant la xarxa per als nodes remots al port 18089. Començarà per preguntar als vostres
+         nodes marcats per altres companys de la xarxa P2P de Monero, i després continuarà
+         preguntant-los per als seus companys, etc. Si no teniu cap node marcat
+         (o no ens informen sobre els seus companys),
+         Monerujo anirà directament als nodes de llavor de Monero codificats a dins de Monero.
+         L’escaneig s’atura quan troba un total de 10 nodes remots.</p>
+    ]]></string>
+    <string name="help_ok">Ja ho tinc!</string>
+    <string name="help_send"><![CDATA[
+        <h1>Enviar</h1>
+        <h2>Adreça del Receptor</h2>
+        <p>Aquesta és l’adreça pública del portamonedes a la qual esteu enviant Moneroj. Podeu copiar-la al porta-retalls, escanejar un codi QR o introduir-la manualment. Assegureu-	vos de confirmar-ho a consciencia i que no estigueu enviant monedes a la direcció incorrecta.</p>
+        <p>A més d’utilitzar una adreça XMR, també podeu utilitzar
+        <ul>
+            <li>un OpenAlias per XMR o BTC</li>
+            <li>una adreça BTC</li>
+        </u>
+        Tingueu en compte que l’enviament de BTC es duu a terme a través del servei SideShift.ai (consulteu https://sideshift.ai per a més detalls). Consulteu la secció sobre l’enviament de BTC 	més avall.</p>
+        <h1>Enviant BTC</h1>
+        <h2>SideShift.ai</h2>
+        <p>SideShift.ai és un servei de tercers que fa proporciona el canvi de Monero a Bitcoin.
+         Nosaltres fem servir l’API SideShift.ai per integrar els pagaments de Bitcoin a Monerujo. Si us plau, doneu un cop d’ull a https://sideshift.ai i decidiu vosaltres mateixos si és una 	cosa que volgueu utilitzar. L’equip de 	Monerujo no està associat amb SideShift.ai i no pot oferir assistència amb el seu servei.</p>
+        <h2>Tipus de Canvi SideShift.ai<h2>
+        <p>A la pantalla \"Quantitat\" es mostraran els paràmetres actuals del servei SideShift.ai. Aquests
+         inclouen el tipus de canvi actual, així com els límits de BTC superiors i inferiors. Tingueu en compte que la tarifa no està garantida en aquell mateix moment.</p>
+        <h2>Ordre  de compra SideShift.ai<h2>
+        <p>A la pantalla \"Confirmar\", veureu l’ordre de compra SideShift.ai real. Aquesta comanda és vàlida per a
+         un temps limitat: és possible que veieu un compte enrere en el botó \"Gastar\". El tipus de canvi pot
+         ser diferent del mostrat en pantalles anteriors.</p>
+        <h2>Clau Secreta SideShift.ai<h2>
+        <p>Com que Monerujo només gestiona la part Monero de la vostra transacció, la vostra clau secreta per SideShift.ai es pot utilitzar per fer el seguiment de la part de Bitcoin de 	la vostra comanda a la pàgina principal de SideShift.ai.</p>
+        <h2>Compte enrere SideShift.ai!</h2>
+        <p>Una vegada el compte enrere arribi a zero haureu d’obtenir una nova sol·licitud de SideShift.ai tornant enrere al pas anterior i després tornar a la pantalla de 			\"Confirmar\".</p>
+    ]]></string>
+    <string name="help_tx_details"><![CDATA[
+        <h1>Detalls de Transacció</h1>
+        <h2>Destí</h2>
+        Aquesta és l’adreça pública del portamonedes on esteu enviant els Monero.
+        <h2>ID de Pagament</h2>
+	Podeu utilitzar un ID de pagament per identificar el motiu pel qual heu enviat a Monero entre dues parts. Això és totalment opcional i privat. Per exemple, això pot permetre 	a una empresa associar la transacció amb un article que heu comprat.
+        <h2>ID de Transacció</h2>
+	Aquest és el vostre ID de transacció que podeu utilitzar per identificar la vostra transacció oculta en un Explorador de Blockchain de Monero com <a href="https://		xmrchain.net/"> https://xmrchain.net/ </a>
+        <h2>Clau de Transacció</h2>
+        Aquesta és la vostra clau privada de transacció, manteniu-la segureta ja que mostrar-la a tercers els revelia quina signatura dins un anell és la vostra, fent que la vostra 	transacció sigui transparent.
+        <h2>Bloc</h2>
+        Aquest és el bloc de la cadena de Monero on la vostra transacció ha estat inclosa.
+    ]]></string>
+    <string name="help_uri"><![CDATA[
+        <h1>Fer servir un enllaç de pagament</h1>
+        <p>Heu iniciat monerujo amb un enllaç de pagament. Per enviar fons, feu el següent:</p>
+        <p>
+        1. Obrir el portamonedes desde la qual voleu gastar els fons<br>
+        2. Espereu fins que es sincronitzi el portamonedes i el botó de "Donar" apareixi<br>
+        3. Premeu el botó de "Donar"
+        </p>
+        <p>Els detalls de pagament es completaran. Comproveu-les i continueu com a qualsevol altra transacció.</p>
+    ]]></string>
+    <string name="help_wallet"><![CDATA[
+        <h1>El Portamonedes</h1>
+        <h2>Mode de carrer</h2>
+        <p>El mode de carrer es pot habilitar / desactivar des del menú o a la icona principal de Gunther. En aquest mode, el vostre balanç no es mostra a cap pantalla perquè pugueu 	utilitzar la vostra cartera amb seguretat al carrer, al pub o qualsevol lloc públic. Les transaccions anteriors també estan ocultes. Es mostraran les noves transaccions 	perquè pogueu veure que heu enviat / rebut els vostres estimats Moneroj!</p>
+        <h2>Escanejant</h2>
+        Perquè a Monero li agrada mantenir les coses privades, cada cop que obri un portamonedes Monerujo hem d’escanejar la blockchain per veure si s’han enviat nous moneroj al seu 	portamonedes. Això només emmagatzema l’informació al telèfon que pertany al seu portamonedes. De vegades pot trigar una estona perquè no s’ha sincronitzat en molt de temps.
+        <h2>El Balanç</h2>
+        <p><b>Ajuda! El balanç del meu portamonedes ha desaparegut o consta com a no confirmat!</b><br/>
+        No patiu! Quan envieu fons desde el vostre portamonedes part del balanç apareixerà com a no confirmat de forma temporal.        
+	Això succeeix pel fet de com Monero és intercanviat a través de la blockchain i com es produeix el canvi.
+        Podeu llegir més sobre el canvi a https://getmonero.org/resources/moneropedia/change.html
+        <h2>Llista de Transacció</h2>
+        <p>Llistat de les transaccions del portamonedes. Els portamonedes de visualització només mostraran les transaccions entrants.</p>
+    ]]></string>
+    <string name="help_xmrto"><![CDATA[
+        <h1>Enviant BTC</h1>
+        <h2>SideShift.ai</h2>
+        <p>SideShift.ai és un servei de tercers que fa proporciona el canvi de Monero a Bitcoin.
+         Nosaltres fem servir l’API SideShift.ai per integrar els pagaments de Bitcoin a Monerujo. Si us plau, doneu un cop d’ull a https://sideshift.ai i decidiu vosaltres mateixos si és una 	cosa que volgueu utilitzar. L’equip de 	Monerujo no està associat amb SideShift.ai i no pot oferir assistència amb el seu servei.</p>
+        <h2>Tipus de Canvi SideShift.ai<h2>
+        <p>A la pantalla \"Quantitat\" es mostraran els paràmetres actuals del servei SideShift.ai. Aquests
+         inclouen el tipus de canvi actual, així com els límits de BTC superiors i inferiors. Tingueu en compte que la tarifa no està garantida en aquell mateix moment.</p>
+        <h2>Ordre  de compra SideShift.ai<h2>
+        <p>A la pantalla \"Confirmar\", veureu l’ordre de compra SideShift.ai real. Aquesta comanda és vàlida per a
+         un temps limitat: és possible que veieu un compte enrere en el botó \"Gastar\". El tipus de canvi pot
+         ser diferent del mostrat en pantalles anteriors.</p>
+        <h2>Clau Secreta SideShift.ai<h2>
+        <p>Com que Monerujo només gestiona la part Monero de la vostra transacció, la vostra clau secreta per SideShift.ai es pot utilitzar per fer el seguiment de la part de Bitcoin de 	la vostra comanda a la pàgina principal de SideShift.ai.</p>
+        <h2>Compte enrere SideShift.ai!</h2>
+        <p>Una vegada el compte enrere arribi a zero haureu d’obtenir una nova sol·licitud de SideShift.ai tornant enrere al pas anterior i després tornar a la pantalla de 			\"Confirmar\".</p>
+    ]]></string>
+    <string name="info_ledger_enabled">Ledger habilitat, premi aquí per més informació.</string>
+    <string name="info_nodes_enabled">Node-o-matiC habilitat, premi aquí per més informació.</string>
+    <string name="info_paymentid_integrated">✔ ID de pagment integrat</string>
+    <string name="info_prepare_tx">Preparant la seva transacció</string>
+    <string name="info_send_xmrto_error">Error de SideShift.ai (%1$s)</string>
+    <string name="info_send_xmrto_paid">Confirmació Pendent</string>
+    <string name="info_send_xmrto_parms"><![CDATA[
+        <b>You can send %1$s &#8212; %2$s %4$s</b>.<br/>
+        <i><b>SideShift.ai</b> està oferint una tasa de canvi de <b>%3$s %4$s/XMR</b> <u>en aquest moment</u></i>.
+    ]]></string>
+    <string name="info_send_xmrto_query">Consultant …</string>
+    <string name="info_send_xmrto_sent">%1$s Enviats!</string>
+    <string name="info_send_xmrto_success_btc">%1$s %2$s</string>
+    <string name="info_send_xmrto_success_order_label">Ordre SideShift.ai</string>
+    <string name="info_send_xmrto_unpaid">Pagament Pendent</string>
+    <string name="info_xmrto"><![CDATA[
+        <b>Heu introduït una adreça %1$s.</b><br/>
+        <i>Està a punt d\'enviar XMR i el destinatari rebrà %1$s a través del servei <b>SideShift.ai</b> service.</i>
+    ]]></string>
+    <string name="info_xmrto_ambiguous"><![CDATA[
+        <b>Ambiguous address.</b><br/>
+        <i>Please select the type above.</i>
+    ]]></string>
+    <string name="info_xmrto_enabled">Pagament amb BTC habilitat, premi aquí per més informació.</string>
+    <string name="info_xmrto_help"><![CDATA[
+        <b>Please enter or scan a %1$s address.</b><br/>
+        <i>You&apos;ll send XMR and the receiver will get %2$s using the <b>SideShift.ai</b> service.</i>
+    ]]></string>
+    <string name="info_xmrto_help_xmr"><![CDATA[
+        <b>Please enter or scan a Monero address.</b>
+    ]]></string>
+    <string name="label_cancel">Cancel·lar</string>
+    <string name="label_close">Tancar</string>
+    <string name="label_copy_address">Adreça Pública</string>
+    <string name="label_copy_viewkey">Clau de visualització</string>
+    <string name="label_copy_xmrtokey">Clau</string>
+    <string name="label_credits">Crèdits</string>
+    <string name="label_daemon">Node</string>
+    <string name="label_generic_xmrto_error">ERROR SideShift.ai</string>
+    <string name="label_login_wallets">Portamonedes</string>
+    <string name="label_nodes">Nodes</string>
+    <string name="label_ok">D\'acord</string>
+    <string name="label_receive_info_gen_qr_code">Premi aquí per mostrar codi QR</string>
+    <string name="label_restoreheight">Restablir Alçada</string>
+    <string name="label_send_address">Adreça de destí</string>
+    <string name="label_send_btc_address">Adreça %1$s de destí</string>
+    <string name="label_send_btc_amount">Quantitat</string>
+    <string name="label_send_btc_xmrto_info">Visita SideShift.ai per suport i seguiment</string>
+    <string name="label_send_btc_xmrto_key">Clau secreta SideShift.ai</string>
+    <string name="label_send_btc_xmrto_key_lb">Clau secreta\nSideShift.ai</string>
+    <string name="label_send_done">Fet</string>
+    <string name="label_send_notes">Notes</string>
+    <string name="label_send_progress_create_tx">Preparant transacció Monero</string>
+    <string name="label_send_progress_queryparms">Consultant paràmetres SideShift.ai</string>
+    <string name="label_send_progress_xmrto_create">Creant ordre SideShift.ai</string>
+    <string name="label_send_progress_xmrto_query">Consultant ordre SideShift.ai</string>
+    <string name="label_send_success">Enviat correctament!</string>
+    <string name="label_send_txid">ID de transacció</string>
+    <string name="label_test">Provar</string>
+    <string name="label_wallet_advanced_details">Premi aquí per informació més detallada</string>
+    <string name="label_wallet_receive">Rebre</string>
+    <string name="label_wallet_send">Enviar</string>
+    <string name="label_watchonly">(Només de Visualització)</string>
+    <string name="language_system_default">Utilitzar Idioma del Sistema</string>
+    <string name="max_account_warning">Too many unused accounts - use some to enable creating more!</string>
+    <string name="max_subaddress_warning">Too many unused addresses - use some to enable creating more!</string>
+    <string name="menu_about">Sobre</string>
+    <string name="menu_backup">Còpia de seguretat</string>
+    <string name="menu_changepw">Canvi de contrasenya</string>
+    <string name="menu_daynight">Dark Mode</string>
+    <string name="menu_default_nodes">Restore default nodes</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_deletecache">Reset wallet!</string>
+    <string name="menu_help">Ajuda</string>
+    <string name="menu_info">Mostra Secrets</string>
+    <string name="menu_language">Idioma</string>
+    <string name="menu_ledger_seed">Convertir la llavor del Ledger</string>
+    <string name="menu_privacy">Política de Privacitat</string>
+    <string name="menu_receive">Rebre</string>
+    <string name="menu_rename">Canvi de nom</string>
+    <string name="menu_rescan">Rescan!</string>
+    <string name="menu_restore">Import wallet</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_streetmode">Mode de Carrer</string>
+    <string name="message_camera_not_permitted">Sense càmara = Cap escaneig QR!</string>
+    <string name="message_copy_address">Adreça del portamonedes copiada al porta-retalls!</string>
+    <string name="message_copy_txid">ID de transacció copiada al porta-retalls!</string>
+    <string name="message_copy_viewkey">Clau de visualització copiada al porta-retalls!</string>
+    <string name="message_copy_xmrtokey">Clau de SideShift.ai copiada al porta-retalls!</string>
+    <string name="message_exchange_failed">No s\'ha pogut obtenir el tipus de canvi!\nUtilitzi XMR/XMR o torni-ho a intentar</string>
+    <string name="message_nocopy">S\'ha inhabilitat la funció de copiar per raons de seguretat!</string>
+    <string name="message_strorage_not_permitted">De veritat que necessitem els permisos per l\'Emmagatzematge Extern!</string>
+    <string name="message_strorage_not_writable">L’emmagatzematge extern no es pot escriure! Pànic!</string>
+    <string name="nfc_tag_read_undef">No entenc l\'etiquetatge!</string>
+    <string name="nfc_tag_read_what">No sé què vols!</string>
+    <string name="nfc_tag_size">L\'etiquetatge proporciona %1$d bits, però es necessiten %2$d!</string>
+    <string name="nfc_tag_tap">NFC Disponible!</string>
+    <string name="nfc_tag_unsupported">L\'etiquetatge no suporta NDEF!</string>
+    <string name="nfc_write_failed">Escriptura d\'Etiquetatge fallit!</string>
+    <string name="nfc_write_successful">Escriptura d\'Etiquetatge exitosa</string>
+    <string name="node_address_hint">Nom del servidor</string>
+    <string name="node_auth_error">AUTENTICACIÓ FALLIDA</string>
+    <string name="node_create_hint">Premi aquí per seleccionar o afegir nodes</string>
+    <string name="node_fab_add">Afegir Node</string>
+    <string name="node_general_error">ERROR DE CONEXIÓ</string>
+    <string name="node_height">Últim bloc actualitzat: %1$s</string>
+    <string name="node_host_empty">Necessitem això!</string>
+    <string name="node_host_unresolved">No es pot resoldre el servidor</string>
+    <string name="node_name_hint">Nom del Node (Opcional)</string>
+    <string name="node_nobookmark">S\'han marcat de forma automàtica els millors %1$d nodes</string>
+    <string name="node_pass_hint">Contrasenya (Opcional)</string>
+    <string name="node_port_hint">Port</string>
+    <string name="node_port_numeric">Ha d\'ésser numéric</string>
+    <string name="node_port_range">Ha d\'ésser 1–65535</string>
+    <string name="node_pull_hint">Afegir nodes de forma manual o tireu cap avall per escanejar</string>
+    <string name="node_refresh_hint">Premi aquí per refrescar!</string>
+    <string name="node_refresh_wait">Si us plau, esperi a que finalitzi l\'escaneig</string>
+    <string name="node_result">Alçada: %1$s (v%2$d), Ping: %3$.0fms, IP: %4$s</string>
+    <string name="node_result_label">Resultat del test:</string>
+    <string name="node_scanning">Escanejant la xarxa…</string>
+    <string name="node_test_error">ERROR DE CONEXIÓ %1$d</string>
+    <string name="node_testing">Provant l\'IP: %1$s …</string>
+    <string name="node_updated_days">Last Block: %1$d days ago</string>
+    <string name="node_updated_hours">Last Block: %1$d hours ago</string>
+    <string name="node_updated_mins">Last Block: %1$d minutes ago</string>
+    <string name="node_updated_now">Last Block: %1$d seconds ago</string>
+    <string name="node_user_hint">Nom d\'usuari (Opcional)</string>
+    <string name="onboarding_agree">I get it!</string>
+    <string name="onboarding_button_next">Next</string>
+    <string name="onboarding_button_ready">I\'m ready!</string>
+    <string name="onboarding_fpsend_information">You\'re now able to send XMR with just your fingerprint if you enabled it. To request the password, just disable fingerprint access.</string>
+    <string name="onboarding_fpsend_title">Send with fingerprint</string>
+    <string name="onboarding_nodes_information">Nodes connect you to the Monero network. Choose between public nodes or go full cypherpunk using your own.</string>
+    <string name="onboarding_nodes_title">Nodes, your way</string>
+    <string name="onboarding_seed_information">The seed grants full access to whoever has it. If you lose it, we cannot help you recover it and you lose your beloved moneroj.</string>
+    <string name="onboarding_seed_title">Keep your seed safe</string>
+    <string name="onboarding_welcome_information">This app allows you to create and use Monero wallets. You can store your sweet moneroj in them.</string>
+    <string name="onboarding_welcome_title">Welcome to Monerujo!</string>
+    <string name="onboarding_xmrto_information">Monerujo has SideShift.ai support built-in. Just paste or scan a BTC, LTC, ETH, DASH or DOGE address and you\'ll be sending these cryptos by spending XMR.</string>
+    <string name="onboarding_xmrto_title">Send Crypto</string>
+    <string name="open_wallet_ledger_missing">Si us plau (re)conecteu el dispositiu Ledger</string>
+    <string name="password_fair">Més o menys... …</string>
+    <string name="password_good">Vinga, ho pots fer millor!</string>
+    <string name="password_strong">Força bé, pero millorbale …</string>
+    <string name="password_very_strong">Genial, ets tot un hacker!</string>
+    <string name="password_weak">Segueix escrivint …</string>
+    <string name="privacy_policy"><![CDATA[
+        <h1>Política de Privacitat</h1>
+        <p>Aquesta pàgina us informa de les nostres polítiques relatives a la recopilació,
+         ús i divulgació de la informació personal que rebem dels usuaris de la nostra
+         aplicació (monerujo: Monero Wallet).
+        </p>
+        <p>Mitjançant l’ús d’aquesta aplicació vostè accepta la recopilació i l’ús de la informació d’acord amb aquesta política.
+        </p>
+        <h2>Dades Recopilades</h2>
+        <p>Les dades personals són qualsevol tipus de dades que puguin identificar un individu.
+        </p>
+        <p>Les claus i les adreces públiques de Monero són recollides i processades per l’aplicació de forma local per tal de processar les transaccions i transmetre-les 	a la 	xarxa Monero de forma encriptada.
+        </p>
+        <p>L’aplicació no recopila altres dades personals.</p>
+        <p>Si utilitzeu la funcionalitat d’intercanvi (opcional), monerujo obté el canvi
+         a través de l’API pública de coinmarketcap.com.
+         Consulteu la seva política de privacitat a https://coinmarketcap.com/privacy per a més detalls sobre com es recullen les dades de les vostres peticions</p>
+        <p>Si utilitzeu l’aplicació per pagar a adreces BTC, utilitzareu el servei SideShift.ai.
+         Consulteu la seva política de privacitat a https://sideshift.ai/ per obtenir més informació. Monerujo els envia l’adreça de destinació de BTC i la quantitat. La 	vostra IP 	també podrà ser recollida.</p>
+        <h2>Permisos de la App</h2>
+        <ul>
+        <li>INTERNET : Connectar a la xarxa Monero mitjançant un Node Daemon de Monero</li>
+        <li>READ_EXTERNAL_STORAGE : Llegir els arxius del portamonedes emmagatzemats al dispositiu</li>
+        <li>WRITE_EXTERNAL_STORAGE : Escriure els arxius del portamonedes emmagatzemats al dispositiu</li>
+        <li>WAKE_LOCK : Mantenir el dispositiu despert durant la sincronització</li>
+        <li>CAMERA : Escanejar codis QR per rebre Monero</li>
+        </ul>
+        <h2>Canvis en aquesta Política de Privacitat</h2>
+        <p>És possible que actualitzem aquesta política de privacitat de tant en tant. Li notificarem de qualsevol canvi publicant la nova política de privacitat a 			l’aplicació i al lloc web (www.monerujo.io)
+         Us recomanem que reviseu aquesta política de privacitat periòdicament per conèixer els canvis.
+        <p>Aquesta Política de Privacitat es va actualitzar per darrer cop: 10th November, 2017.
+        </p>
+        <h2>Contacti amb nosaltres</h2>
+        <p>Si teniu alguna consulta sobre la nostra política de privadesa,
+         o com es recullen i processen les vostres dades,
+         si us plau envieu un correu electrònic a privacy@monerujo.io.
+        </p>
+        ]]></string>
+    <string name="progress_ledger_confirm">Es requereix confirmació en Ledger!</string>
+    <string name="progress_ledger_lookahead">Recuperant subadreces</string>
+    <string name="progress_ledger_mlsag">Hashing per aquí i per allà</string>
+    <string name="progress_ledger_opentx">Fent càlculs ben bojos</string>
+    <string name="progress_ledger_progress">Comunicant amb Ledger</string>
+    <string name="progress_ledger_verify">Verificant claus</string>
+    <string name="progress_nfc_write">Escrivint etiquetatge</string>
+    <string name="prompt_changepw">Nova contrasenya per %1$s</string>
+    <string name="prompt_changepwB">Repetir contrasenya per %1$s</string>
+    <string name="prompt_daemon_missing">S\'ha de configurar el node!</string>
+    <string name="prompt_fingerprint_auth">Pots obrir el portamonedes fent servir l\'empremta digital.\nPremi el sensor.</string>
+    <string name="prompt_ledger_phrase">Contrasenya Ledger (avançat)</string>
+    <string name="prompt_ledger_seed">Paraules de la llavor del Ledger</string>
+    <string name="prompt_ledger_seed_warn">Introduir la vostra llavor del Ledger aquí té un elevat risc de seguretat!</string>
+    <string name="prompt_open_wallet">Obrint el portamonedes…</string>
+    <string name="prompt_password">Contrasenya per %1$s</string>
+    <string name="prompt_rename">Canvi de nom %1$s</string>
+    <string name="prompt_wrong_net">El portamonedes no coincideix amb la xarxa seleccionada</string>
+    <string name="receive_amount_hint">Quantitat</string>
+    <string name="receive_amount_nan">XMR no és un número</string>
+    <string name="receive_amount_negative">Mín. 0</string>
+    <string name="receive_amount_too_big">Màx. %1$s</string>
+    <string name="receive_cannot_open">No s\'ha pogut obrir el portamonedes!</string>
+    <string name="receive_desc_hint">Descripció (opcional)</string>
+    <string name="rename_failed">Canvi de nom fallit!</string>
+    <string name="rename_progress">Canvi de nom en curs</string>
+    <string name="restore_failed">Import failed!</string>
+    <string name="send_address_hint">Receptor</string>
+    <string name="send_address_invalid">No es una adreça vàlida</string>
+    <string name="send_address_no_dnssec">OpenAlias sense DNSSEC - l\'adreça pot ser compromesa</string>
+    <string name="send_address_not_openalias">La direcció OpenAlias no està disponible</string>
+    <string name="send_address_openalias">OpenAlias segur ✔</string>
+    <string name="send_address_resolve_openalias">Resolent OpenAlias…</string>
+    <string name="send_address_title">Adreça</string>
+    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount_label">Quantitat</string>
+    <string name="send_amount_title">Quantitat</string>
+    <string name="send_available">Balanç: %1$s XMR</string>
+    <string name="send_available_btc">Balanç: %2$s %3$s (%1$s XMR)</string>
+    <string name="send_confirm_title">Confirmar</string>
+    <string name="send_create_tx_error_title">Error creant la transacció</string>
+    <string name="send_fee">+%1$s Comissió</string>
+    <string name="send_fee_btc_label">Comissió (XMR)</string>
+    <string name="send_fee_label">Comissió</string>
+    <string name="send_generate_paymentid_hint">Generar</string>
+    <string name="send_notes_hint">Notes privades (opcional)</string>
+    <string name="send_qr_address_invalid">No es un codi de pagament QR vàlid</string>
+    <string name="send_qr_invalid">No es un codi QR</string>
+    <string name="send_send_label">Spend my sweet Moneroj</string>
+    <string name="send_send_timed_label">Gastar els meus estimats Moneroj (%1$s)</string>
+    <string name="send_success_title">Fet</string>
+    <string name="send_sweepall">Envia tots els fons confirmats cap aquest compte!</string>
+    <string name="send_title">Enviar</string>
+    <string name="send_total_btc_label">Total (XMR)</string>
+    <string name="send_total_label">Total</string>
+    <string name="send_xmrto_timeout">Has esperat massa temps, estaquirot!</string>
+    <string name="service_busy">Encara estic ocupat amb el teu últim portamonedes …</string>
+    <string name="service_description">Servei de monerujo</string>
+    <string name="service_progress">Posant les coses al see bloc …\nAixò pot trigar una estona!</string>
+    <string name="shift_checkamount">Check amount and try again</string>
+    <string name="shift_noquote">Cannot get quote</string>
+    <string name="status_remaining">Blocs restants</string>
+    <string name="status_synced">Sincronitzat:</string>
+    <string name="status_syncing">Escanejant:</string>
+    <string name="status_transaction_failed">Transacció fallida: %1$s</string>
+    <string name="status_wallet_connect_failed">Ha fallat la connexió del node!\nComprovar nom d\'usuari/contrasenya</string>
+    <string name="status_wallet_connect_ioex">No es pot arribar al node!\nTorni-ho a intentar o esculpí un altre.</string>
+    <string name="status_wallet_connect_wrongversion">Versió del node incompatible - actualitzi si us plau!</string>
+    <string name="status_wallet_connecting">Connectant …</string>
+    <string name="status_wallet_disconnected">Desconectat</string>
+    <string name="status_wallet_loading">Carregant Portamonedes …</string>
+    <string name="status_wallet_node_invalid">Node invàlid!\nProvi un altre.</string>
+    <string name="status_wallet_unload_failed">Ha fallat el desat del portamonedas!</string>
+    <string name="status_wallet_unloaded">Portamonedes desat</string>
+    <string name="street_sweep_amount">TOT!</string>
+    <string name="subaddress_details_hint">Long-press for details</string>
+    <string name="subaddress_notx_label">No transactions for this subaddress yet</string>
+    <string name="subaddress_select_label">Select a subaddress</string>
+    <string name="subaddress_tx_label">Transactions for this subaddress:</string>
+    <string name="subbaddress_name_hint">Subaddress Name</string>
+    <string name="subbaddress_title">Subaddresses</string>
+    <string name="text_generic_xmrto_error">Codi: %1$d</string>
+    <string name="text_noretry">Ups, sembla que SideShift.ai no està disponible ara mateix!</string>
+    <string name="text_noretry_monero">Vatua l\'olla! Sembla ser que estem encallats!</string>
+    <string name="text_retry">Premi aquí per tornar-ho a intentar</string>
+    <string name="text_send_btc_amount">%1$s %3$s = %2$s XMR</string>
+    <string name="text_send_btc_rate">(Canvi: %1$s %2$s/XMR)</string>
+    <string name="toast_default_nodes">Restoring already in progress…</string>
+    <string name="toast_ledger_attached">%1$s adjunt</string>
+    <string name="toast_ledger_detached">%1$s separat</string>
+    <string name="toast_ledger_start_app">Start Monero App on %1$s</string>
+    <string name="tx_account">Compte #</string>
+    <string name="tx_amount">Quantitat</string>
+    <string name="tx_blockheight">Bloc</string>
+    <string name="tx_destination">Destí</string>
+    <string name="tx_failed">FALLIT</string>
+    <string name="tx_fee">Comissió</string>
+    <string name="tx_id">ID de transacció</string>
+    <string name="tx_key">Clau de transacció</string>
+    <string name="tx_list_amount_failed">(%1$s)</string>
+    <string name="tx_list_amount_negative">- %1$s</string>
+    <string name="tx_list_amount_positive">+ %1$s</string>
+    <string name="tx_list_failed_text">fallit</string>
+    <string name="tx_list_fee">- Comissió %1$s</string>
+    <string name="tx_notes">Notes</string>
+    <string name="tx_notes_hint">(opcional)</string>
+    <string name="tx_paymentId">ID de pagament</string>
+    <string name="tx_pending">PENDENT</string>
+    <string name="tx_subaddress">Subadreces</string>
+    <string name="tx_timestamp">Marca de temps</string>
+    <string name="tx_title">Detalls de Transacció</string>
+    <string name="tx_transfers">Transferències</string>
+    <string name="wallet_activity_name">Portamonedes</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s BDX sense confirmar</string>
+</resources>

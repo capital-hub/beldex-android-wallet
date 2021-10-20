@@ -1,0 +1,72 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "com.mymonero.new_beldex_wallet.alpha",
+  "variantName": "alphaMainnetRelease",
+  "elements": [
+    {
+      "type": "UNIVERSAL",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 11010,
+      "versionName": "2.1.1 \u0027Vertant\u0027 (alpha)",
+      "outputFile": "resources-alphaMainnetUniversalRelease.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86_64"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 11014,
+      "versionName": "2.1.1 \u0027Vertant\u0027 (alpha)",
+      "outputFile": "resources-alphaMainnetX86_64Release.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 11013,
+      "versionName": "2.1.1 \u0027Vertant\u0027 (alpha)",
+      "outputFile": "resources-alphaMainnetX86Release.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "arm64-v8a"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 11012,
+      "versionName": "2.1.1 \u0027Vertant\u0027 (alpha)",
+      "outputFile": "resources-alphaMainnetArm64-v8aRelease.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "armeabi-v7a"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 11011,
+      "versionName": "2.1.1 \u0027Vertant\u0027 (alpha)",
+      "outputFile": "resources-alphaMainnetArmeabi-v7aRelease.ap_"
+    }
+  ],
+  "elementType": "File"
+}

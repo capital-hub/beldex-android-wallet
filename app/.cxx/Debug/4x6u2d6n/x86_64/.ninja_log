@@ -1,0 +1,15 @@
+# ninja log v5
+1	1790	656258022	CMakeFiles/monerujo.dir/src/main/cpp/monerujo.cpp.o	e8208ed733bee6e5
+1791	3807	656258024	../../../../build/intermediates/cxx/Debug/4x6u2d6n/obj/x86_64/libmonerujo.so	5c4e09d8205a9235
+33	2510	656325641	CMakeFiles/monerujo.dir/src/main/cpp/monerujo.cpp.o	e8208ed733bee6e5
+2510	4759	656325644	../../../../build/intermediates/cxx/Debug/4x6u2d6n/obj/x86_64/libmonerujo.so	5c4e09d8205a9235
+7	3565	656417249	CMakeFiles/monerujo.dir/src/main/cpp/monerujo.cpp.o	e8208ed733bee6e5
+3565	6313	656417252	../../../../build/intermediates/cxx/Debug/4x6u2d6n/obj/x86_64/libmonerujo.so	5c4e09d8205a9235
+0	9	0	clean	bd91a328350497de
+0	6	0	clean	bd91a328350497de
+0	6	0	clean	bd91a328350497de
+0	6	0	clean	bd91a328350497de
+0	6	0	clean	bd91a328350497de
+1	7	0	clean	bd91a328350497de
+51	3680	656438605	CMakeFiles/monerujo.dir/src/main/cpp/monerujo.cpp.o	e8208ed733bee6e5
+3681	6329	656438607	../../../../build/intermediates/cxx/Debug/4x6u2d6n/obj/x86_64/libmonerujo.so	5c4e09d8205a9235

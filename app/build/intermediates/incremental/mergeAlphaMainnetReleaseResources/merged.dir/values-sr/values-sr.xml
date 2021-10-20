@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="daynight_themes">
+        <item>Auto</item>
+        <item>Day</item>
+        <item>Night</item>
+    </string-array>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d ново обавештење</item>
+    <item quantity="few">%d нова обавештења</item>
+    <item quantity="other">%d нових обавештења</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Идите на почетну"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Идите нагоре"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Још опција"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Прикажи све"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Изаберите апликацију"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ИСКЉУЧЕНО"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"УКЉУЧЕНО"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"тастер за размак"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Претражите…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Обришите упит"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Претражите упит"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Претражите"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Пошаљите упит"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Гласовна претрага"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Делите помоћу"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Делите помоћу апликације <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Скупи"</string>
+    <string name="about_close">Close</string>
+    <string name="about_version">Version %1$s (%2$d)</string>
+    <string name="about_whoami">I am monerujo</string>
+    <string name="accounts_drawer_new">Kreiraj račun</string>
+    <string name="accounts_new">Dodat nov račun #%1$d</string>
+    <string name="accounts_progress_new">Kreiranje računa</string>
+    <string name="archive_progress">Arhiviranje u toku</string>
+    <string name="backup_failed">Bekap neuspeo!</string>
+    <string name="backup_progress">Bekap u toku</string>
+    <string name="backup_success">Bekap uspešan</string>
+    <string name="bad_fingerprint">Otisak prsta nije prepoznat. Try again.</string>
+    <string name="bad_ledger_seed">Nevalidno seme iz knjige računa!</string>
+    <string name="bad_password">Netačna lozinka!</string>
+    <string name="bad_saved_password">Sačuvana lozinka nije ispravna.\nMolimo unestite lozinku ručno.</string>
+    <string name="bad_wallet">Novčanik ne postoji!</string>
+    <string name="bottomsheet_action_expand_halfway">Проширите до пола</string>
+    <string name="changepw_failed">Promena lozinke neuspela!</string>
+    <string name="changepw_progress">Promena lozinke u toku</string>
+    <string name="changepw_success">Lozinka promenjena</string>
+    <string name="character_counter_content_description">Унети знакови: %1$d од %2$d</string>
+    <string name="character_counter_overflowed_content_description">Прекорачено је ограничење броја знакова: %1$d од %2$d</string>
+    <string name="clear_text_end_icon_content_description">Обриши текст</string>
+    <string name="credits_text"><![CDATA[
+        <b>Credits</b>
+        <br/>
+        m2049r, baltsar777, anhdres, keejef,
+        rehrar, EarlOfEgo, ErCiccione et al.
+        <br/><br/>
+        <a href="https://monerujo.io/">monerujo.io</a>
+        ]]></string>
+    <string name="delete_alert_message">Ovaj novčanik će biti obrisan. Vaša sredstva će zauvek nestati ako nemate svoje seme ili ispravnu rezervnu kopiju da biste ih vratili.</string>
+    <string name="delete_alert_no">Ne, hvala!</string>
+    <string name="delete_alert_yes">Da, uradi to!</string>
+    <string name="delete_failed">Delete failed!</string>
+    <string name="deletecache_alert_message">This wallet will be reset, losing all off-chain data (like notes, account &amp; subaddress names, private transaction keys, ...)! Use this ONLY if this wallet is corrupt and does not load!</string>
+    <string name="details_alert_message">Osetljivi podaci će biti pokazani.\nLook over your shoulder!</string>
+    <string name="details_alert_no">Vrati me nazad!</string>
+    <string name="details_alert_yes">Siguran sam</string>
+    <string name="details_title">Detalji</string>
+    <string name="error_icon_content_description">Грешка</string>
+    <string name="exposed_dropdown_menu_content_description">Прикажи падајући мени</string>
+    <string name="fab_create_new">Kreiraj novi novčanik</string>
+    <string name="fab_restore_key">Povrati novčanik iz privatnih šifri</string>
+    <string name="fab_restore_ledger">Povrati iz knjige računa nano S</string>
+    <string name="fab_restore_seed">Povrati novčanik iz semena od 25 reči</string>
+    <string name="fab_restore_viewonly">Obnovi novčanik za pregled</string>
+    <string name="generate_address_hint">Javna adresa</string>
+    <string name="generate_address_label">Javna adresa</string>
+    <string name="generate_address_label_sub">Javna subadresa #%1$d: %2$s</string>
+    <string name="generate_bad_passwordB">Fraze-lozinke se ne podudaraju</string>
+    <string name="generate_buttonGenerate">Napravi mi već novčanik!</string>
+    <string name="generate_button_accept">Primetio sam mnemoničko seme</string>
+    <string name="generate_check_address">Unesi validnu adresu</string>
+    <string name="generate_check_key">Unesi validnu šifru</string>
+    <string name="generate_check_mnemonic">Unesi tvoje seme od 25 reči</string>
+    <string name="generate_crazypass_label">Fajlovi novčanika obnova lozinke</string>
+    <string name="generate_empty_passwordB">Fraza-lozinka ne može biti prazna</string>
+    <string name="generate_fingerprint_hint">Dozvoli otvaranje novčanika otiskom prsta</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>Autorizacija otiska prsta</strong>
+        <p>Sa omogućenom autorizacijom otiska prsta možeš videti stanje u novčaniku i primiti sredstva
+        bez unosa lozinke.</p>
+        <p>Ali za dodatnu sigurnost, monerujo će ipak tražiti da uneseš lozinku za
+        pregledanje novčaničkih detalja ili slanje sredstava.</p>
+        <strong>Sigurnosno upozorenje</strong>
+        <p>Konačno, monerujo želi da te podseti da biloko ko može imati tvoj otisak prsta biće
+        sposoban da zaviri u stanje tvog novčanika.</p>
+        <p>Na primer, zlonamerni korisnik iz tvoje okoline može ti otvoriti novčanik dok spavaš.</p>
+        <strong>Da li si siguran da omogućavaš ovu funkciju?</strong>
+    ]]></string>
+    <string name="generate_mnemonic_hint">Menemonično seme od 25 reči</string>
+    <string name="generate_mnemonic_label">Mnemoničko seme</string>
+    <string name="generate_name_hint">Ime novčanika</string>
+    <string name="generate_password_hint">Fraza-lozinka novčanika</string>
+    <string name="generate_restoreheight_error">Unesi broj datuma u formatu (YYYY-MM-DD)</string>
+    <string name="generate_restoreheight_hint">Obnovi visinu ili datum u formatu (YYYY-MM-DD)</string>
+    <string name="generate_spendkey_hint">Šifra potrošnje</string>
+    <string name="generate_spendkey_label">Šifra potrošnje</string>
+    <string name="generate_title">Kreiraj novčanik</string>
+    <string name="generate_viewkey_hint">Vidna šifra</string>
+    <string name="generate_viewkey_label">Vidna šifra</string>
+    <string name="generate_wallet_created">Novčanik kreiran</string>
+    <string name="generate_wallet_creating">Kreiranje novčanika</string>
+    <string name="generate_wallet_dot">Nemožeš početi sa .</string>
+    <string name="generate_wallet_exists">Novčanik postoji!</string>
+    <string name="generate_wallet_name">Daj mi ime!</string>
+    <string name="generate_wallet_type_key">Šifre</string>
+    <string name="generate_wallet_type_new">Novo</string>
+    <string name="generate_wallet_type_seed">Seme</string>
+    <string name="generate_wallet_type_view">Pregled</string>
+    <string name="gunther_says">There is nothing here\nPlease create or restore a wallet</string>
+    <string name="help_create_keys"><![CDATA[
+        <h1>Create Wallet - Keys</h1>
+        <p>If you are recovering your wallet using your keys!</p>
+        <p>Enter a unique wallet name and password. The password is used for securing your wallet data on the device.
+        Use a strong password - even better use a passphrase.<p>
+        <p>Enter your Monero Address in the field \"Public Address\" and fill out \"View Key\" and  \"Spend Key\".</p>
+        <p>Enter the block number of the first transaction used for this address in the
+        field \"Restore Height\". You can also use a date in the format YYYY-MM-DD. If you are not sure,
+        enter an approximate date/blockheight <em>before</em> you first used this wallet address.</p>
+    ]]></string>
+    <string name="help_create_ledger"><![CDATA[
+        <h1>Create Wallet - Ledger</h1>
+        <p>You want to recover your wallet from your Ledger Nano S device.</p>
+        <p>Your secret keys never leave the Ledger device, so you need it plugged in every
+        time you want to access your wallet.</p>
+        <p>Enter a unique wallet name and password. The password is used for securing your wallet data on the Android
+        device. Use a strong password - even better use a passphrase.</p>
+        <p>Enter the block number of the first transaction used for this address in the
+        field \"Restore Height\". You can also use a date in the format YYYY-MM-DD. If you are not sure,
+        enter an approximate date/blockheight <em>before</em> you first used this wallet address.</p>
+    ]]></string>
+    <string name="help_create_new"><![CDATA[
+        <h1>Create Wallet - New</h1>
+        <p>If you need a new Monero Address!</p>
+        <p>Enter a unique wallet name and password.
+        The password is used for securing your wallet data on the device. Use a strong password -
+        even better use a passphrase.</p>
+        <h2>Note your Mnemonic Seed!</h2>
+        <p>On the following screen you will find your 25-word \"Mnemonic Seed\".
+        This is the only data needed to recover your wallet at a later point
+        and gain full access to your funds.
+        Keeping this secure and private is very important, as it gives <em>anyone</em>
+        full access to your funds!</p>
+        <p>If you lose your wallet password, you can still recover your wallet with the Mnemonic Seed.</p>
+        <p>There is no way to recover your Mnemonic Seed, if you lose it all your funds will be lost!
+        The Mnemonic Seed can also never be changed, and if it is stolen or otherwise compromised,
+        you will have to move your funds to new wallet (with a new Mnemonic Seed). Therefore, it is best
+        that you backup your Mnemonic Seed by writing it down and storing it in <em>multiple</em> safe
+        and secure places.</p>
+    ]]></string>
+    <string name="help_create_seed"><![CDATA[
+        <h1>Create Wallet - Seed</h1>
+        <p>If you already have a Monero Address and want to recover the transactions from the blockchain!</p>
+        <p>Enter a unique wallet name and password. The password is used for securing your wallet data on the device.
+        Use a strong password - even better use a passphrase.</p>
+        <p>Enter your Seed in the field \"Mnemonic Seed\".<p>
+        <p>Enter the block number of the first transaction used for this address in the
+        field \"Restore Height\". You can also use a date in the format YYYY-MM-DD. If you are not sure,
+        enter an approximate date/blockheight <em>before</em> you first used this wallet address.</p>
+    ]]></string>
+    <string name="help_create_view"><![CDATA[
+        <h1>Create Wallet - View</h1>
+        <p>If you just want to monitor incoming transactions to a wallet!</p>
+        <p>Enter a unique wallet name and password. The password is used for securing your wallet data on the device.
+        Use a strong password - even better use a passphrase.<p>
+        <p>Enter your Monero Address in the field \"Public Address\" and fill out the \"View Key\".</p>
+        <p>Enter the block number of the first transaction used for this address in the
+        field \"Restore Height\". You can also use a date in the format YYYY-MM-DD. If you are not sure,
+        enter an approximate date/blockheight <em>before</em> you first used this wallet address.</p>
+    ]]></string>
+    <string name="help_details"><![CDATA[
+        <h1>Wallet Details</h1>
+        <h2>Public address</h2>
+        Your public address is like your bank account number you can share this with anyone without
+        having to fear losing your Monero. People will send Monero to your wallet using this address.
+        <h2>Mnemonic Seed</h2>
+        This is the only data needed to recover your wallet at a later point and gain full access to
+        your funds. Keeping this private and secure is very important, as it gives <em>anyone</em> full
+        access to your Monero! If you haven’t written this down somewhere safe please do!
+        <h2>Wallet Files Recovery Password</h2>
+        Make sure you write this password down. If you reset your device or uninstall the app, you
+        will need it to access your wallet again.<br/>
+        <h3>CrAzYpass</h3>
+        If the password displayed here is 52 alphanumeric characters in groups of 4 - congratulations!
+        Your wallet files are secured with a 256-bit key generated by your device&apos;s security
+        features based on the passphrase you chose (on creation or by changing it). This makes it
+        extremely difficult to hack!<br/>
+        This feature is mandatory for all newly created wallets.
+        <h3>Legacy Password</h3>
+        If you see your passphrase here, your wallet files are not as secure as when using
+        a CrAzYpass. To fix this, simply select \"Change Passphrase\" from the menu. After entering
+        a new passphrase (maybe even the same one as before) the app will generate a CrAzYpass for
+        you and secure your wallet files with it. Write it down!
+        <h3>CrAzYpass wallets</h3>
+        If you ever need to reinstall Monerujo (for example after resetting your phone or switching
+        to a new one) or you want to use your wallet files on a different device or PC, you have to
+        use this Recovery Password in order to access your wallet again.<br/>
+        By selecting \"Change Passphrase\" from the menu, you can choose another passphrase. Beware
+        that this will generate a new Recovery Password. Write it down!
+        <h2>View key</h2>
+        Your view key can be used to monitor incoming transactions to your wallet without giving
+        permission to spend the funds inside your wallet.
+        <h2>Spend key</h2>
+        Your spend key allows anyone to spend the Monero associated with your wallet, so don’t tell
+        anyone this key, keep it safe like your Mnemonic Seed.
+    ]]></string>
+    <string name="help_list"><![CDATA[
+        <h1>Wallet List</h1>
+        <h2>Node</h2>
+        <p>Monerujo uses a Remote Node to communicate with the Monero Network without having
+        to download and store a copy of the whole blockchain itself. You can find a list of popular
+        remote nodes or learn how to run your own remote node here https://moneroworld.com/<p>
+        <p>Monerujo comes with some Remote Nodes preset. It remembers the last five nodes used.</p>
+        <h2>Wallets</h2>
+        <p>Here you see your wallets. They are located in the <tt>monerujo</tt> folder
+        in the internal storage of your device. You can use a file explorer app to see them.
+        You should make backups of this folder on a regular basis to off-device storage in
+        case your device explodes or gets stolen.</p>
+        <p>Select a wallet to open it or press the \"+\" to create a new one.
+        Or select one of the wallet operations:</p>
+        <h3>Details</h3>
+        <p>Show the wallet details, seed &amp; keys.</p>
+        <h3>Receive</h3>
+        <p>Make a QR code for receiving Moneroj.</p>
+        <h3>Rename</h3>
+        <p>Rename the wallet. Backups are not renamed.</p>
+        <h3>Backup</h3>
+        <p>Make a copy of the wallet in the <tt>backups</tt> folder inside the <tt>monerujo</tt>
+        overwriting previous copies there.</p>
+        <h3>Archive</h3>
+        <p>Make a backup and delete the wallet afterwards. The copy remains in the <tt>backups</tt>
+        folder. If you no longer need your backups you should delete them with a file explorer or
+        secure delete app.</p>
+    ]]></string>
+    <string name="help_node"><![CDATA[
+        <h1>Nodes</h1>
+        <h2>TL;DR</h2>
+        <p>Refresh the nodes list by pulling down &amp; bookmark 3&#8211;5 nodes to allow Monerujo
+        to choose the best one for you!</p>
+        <h2>What&apos;s a Node?</h2>
+        <p>Monerujo uses a Remote Node (sometimes also called Daemon) to communicate with
+        the Monero Network without having to download and store a copy of the
+        whole blockchain itself.<p>
+        <h2>Node List</h2>
+        <p>If the list is empty, you can either add new nodes manually or let Monerujo
+        scan the network for you. Or both. Read on&#8230;</p>
+        <p>The node list shows all currently known nodes. Additionally, the timestamp
+        of the latest block known to each node is shown under the node name. An icon
+        representing the node&apos;s response behaviour
+        (which indicates the level of connectivity to be expected)
+        is shown next to each node.</p>
+        <p>Any node in the list can be bookmarked for later use.
+        Nodes which are not bookmarked will be forgotten.<p>
+        <p>Monerujo will choose the optimal bookmarked node each time you use it.
+        It does this by checking the blockheight (how up-to-date
+        is the node?) as well as the response behaviour (how fast does the node respond to requests?).</p>
+        <p>The list is sorted by these characteristics, so the top node would be the one Monerujo
+        would choose right now. The bottom of the list would show very slow or unavailable nodes.</p>
+        <h2>Add a Node</h2>
+        <p>By touching the &quot;Add Node&quot; button at the bottom, you will be asked to
+        enter the node details in the following dialog.
+        The &quot;Address&quot; is the hostname or IP-address of the node - this is the only
+        mandatory entry.
+        Enter the &quot;Port&quot; if the node runs on a non-default port (e.g. 18089).
+        You can also optionally name the node, so you can identify it easier later on.
+        Some nodes require credentials to use them. Enter the provided username &amp;
+        password in the appropriate fields. Now you can &quot;Test&quot; these setting.
+        The &quot;Test Results&quot; will display the blockheight, response time and actual IP used.
+        The result may also be an error - usually because the hostname provided is
+        not reachable in a sensible amount of time or the credentials are incorrect.
+        Or the hostname/port combination does not point to an actual Monero Node!
+        Once the test passes (no error) - you&apos;re set to press &quot;OK&quot; to save &amp;
+        bookmark this node.</p>
+        <h2>Scan for Nodes</h2>
+        <p>Additionally, you can scan the network for nodes. Monerujo will start
+        scanning the network for Remote Nodes on port 18089. It begins by asking your
+        bookmarked nodes for other peers in the Monero P2P network and then continues
+        by asking those for their peers, and so on. If you have no bookmarked nodes
+        (or they don&apos;t tell us about their peers),
+        Monerujo will go straight to the Monero seed nodes hardcoded into Monero. The
+        scan stops when it finds 10 remote nodes in total.</p>
+    ]]></string>
+    <string name="help_ok">Got it!</string>
+    <string name="help_send"><![CDATA[
+        <h1>Send</h1>
+        <h2>Receiver’s address</h2>
+        <p>This is the public address of the wallet you are sending Moneroj to, you can copy this from
+        your clipboard, scan a QR code or enter it manually. Make sure you triple check this to
+        ensure you aren’t sending coins to the wrong address.</p>
+        <p>In addition to using an XMR address, you can also use
+        <ul>
+            <li>an OpenAlias for XMR or BTC</li>
+            <li>a BTC address</li>
+        </u>
+        Please note, that sending BTC is processed through the SideShift.ai service (see https://sideshift.ai
+        for details). See the section on sending BTC below.</p>
+        <h1>Sending BTC</h1>
+        <h2>SideShift.ai</h2>
+        <p>SideShift.ai is a third party service which acts as an exchange from Monero to Bitcoin.
+        We use the SideShift.ai API to integrate Bitcoin payments into Monerujo. Please check out
+        https://sideshift.ai and decide for yourself if this is something you want to use. The Monerujo
+        Team is not associated with SideShift.ai and cannot help you with their service.</p>
+        <h2>SideShift.ai Exchange Rate<h2>
+        <p>On the \"Amount\" screen you will be shown the current parameters of the SideShift.ai service. These
+        include the current exchange rate as well as upper and lower BTC limits. Note that this
+        rate is not guaranteed at this point.</p>
+        <h2>SideShift.ai Order<h2>
+        <p>On the \"Confirm\" screen, you will see the actual SideShift.ai order. This order is valid for
+        a limited time - you may notice a countdown on the \"Spend\" button. The exchange rate may
+        be different to the indicative one shown on previous screens.</p>
+        <h2>SideShift.ai Secret Key<h2>
+        <p>Since Monerujo only handles the Monero part of your transaction your SideShift.ai secret key
+        can be used to track the Bitcoin part of your order on the SideShift.ai homepage.</p>
+        <h2>SideShift.ai Countdown!</h2>
+        <p>Once the countdown reaches zero, you need to get a new quote from SideShift.ai by going back to the
+        previous step and then coming back to the \"Confirm\" screen.</p>
+    ]]></string>
+    <string name="help_tx_details"><![CDATA[
+        <h1>Transaction Details</h1>
+        <h2>Destination</h2>
+        This is the public address of the wallet you sent Monero to
+        <h2>PaymentID</h2>
+        You can use a Payment ID to identify the reason you sent Monero between two parties this is
+        fully optional and private. For example it can allow a Business to reconcile your transaction
+        with an item you bought.
+        <h2>TX ID</h2>
+        This is your Transaction ID you can use it to identify your obfuscated transaction on a Monero
+        Blockchain explorer like <a href="https://xmrchain.net/">https://xmrchain.net/</a>
+        <h2>TX KEY (Transaction Key)</h2>
+        This is your transaction private key, keep this safe as revealing this to a third party
+        reveals which signature in a ring is yours, thereby making your transaction transparent.
+        <h2>Block</h2>
+        This was the block your transaction was included in.
+    ]]></string>
+    <string name="help_uri"><![CDATA[
+        <h1>Using a payment link</h1>
+        <p>You have started monerujo with a payment link. In order to send funds, please do the following:</p>
+        <p>
+        1. Open the wallet you want to spend from<br>
+        2. Wait until the wallet is synced &amp; the "Give" button appears<br>
+        3. Touch the "Give" button
+        </p>
+        <p>The payment details will be filled in. Check them and proceed like for any other transaction.</p>
+    ]]></string>
+    <string name="help_wallet"><![CDATA[
+        <h1>The Wallet</h1>
+        <h2>Street Mode</h2>
+        <p>Street mode can be enabled/disabled in the menu or Gunther\'s head icon. In this mode, your
+        balance is not shown on any screen so you can safely use your wallet on the street, a pub or
+        other public place. Previous transactions are also hidden. New transactions will be shown, so
+        you can see that you have sent/received sweet Moneroj!</p>
+        <h2>Scanning</h2>
+        Because Monero likes to keep things private, every time you open a Monerujo wallet we have to
+        scan the blockchain to see if any new Moneroj have been sent to your wallet, this only
+        stores information to your phone which belongs to your wallet. Sometimes it can take a while
+        because you haven’t synced in a long time.
+        <h2>The Balance</h2>
+        <p><b>Help! My wallet balance has disappeared or is unconfirmed!</b><br/>
+        Don’t panic! When you send funds from your wallet, some of your balance will temporarily show
+        as unconfirmed.
+        This happens as a result of how Monero is exchanged on the blockchain and how change works.
+        Read more about change at https://getmonero.org/resources/moneropedia/change.html
+        <h2>Transaction List</h2>
+        <p>A list of the wallet transactions. In view wallets, only incoming transactions are shown.</p>
+    ]]></string>
+    <string name="help_xmrto"><![CDATA[
+        <h1>Sending BTC</h1>
+        <h2>SideShift.ai</h2>
+        <p>SideShift.ai is a third party service which acts as an exchange from Monero to Bitcoin.
+        We use the SideShift.ai API to integrate Bitcoin payments into Monerujo. Please check out
+        https://sideshift.ai and decide for yourself if this is something you want to use. The Monerujo
+        Team is not associated with SideShift.ai and cannot help you with their service.</p>
+        <h2>SideShift.ai Exchange Rate<h2>
+        <p>On the \"Amount\" screen you will be shown the current parameters of the SideShift.ai service. These
+        include the current exchange rate as well as upper and lower BTC limits. Note that this
+        rate is not guaranteed at this point.</p>
+        <h2>SideShift.ai Order<h2>
+        <p>On the \"Confirm\" screen, you will see the actual SideShift.ai order. This order is valid for
+        a limited time - you may notice a countdown on the \"Spend\" button. The exchange rate may
+        be different to the indicative one shown on previous screens.</p>
+        <h2>SideShift.ai Secret Key<h2>
+        <p>Since Monerujo only handles the Monero part of your transaction your SideShift.ai secret key
+        can be used to track the Bitcoin part of your order on the SideShift.ai homepage.</p>
+        <h2>SideShift.ai Countdown!</h2>
+        <p>Once the countdown reaches zero, you need to get a new quote from SideShift.ai by going back to the
+        previous step and then coming back to the \"Confirm\" screen.</p>
+    ]]></string>
+    <string name="icon_content_description">Икона дијалога</string>
+    <string name="info_ledger_enabled">Knjiga računa omogućena, tapni za više info.</string>
+    <string name="info_nodes_enabled">Node-o-matiC (skener udaljenog čvora) omogućen, tapni za više info.</string>
+    <string name="info_paymentid_integrated">✔ ID plaćanja integrisan</string>
+    <string name="info_prepare_tx">Priprema tvoje transakcije</string>
+    <string name="info_send_xmrto_error">SideShift.ai Greška (%1$s)</string>
+    <string name="info_send_xmrto_paid">Potvrda u toku</string>
+    <string name="info_send_xmrto_parms"><![CDATA[
+        <b>Možeš poslati %1$s &#8212; %2$s %4$s</b>.<br/>
+        <i><b>SideShift.ai</b> daje ti devizni kurs od <b>%3$s %4$s/XMR</b> <u>trenutno</u></i>.
+    ]]></string>
+    <string name="info_send_xmrto_query">Ispitivanje …</string>
+    <string name="info_send_xmrto_sent">%1$s Poslato!</string>
+    <string name="info_send_xmrto_success_btc">%1$s %2$s</string>
+    <string name="info_send_xmrto_success_order_label">SideShift.ai Nalog</string>
+    <string name="info_send_xmrto_unpaid">Plaćanje u toku</string>
+    <string name="info_xmrto"><![CDATA[
+        <b>Ubacio/la si %1$s adresu.</b><br/>
+        <i>You&apos;će poslati XMR a primalac će dobiti %1$s koristeći <b>SideShift.ai</b> servis.</i>
+    ]]></string>
+    <string name="info_xmrto_ambiguous"><![CDATA[
+        <b>Ambiguous address.</b><br/>
+        <i>Please select the type above.</i>
+    ]]></string>
+    <string name="info_xmrto_enabled">Omogućeno BTC plaćanje, tapni za više info.</string>
+    <string name="info_xmrto_help"><![CDATA[
+        <b>Please enter or scan a %1$s address.</b><br/>
+        <i>You&apos;ll send XMR and the receiver will get %2$s using the <b>SideShift.ai</b> service.</i>
+    ]]></string>
+    <string name="info_xmrto_help_xmr"><![CDATA[
+        <b>Please enter or scan a Monero address.</b>
+    ]]></string>
+    <string name="item_view_role_description">Картица</string>
+    <string name="label_cancel">Otkaži</string>
+    <string name="label_close">Zatvori</string>
+    <string name="label_copy_address">Javna adresa</string>
+    <string name="label_copy_viewkey">Vidna šifra</string>
+    <string name="label_copy_xmrtokey">Šifra</string>
+    <string name="label_credits">Krediti</string>
+    <string name="label_daemon">Čvor</string>
+    <string name="label_generic_xmrto_error">SideShift.ai GREŠKA</string>
+    <string name="label_login_wallets">Novčanici</string>
+    <string name="label_nodes">Čvorovi</string>
+    <string name="label_ok">OK</string>
+    <string name="label_receive_info_gen_qr_code">Takni za QR kod</string>
+    <string name="label_restoreheight">Obnovi visinu</string>
+    <string name="label_send_address">Adresa odredišta</string>
+    <string name="label_send_btc_address">Odredište %1$s adrese</string>
+    <string name="label_send_btc_amount">Suma</string>
+    <string name="label_send_btc_xmrto_info">Poseti SideShift.ai za bekap &amp; praćenje</string>
+    <string name="label_send_btc_xmrto_key">SideShift.ai Tajna šifra</string>
+    <string name="label_send_btc_xmrto_key_lb">Tajna šifra\nSideShift.ai</string>
+    <string name="label_send_done">Gotovo</string>
+    <string name="label_send_notes">Beleške</string>
+    <string name="label_send_progress_create_tx">Pripremanje Monero transakcije</string>
+    <string name="label_send_progress_queryparms">Ispitivanje SideShift.ai parametara</string>
+    <string name="label_send_progress_xmrto_create">Kreiranje SideShift.ai Nalog</string>
+    <string name="label_send_progress_xmrto_query">Ispitivanje SideShift.ai Nalog</string>
+    <string name="label_send_success">Uspešno poslato</string>
+    <string name="label_send_txid">ID transakcije</string>
+    <string name="label_test">Testiranje</string>
+    <string name="label_wallet_advanced_details">Takni za detaljne informacije</string>
+    <string name="label_wallet_receive">Primljeno</string>
+    <string name="label_wallet_send">Daj</string>
+    <string name="label_watchonly">(Samo za pregled)</string>
+    <string name="language_system_default">Koristi sistemski jezik</string>
+    <string name="material_clock_toggle_content_description">Изаберите пре подне или по подне</string>
+    <string name="material_hour_selection">Изаберите сат</string>
+    <string name="material_hour_suffix">%1$s с</string>
+    <string name="material_minute_selection">Изаберите минуте</string>
+    <string name="material_minute_suffix">%1$s мин</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Пређите у режим сата ради уноса времена.</string>
+    <string name="material_timepicker_hour">Сат</string>
+    <string name="material_timepicker_minute">Минут</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Изаберите време</string>
+    <string name="material_timepicker_text_input_mode_description">Пређите у режим уноса текста ради уноса времена.</string>
+    <string name="max_account_warning">Too many unused accounts - use some to enable creating more!</string>
+    <string name="max_subaddress_warning">Too many unused addresses - use some to enable creating more!</string>
+    <string name="menu_about">O nama</string>
+    <string name="menu_backup">Bekap</string>
+    <string name="menu_changepw">Promeni lozinku</string>
+    <string name="menu_daynight">Dark Mode</string>
+    <string name="menu_default_nodes">Restore default nodes</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_deletecache">Reset wallet!</string>
+    <string name="menu_help">Pomoć</string>
+    <string name="menu_info">Pokaži tajne</string>
+    <string name="menu_language">Jezik</string>
+    <string name="menu_ledger_seed">Pretvori seme iz knjige računa</string>
+    <string name="menu_privacy">Pravila privatnosti</string>
+    <string name="menu_receive">Primi</string>
+    <string name="menu_rename">Preimenuj</string>
+    <string name="menu_rescan">Rescan!</string>
+    <string name="menu_restore">Import wallet</string>
+    <string name="menu_share">Podeli</string>
+    <string name="menu_streetmode">Ulični mod</string>
+    <string name="message_camera_not_permitted">Nema kamere = Nema QR skeniranja!</string>
+    <string name="message_copy_address">Adresa novčanika kopirna u klipbord!</string>
+    <string name="message_copy_txid">ID transakcije kopiran u klipord!</string>
+    <string name="message_copy_viewkey">Vidna šifra kopirana u klipbord!</string>
+    <string name="message_copy_xmrtokey">Šifra kopirana u klipbord!</string>
+    <string name="message_exchange_failed">Ne može se dobiti kurs!\nUse XMR/XMR or try again</string>
+    <string name="message_nocopy">Kopiranje je onemogućeno iz sigurnosnih razloga!</string>
+    <string name="message_strorage_not_permitted">Stvarno su nam potrebna odobrenja za ta eksterna skladišta!</string>
+    <string name="message_strorage_not_writable">Eksterno skladište nije zapisivo! Panika!</string>
+    <string name="mtrl_badge_numberless_content_description">Ново обавештење</string>
+    <string name="mtrl_chip_close_icon_content_description">Уклоните %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Нових обавештења: више од %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
+    <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
+    <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Изаберите датум</string>
+    <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
+    <string name="mtrl_picker_day_of_week_column_header">Колона са данима: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Формат је неважећи.</string>
+    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Користите: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Неважећи период.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Идите на годину %1$s</string>
+    <string name="mtrl_picker_out_of_range">Изван периода: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Датум почетка – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Датум завршетка</string>
+    <string name="mtrl_picker_range_header_selected">%1$s–%2$s</string>
+    <string name="mtrl_picker_range_header_title">Изаберите период</string>
+    <string name="mtrl_picker_range_header_unselected">Датум почетка – Датум завршетка</string>
+    <string name="mtrl_picker_save">Сачувај</string>
+    <string name="mtrl_picker_text_input_date_hint">Датум</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Датум завршетка</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Датум почетка</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Пређите на режим уноса у Календару</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Додирните да бисте прешли на избор дана</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Пређите на режим уноса текста</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Додирните да бисте прешли на избор године</string>
+    <string name="nfc_tag_read_undef">Ne razumem tag!</string>
+    <string name="nfc_tag_read_what">Ne znam šta si mislio!</string>
+    <string name="nfc_tag_size">Tag omogućava %1$d bajta, međutim nama treba %2$d!</string>
+    <string name="nfc_tag_tap">NFC dostupno!</string>
+    <string name="nfc_tag_unsupported">Tag ne podržava NDEF!</string>
+    <string name="nfc_write_failed">Pisanje taga neuspelo!</string>
+    <string name="nfc_write_successful">Pisanje taga uspešno</string>
+    <string name="node_address_hint">Ime hosta</string>
+    <string name="node_auth_error">NEUSPELA AUTORIZACIJA</string>
+    <string name="node_create_hint">Takni da izabereš ili dodaš čvorove</string>
+    <string name="node_fab_add">Dodaj čvor</string>
+    <string name="node_general_error">KONEKCIJSKA GREŠKA</string>
+    <string name="node_height">Poslednji blok ažuriran: %1$s</string>
+    <string name="node_host_empty">Ovo nam treba!</string>
+    <string name="node_host_unresolved">Nemoguće je prepoznati hosta</string>
+    <string name="node_name_hint">Ime čvora (opciono)</string>
+    <string name="node_nobookmark">Automatski označeni najbolji %1$d čvorovi</string>
+    <string name="node_pass_hint">Lozinka (opciono)</string>
+    <string name="node_port_hint">Port</string>
+    <string name="node_port_numeric">Mora biti numerički</string>
+    <string name="node_port_range">Mora biti 1–65535</string>
+    <string name="node_pull_hint">Dodaj čvorove ručno ili povuci dole za skeniranje</string>
+    <string name="node_refresh_hint">Takni da osvežiš!</string>
+    <string name="node_refresh_wait">Molimo sačekajte da se skeniranje završi</string>
+    <string name="node_result">Visina: %1$s (v%2$d), Ping: %3$.0fms, IP: %4$s</string>
+    <string name="node_result_label">Rezultat testa:</string>
+    <string name="node_scanning">Skeniranje mreže…</string>
+    <string name="node_test_error">KONEKCIJSKA GREŠKA %1$d</string>
+    <string name="node_testing">Provera IP-a: %1$s …</string>
+    <string name="node_updated_days">Last Block: %1$d days ago</string>
+    <string name="node_updated_hours">Last Block: %1$d hours ago</string>
+    <string name="node_updated_mins">Last Block: %1$d minutes ago</string>
+    <string name="node_updated_now">Last Block: %1$d seconds ago</string>
+    <string name="node_user_hint">Ime korisnika (opciono)</string>
+    <string name="onboarding_agree">I get it!</string>
+    <string name="onboarding_button_next">Next</string>
+    <string name="onboarding_button_ready">I\'m ready!</string>
+    <string name="onboarding_fpsend_information">You\'re now able to send XMR with just your fingerprint if you enabled it. To request the password, just disable fingerprint access.</string>
+    <string name="onboarding_fpsend_title">Send with fingerprint</string>
+    <string name="onboarding_nodes_information">Nodes connect you to the Monero network. Choose between public nodes or go full cypherpunk using your own.</string>
+    <string name="onboarding_nodes_title">Nodes, your way</string>
+    <string name="onboarding_seed_information">The seed grants full access to whoever has it. If you lose it, we cannot help you recover it and you lose your beloved moneroj.</string>
+    <string name="onboarding_seed_title">Keep your seed safe</string>
+    <string name="onboarding_welcome_information">This app allows you to create and use Monero wallets. You can store your sweet moneroj in them.</string>
+    <string name="onboarding_welcome_title">Welcome to Monerujo!</string>
+    <string name="onboarding_xmrto_information">Monerujo has SideShift.ai support built-in. Just paste or scan a BTC, LTC, ETH, DASH or DOGE address and you\'ll be sending these cryptos by spending XMR.</string>
+    <string name="onboarding_xmrto_title">Send Crypto</string>
+    <string name="open_wallet_ledger_missing">Molimo ponovo spojite uređaj knjige računa</string>
+    <string name="password_fair">Dosadno …</string>
+    <string name="password_good">Daj, možeš bolje!</string>
+    <string name="password_strong">Uskoro stižemo …</string>
+    <string name="password_toggle_content_description">Прикажи лозинку</string>
+    <string name="password_very_strong">To bre, h4x0r stil!</string>
+    <string name="password_weak">Nastavi s\'kucanjem …</string>
+    <string name="privacy_policy"><![CDATA[
+        <h1>Privacy Policy</h1>
+        <p>This page informs you of our policies regarding the collection,
+        use and disclosure of personal information we receive from users of our
+        app (monerujo: Monero Wallet).
+        </p>
+        <p>By using the app, you agree to the collection and use of information in
+        accordance with this policy.
+        </p>
+        <h2>Data Collected</h2>
+        <p>Personal data is any kind of data that could identify an individual.
+        </p>
+        <p>Monero keys and public addresses are collected and processed by the app locally
+        for the purpose of processing transactions and transmitted into the Monero Network
+        in encrypted form.
+        </p>
+        <p>Other personal data is not collected by the app.</p>
+        <p>If you use the exchange (optional) functionality, monerujo fetches the exchange
+        rate through the public API of coinmarketcap.com.
+        See their privacy policy at https://coinmarketcap.com/privacy for
+        details on how data in your requests is collected.</p>
+        <p>If you use the app to pay to BTC addresses, you will be using the SideShift.ai service.
+        See their privacy policy at https://sideshift.ai/ for details. Monerujo send them the BTC
+        destination address and amount. Your IP will also be collectable.</p>
+        <h2>App Permissions</h2>
+        <ul>
+        <li>INTERNET : Connect to the Monero Network via a Monero Daemon Node</li>
+        <li>READ_EXTERNAL_STORAGE : Read wallet files stored on the device</li>
+        <li>WRITE_EXTERNAL_STORAGE : Write wallet files stored on the device</li>
+        <li>WAKE_LOCK : Keep device awake while syncing</li>
+        <li>CAMERA : Scan QR Codes for receiving Monero</li>
+        </ul>
+        <h2>Changes to this Privacy Policy</h2>
+        <p>We may update this privacy policy from time to time. We will notify
+        you of any changes by posting the new privacy policy in the app and on the
+        website (www.monerujo.io)
+        You are advised to review this privacy policy periodically for any changes.
+        <p>This Privacy Policy was last updated: 10th November, 2017.
+        </p>
+        <h2>Contact Us</h2>
+        <p>If you have any questions about our privacy policy,
+        or how your data is being collected and processed,
+        please e-mail privacy@monerujo.io.
+        </p>
+        ]]></string>
+    <string name="progress_ledger_confirm">Potrebna potvrda iz knjige računa!</string>
+    <string name="progress_ledger_lookahead">Povratak subadresa</string>
+    <string name="progress_ledger_mlsag">Hašovane stvari</string>
+    <string name="progress_ledger_opentx">Ludačko računanje</string>
+    <string name="progress_ledger_progress">Komunikacija sa knjigom računa</string>
+    <string name="progress_ledger_verify">Verifikovanje šifri</string>
+    <string name="progress_nfc_write">Pisanje taga</string>
+    <string name="prompt_changepw">Nova fraza-lozinka za %1$s</string>
+    <string name="prompt_changepwB">Ponovi fraza-lozinku za %1$s</string>
+    <string name="prompt_daemon_missing">Čvor mora biti podešen!</string>
+    <string name="prompt_fingerprint_auth">Možeš otvoriti novčanik i sa otiskom prsta.\nMolimo takni senzor.</string>
+    <string name="prompt_ledger_phrase">Fraza-lozinka iz knjige računa(napredno)</string>
+    <string name="prompt_ledger_seed">Reči semena iz knjige računa </string>
+    <string name="prompt_ledger_seed_warn">Unošenje tvog semena iz knjige računa na ovom mestu ima veliki sigurnosni rizik!</string>
+    <string name="prompt_open_wallet">Otvaranje novčanika…</string>
+    <string name="prompt_password">Lozinka za %1$s</string>
+    <string name="prompt_rename">Preimenuj %1$s</string>
+    <string name="prompt_wrong_net">Novčanik ne odgovara izabranoj mreži</string>
+    <string name="receive_amount_hint">Suma</string>
+    <string name="receive_amount_nan">XMR nije broj</string>
+    <string name="receive_amount_negative">Min. 0</string>
+    <string name="receive_amount_too_big">Maks. %1$s</string>
+    <string name="receive_cannot_open">Nemoguće otvaranje novčanika!</string>
+    <string name="receive_desc_hint">Opis (opciono)</string>
+    <string name="rename_failed">Preimenovanje neuspelo!</string>
+    <string name="rename_progress">Preimenovanje u toku</string>
+    <string name="restore_failed">Import failed!</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Претражите"</string>
+    <string name="send_address_hint">Primalac</string>
+    <string name="send_address_invalid">Nije validna adresa</string>
+    <string name="send_address_no_dnssec">OpenAlias bez DNSSEC - adrese može biti lažna</string>
+    <string name="send_address_not_openalias">OpenAlias adresa nije dostupna</string>
+    <string name="send_address_openalias">OpenAlias sigurnost ✔</string>
+    <string name="send_address_resolve_openalias">Rešavanje OpenAlias-a…</string>
+    <string name="send_address_title">Adresa</string>
+    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount_label">Suma</string>
+    <string name="send_amount_title">Suma</string>
+    <string name="send_available">Stanje: %1$s XMR</string>
+    <string name="send_available_btc">Stanje: %2$s %3$s (%1$s XMR)</string>
+    <string name="send_confirm_title">Potvrdi</string>
+    <string name="send_create_tx_error_title">Kreiraj transakcijsku grešku</string>
+    <string name="send_fee">+%1$s naknada</string>
+    <string name="send_fee_btc_label">Naknada (XMR)</string>
+    <string name="send_fee_label">Naknada</string>
+    <string name="send_generate_paymentid_hint">Generiši</string>
+    <string name="send_notes_hint">Privatne beleške (opciono)</string>
+    <string name="send_qr_address_invalid">Nije validan QR kod za plaćanje</string>
+    <string name="send_qr_invalid">Nije QR kod</string>
+    <string name="send_send_label">Potroši moj slatki Moneroj</string>
+    <string name="send_send_timed_label">Potroši moj slatki Moneroj (%1$s)</string>
+    <string name="send_success_title">Urađeno</string>
+    <string name="send_sweepall">Pošalji sva potvrđena sredstva na ovaj račun!</string>
+    <string name="send_title">Pošalji</string>
+    <string name="send_total_btc_label">Ukupno (XMR)</string>
+    <string name="send_total_label">Ukupno</string>
+    <string name="send_xmrto_timeout">Predugo si čekao prijatelju!</string>
+    <string name="service_busy">Još sam zauzet sa tvojim poslednjim novčanikom …</string>
+    <string name="service_description">monerujo Servis</string>
+    <string name="service_progress">Pakovanje …\nOvo može malo potrajati!</string>
+    <string name="shift_checkamount">Check amount and try again</string>
+    <string name="shift_noquote">Cannot get quote</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="status_remaining">Preostali blokovi</string>
+    <string name="status_synced">Sinhronizovano:</string>
+    <string name="status_syncing">Skeniranje:</string>
+    <string name="status_transaction_failed">Transakcija neuspela: %1$s</string>
+    <string name="status_wallet_connect_failed">Povezivanje čvora neuspelo!\nCheck username/password</string>
+    <string name="status_wallet_connect_ioex">Nemože se doći do čvora!\nTry again or another.</string>
+    <string name="status_wallet_connect_wrongversion">Verzija čvora nekompatibilna - molimo da je nadgradite!</string>
+    <string name="status_wallet_connecting">Povezivanje …</string>
+    <string name="status_wallet_disconnected">Nepovezano</string>
+    <string name="status_wallet_loading">Otvaranje novčanika …</string>
+    <string name="status_wallet_node_invalid">Čvor nije validan!\nTry another.</string>
+    <string name="status_wallet_unload_failed">Čuvanje novčanika neuspelo!</string>
+    <string name="status_wallet_unloaded">Novčanik sačuvan</string>
+    <string name="street_sweep_amount">SVE!</string>
+    <string name="subaddress_details_hint">Long-press for details</string>
+    <string name="subaddress_notx_label">No transactions for this subaddress yet</string>
+    <string name="subaddress_select_label">Select a subaddress</string>
+    <string name="subaddress_tx_label">Transactions for this subaddress:</string>
+    <string name="subbaddress_name_hint">Subaddress Name</string>
+    <string name="subbaddress_title">Subaddresses</string>
+    <string name="text_generic_xmrto_error">Kod: %1$d</string>
+    <string name="text_noretry">Uh, SideShift.ai izgleda da sad nije dostupan!</string>
+    <string name="text_noretry_monero">Sada se zaglavismo!</string>
+    <string name="text_retry">Takni za novi pokušaj </string>
+    <string name="text_send_btc_amount">%1$s %3$s = %2$s XMR</string>
+    <string name="text_send_btc_rate">(Rate: %1$s %2$s/XMR)</string>
+    <string name="toast_default_nodes">Restoring already in progress…</string>
+    <string name="toast_ledger_attached">%1$s zakačeno</string>
+    <string name="toast_ledger_detached">%1$s otkačeno</string>
+    <string name="toast_ledger_start_app">Start Monero App on %1$s</string>
+    <string name="tx_account">Račun #</string>
+    <string name="tx_amount">Suma</string>
+    <string name="tx_blockheight">Blok</string>
+    <string name="tx_destination">Odredište</string>
+    <string name="tx_failed">NEUSPELO</string>
+    <string name="tx_fee">Naknada</string>
+    <string name="tx_id">TX ID</string>
+    <string name="tx_key">TX šifra</string>
+    <string name="tx_list_amount_failed">(%1$s)</string>
+    <string name="tx_list_amount_negative">- %1$s</string>
+    <string name="tx_list_amount_positive">+ %1$s</string>
+    <string name="tx_list_failed_text">neuspelo</string>
+    <string name="tx_list_fee">- naknada %1$s</string>
+    <string name="tx_notes">Čvorovi</string>
+    <string name="tx_notes_hint">(opciono)</string>
+    <string name="tx_paymentId">ID plaćanja</string>
+    <string name="tx_pending">NA ČEKANJU</string>
+    <string name="tx_subaddress">Subadresa</string>
+    <string name="tx_timestamp">Vremenski žig</string>
+    <string name="tx_title">Detalji transakcije</string>
+    <string name="tx_transfers">Transferi</string>
+    <string name="wallet_activity_name">Novčanik</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s BDX nepotvrđeno</string>
+</resources>

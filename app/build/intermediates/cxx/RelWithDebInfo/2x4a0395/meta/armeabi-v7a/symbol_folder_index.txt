@@ -1,0 +1,1 @@
+C:\Users\Blockhash\StudioProjects\repository_beldex_android_wallet\app\build\intermediates\cxx\RelWithDebInfo\2x4a0395\obj\armeabi-v7a

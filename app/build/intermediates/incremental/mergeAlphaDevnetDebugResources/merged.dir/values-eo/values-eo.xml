@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="daynight_themes">
+        <item>Auto</item>
+        <item>Day</item>
+        <item>Night</item>
+    </string-array>
+    <string name="about_close">Fermi</string>
+    <string name="about_version">Versio %1$s (%2$d)</string>
+    <string name="about_whoami">Mi estas monerujo</string>
+    <string name="accounts_drawer_new">Krei konton</string>
+    <string name="accounts_new">Aldonis novan konton #%1$d</string>
+    <string name="accounts_progress_new">Kreante konton</string>
+    <string name="archive_progress">Arkivado okazanta</string>
+    <string name="backup_failed">Sekurkopio malsukcesis!</string>
+    <string name="backup_progress">Sekurkopio okazanta</string>
+    <string name="backup_success">Sekurkopio sukcesis!</string>
+    <string name="bad_fingerprint">La fringropremaĵo ne rekoniĝis. Reprovu.</string>
+    <string name="bad_ledger_seed">Invalid Ledger Seed!</string>
+    <string name="bad_password">Malkorekta pasvorto!</string>
+    <string name="bad_saved_password">La konservita pasvorto ne korektas.\nBonvolu tajpi la pasvorton.</string>
+    <string name="bad_wallet">La monujo ne ekzistas!</string>
+    <string name="changepw_failed">Pasvortŝanĝo malsukcesis!</string>
+    <string name="changepw_progress">Pasvortŝanĝo okazanta</string>
+    <string name="changepw_success">Pasvortŝanĝo sukcesis!</string>
+    <string name="credits_text"><![CDATA[
+        <b>Agnoskoj</b>
+        <br/>
+        m2049r, baltsar777, anhdres, keejef,
+        rehrar, EarlOfEgo, ErCiccione kaj aliaj.
+        <br/><br/>
+        <a href="https://monerujo.io/">monerujo.io</a>
+        ]]></string>
+    <string name="delete_alert_message">This wallet will be deleted. Your funds will be gone forever unless you have your seed or a working backup to recover it.</string>
+    <string name="delete_alert_no">Ne dankon!</string>
+    <string name="delete_alert_yes">Jes, faru tion!</string>
+    <string name="delete_failed">Delete failed!</string>
+    <string name="deletecache_alert_message">This wallet will be reset, losing all off-chain data (like notes, account &amp; subaddress names, private transaction keys, ...)! Use this ONLY if this wallet is corrupt and does not load!</string>
+    <string name="details_alert_message">Konfidencaj datumoj ne montriĝu.\nRigardu super via ŝultro!</string>
+    <string name="details_alert_no">Malantaŭen!</string>
+    <string name="details_alert_yes">Mi sekuras.</string>
+    <string name="details_title">Detaloj</string>
+    <string name="fab_create_new">Krei novan monujon</string>
+    <string name="fab_restore_key">Restaŭri monujon per privataj ŝlosiloj</string>
+    <string name="fab_restore_ledger">Restaŭri de Ledger Nano S</string>
+    <string name="fab_restore_seed">Restaŭri monujon per 25-vorta semo</string>
+    <string name="fab_restore_viewonly">Restaŭri nurvidan monujon</string>
+    <string name="generate_address_hint">Publika adreso</string>
+    <string name="generate_address_label">Publika adreso</string>
+    <string name="generate_address_label_sub">Publika subadreso #%1$d: %2$s</string>
+    <string name="generate_bad_passwordB">La pasfrazoj ne kongruas</string>
+    <string name="generate_buttonGenerate">Nun kreu monujon, homo!</string>
+    <string name="generate_button_accept">Jes mi skribis la mnemonikan semon sur papero.</string>
+    <string name="generate_check_address">Entajpu validan adreson</string>
+    <string name="generate_check_key">Entajpu validan ŝlosilon</string>
+    <string name="generate_check_mnemonic">Entajpu vian 25-vortan semon</string>
+    <string name="generate_crazypass_label">Pasvorto por restaŭri monujdosierojn</string>
+    <string name="generate_empty_passwordB">La pasfrazo ne estu malplena</string>
+    <string name="generate_fingerprint_hint">Permesi malfermon de la monujo per fingropremaĵo</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>Aŭtentiĝi per fingropremaĵo</strong>
+        <p>Per la fringra aŭtentiĝo, vi povos vidi la saldon de la monujo kaj ricevi monon, sen
+        entajpi vian pasvorton.</p>
+        <p>Sed por plia sekureco, monerujo petos vin, ke vi retajpu vian pasvorton por vidi
+        monujdetalojn aŭ por elspezi.</p>
+        <strong>Sekureca atentigo</strong>
+        <p>Ankoraŭ indas scii, ke iu ajn, posedante vian fingropremaĵon, kapablos eltrovi la
+        saldon de via monujo.</p>
+        <p>Iu fiulo povus, ekzemple, gvati vian monujon kiam vi dormas.</p>
+        <strong>Ĉu vi certas ke vi volas permesi tiun funkcion?</strong>
+    ]]></string>
+    <string name="generate_mnemonic_hint">25-vorta mnemonika semo</string>
+    <string name="generate_mnemonic_label">Mnemonika semo</string>
+    <string name="generate_name_hint">Nomo de la monujo</string>
+    <string name="generate_password_hint">Pasfrazo de la monujo</string>
+    <string name="generate_restoreheight_error">Entajpu nombron aŭ daton (JJJJ-MM-TT)</string>
+    <string name="generate_restoreheight_hint">Restaŭralteco aŭ dato (JJJJ-MM-TT)</string>
+    <string name="generate_spendkey_hint">Elspezŝlosilo</string>
+    <string name="generate_spendkey_label">Elspezŝlosilo</string>
+    <string name="generate_title">Krei monujon</string>
+    <string name="generate_viewkey_hint">Vida ŝlosilo</string>
+    <string name="generate_viewkey_label">Vida ŝlosilo</string>
+    <string name="generate_wallet_created">La monujo kreiĝis!</string>
+    <string name="generate_wallet_creating">Kreante monujon</string>
+    <string name="generate_wallet_dot">La nomo ne komenciĝu per .</string>
+    <string name="generate_wallet_exists">La monujo ekzistas!</string>
+    <string name="generate_wallet_name">Donu nomon al mi!</string>
+    <string name="generate_wallet_type_key">Ŝlosiloj</string>
+    <string name="generate_wallet_type_new">Nova</string>
+    <string name="generate_wallet_type_seed">Semo</string>
+    <string name="generate_wallet_type_view">Nurvida</string>
+    <string name="gunther_says">There is nothing here\nPlease create or restore a wallet</string>
+    <string name="help_create_keys"><![CDATA[
+        <h1>Krei monujon - Ŝlosiloj</h1>
+        <p>Se vi restaŭras vian monujon per viaj ŝlosiloj!</p>
+        <p>Entajpu unikan monujnomon kaj pasvorton.
+        La pasvorto estas uzita por sekurigi la datumojn de via monujo sur via Android-aparato. Uzu fortan
+        pasvorton - eĉ pli bone, uzu pasfrazon.</p>
+        <p>Entajpu vian Monero-adreson en la kamp \"Public Address\" kaj plenigu \"Vida ŝlosilo\" kaj \"Elspezŝlosilo\".</p>
+        <p>Entajpu la bloknumeron de la unua transakcio okazinta por tiu adreso en la kampon \"Restaŭralteco\".
+        Vi ankaŭ povas uzi daton je la formato JJJJ-MM-TT. Se vi ne certas, entajpu proksimuman
+        bloknumeron aŭ daton de iom <em>antaŭ</em> via unua uzo de tiu adreso.</p>
+    ]]></string>
+    <string name="help_create_ledger"><![CDATA[
+        <h1>Krei monujon - Ledger</h1>
+        <p>Do vi volas retrovi vian monujon de via Ledger Nano S aparato.</p>
+        <p>Viaj sekretaj ŝlosiloj ne forlasos la Ledger-aparaton, do ĝi estu enkonektita ĉiufoje, kiam
+        vi volas atingi vian monujon.</p>
+        <p>Entajpu unikan monujnomon kaj pasvorton.
+        La pasvorto estas uzita por sekurigi la datumojn de via monujo sur via Android-aparato. Uzu fortan
+        pasvorton - eĉ pli bone, uzu pasfrazon.</p>
+        <p>Entajpu la bloknumeron de la unua transakcio okazinta por tiu adreso en la kampon \"Restaŭralteco\".
+        Vi ankaŭ povas uzi daton je la formato JJJJ-MM-TT. Se vi ne certas, entajpu proksimuman
+        bloknumeron aŭ daton de iom <em>antaŭ</em> via unua uzo de tiu adreso.</p>
+    ]]></string>
+    <string name="help_create_new"><![CDATA[
+        <h1>Krei monujon - Nova</h1>
+        <p>Se vi bezonas novan Monero-adreson!</p>
+        <p>Entajpu unikan monujnomon kaj pasvorton.
+        La pasvorto estas uzita por sekurigi la datumojn de via monujo sur via aparato. Uzu fortan
+        pasvorton - eĉ pli bone, uzu pasfrazon.</p>
+        <h2>Skribu vian mnemonikan semon surpapere!</h2>
+        <p>Sur la venonta ekrano, vi trovos vian 25-vortan \"mnemonikan semon\".
+        Estas la nura datumo, kiu bezoniĝos por restaŭri vian monujon en la estonteco, kaj reiĝi
+        estro de via mono!
+        <p>Se vi perdas la pasvorton de via monujo, vi tamen povos restaŭri vian monujon per
+        la mnemonikan semon.
+        <p>Estas neniu ebleco retrovi vian mnemonikan semon. Se vi perdas ĝin, via tuta mono
+        perdiĝas ankaŭ! La mnemonika semo ne ŝanĝeblas, kaj se ĝi ŝteliĝas aŭ endanĝeriĝas,
+        vi devos transigi vian monon al nova monujo (kun nova mnemonika semo). Tial estas
+        plej bone ke vi sekurkopiu vian mnemonikan semon skribante ĝin surpapere, kaj konservu
+        ĝin en <em>pluraj</em> sekuraj lokoj.</p>
+    ]]></string>
+    <string name="help_create_seed"><![CDATA[
+        <h1>Krei monujon - Semo</h1>
+        <p>Se vi jam havas Monero-adreson kaj volas reĉerpi la transkaciojn el la blokĉeno!</p>
+        <p>Entajpu unikan monujnomon kaj pasvorton.
+        La pasvorto estas uzita por sekurigi la datumojn de via monujo sur via aparato. Uzu fortan
+        pasvorton - eĉ pli bone, uzu pasfrazon.</p>
+        <p>Entajpu vian semon en la kampo \"Mnemonika Semo\".</p>
+        <p>Entajpu la bloknumeron de la unua transakcio okazinta por tiu adreso en la kampon \"Restaŭralteco\".
+        Vi ankaŭ povas uzi daton je la formato JJJJ-MM-TT. Se vi ne certas, entajpu proksimuman
+        bloknumeron aŭ daton de iom <em>antaŭ</em> via unua uzo de tiu adreso.</p>
+    ]]></string>
+    <string name="help_create_view"><![CDATA[
+        <h1>Krei monujon - nurvida</h1>
+        <p>Se vi nur volas sekvi transakciojn kiuj alvenas en la monujon!</p>
+        <p>Entajpu unikan monujnomon kaj pasvorton.
+        La pasvorto estas uzita por sekurigi la datumojn restaŭrasde via monujo sur via Android-aparato. Uzu fortan
+        pasvorton - eĉ pli bone, uzu pasfrazon.</p>
+        <p>Entajpu vian Monero-adreson en la kampo \"Publika adreso\" kaj plenigu \"Vida ŝlosilo\".</p>
+        <p>Entajpu la bloknumeron de la unua transakcio okazinta por tiu adreso en la kampon \"Restaŭralteco\".
+        Vi ankaŭ povas uzi daton je la formato JJJJ-MM-TT. Se vi ne certas, entajpu proksimuman
+        bloknumeron aŭ daton de iom <em>antaŭ</em> via unua uzo de tiu adreso.</p>
+    ]]></string>
+    <string name="help_details"><![CDATA[
+        <h1>Monujdetaloj</h1>
+        <h2>Publika adreso</h2>
+        Via publika adreso estas kiel via banka kontonumero, kiun vi povas montri al iu ajn, kaj fidi
+        ke vi ne perdos viajn Monerojn. Per tiu adreso, homoj sendos Monerojn al via monujo.
+
+        <h2>Mnemonika semo</h2>
+        Tio estas la nura datumo, kiu bezoniĝas por restaŭri vian monujon en la estonteco, kaj reiĝi
+        estro de via mono! Estas gravege konservi ĝin private kaj sekrete, ĉar ĝi lasus <em>iun ajn</em>
+        forŝteli viajn Monerojn! Se vi je jam skribis ĝin surpapere, bonvolu fari tion tuj!
+
+        <h2>Pasvorto por retrovi monujdosierojn</h2>
+        Certiĝu ke vi skribas tiun pasvorton surpapere. Se vi restartas vian aparaton aŭ malinstalas
+        la aplikaĵon, vi bezonos ĝin por atingi vian monujon denove.<br/>
+
+        <h3>CrAzYpass</h3>
+        Se la ĉi-montrita pasvorto estas 52 ciferoj kaj literoj je kvaropoj, gratulojn!
+        Signifas ke viaj monujdosieroj nun sekuriĝas per 256-bita ŝlosilo, kiun kreis la sekurfunkcioj
+        de via parato, bazante sur la pasfrazo skribita de vi (ĉu ĵus kreite aŭ ĉu nur ŝanĝite).
+        Tiu afero igas la monujon treege malfacile kodrompebla!<br/>
+        Tiu funkcio estas deviga por ĉiuj nove kreitaj monujoj.
+
+        <h3>Malnova pasvorto</h3>
+        Se vi vidas vian pasfrazon ĉi tie, signifas ke viaj monujdosieroj ne tiom sekuras kiel uzante
+        CrAzYpass. Por solvi tion, simple elektu \"Ŝanĝi pasfrazon\" el la menuo. Per tiu nova pasfrazo
+        (kiu ja povas esti la sama kiel antaŭe) la aplikaĵo kreos iun CrAzYpass por vi, kaj sekurigos
+        viajn monujdosierojn per ĝi. Skribu ĝin surpapere!
+
+        <h3>CrAzYpass-monujoj</h3>
+        Se vi iam bezonas reinstali Monerujon (ekz. post restartigo de via telefono aŭ ŝanĝo de telefono)
+        aŭ se vi intencas uzi viajn monujdosierojn kun alia aparato aŭ komputilo, vi devos uzi tiun
+        Restaŭrpasvorton por atingi vian monujon denove.<br/>
+        Elektante \"Ŝanĝi pasfrazon\" el la menuo, vi povos entajpi alian pasfrazon. Atentu pri tio
+        ke nova Restaŭrpasvorto kreiĝos. Srkibu ĝin surpapere!
+
+        <h2>Vida ŝlosilo</h2>
+        Via vida ŝlosilo uzeblas por sekvi transakciojn venantajn al via monujo, sen permesigi
+        elspezon de la mono troviĝanta en via monujo.
+
+        <h2>Elspezŝlosilo</h2>
+        Via elspezŝlosilo ebligas ĉiun ajn elspezi la Monerojn ligitajn kun via monujo, do ne montru
+        ĝin al iu ajn, konservu ĝin sekure, kiel vian Mnemonikan Semon.
+    ]]></string>
+    <string name="help_list"><![CDATA[
+        <h1>Listo de monujoj</h1>
+
+        <h2>Nodo</h2>
+        <p>Monerujo uzas foran nodon por komuniki kun la Monero-Reto sen elŝuti kaj konservi kopion
+        de la tuta blokĉeno. Vi povas trovi liston de popularaj foraj nodoj, aŭ lerni kiel starigi
+        vian propran foran nodon, tie : https://moneroworld.com/</p>
+        <p>Monerujo estas jam antaŭagordita por kelkaj foraj nodoj. Ĝi memoros la kvin laste uzitajn
+        nodojn. </p>
+
+        <h2>Monujoj</h2>
+        <p>Jen viaj monujoj. Ili troviĝas en la <tt>monerujo</tt>dosierujo, en la interna memorilo de
+        via aparato. Vi povas uzi dosieran foliumilon por vidi ilin. Vi devus regule sekurkopii
+        tiun dosierujon, kaze de eksplodo aŭ ŝtelo de via aparato.</p>
+        <p>Elektu monujon por malfermi ĝin, aŭ premu la \"+\" por krei novan.
+        Aŭ elektu iun el tiuj monuj-operacioj:</p>
+
+        <h3>Detaloj</h3>
+        <p>Montras la monujdetalojn, semon kaj ŝlosilojn.</p>
+
+        <h3>Ricevi</h3>
+        <p>Kreas QR-kodon por ricevi Monerojn.</p>
+
+        <h3>Renomi</h3>
+        <p>Renomas la monujon. Sekurkopioj ne renomiĝos.</p>
+
+        <h3>Sekurkopio</h3>
+        <p> Kreas kopion de la monujo en la <tt>sekurkopioj</tt>-dosierujo en la <tt>monerujo</tt>,
+        anstataŭigante antaŭajn kopiojn tie.</p>
+
+        <h3>Arkivo</h3>
+        <p>Kreas sekurkopion kaj forviŝas la monujon poste. La kopio restos en la
+        <tt>sekurkopioj</tt>-dosierujo. Se vi ne plu bezonas viajn sekurkopiojn, vi devus forviŝi ilin
+        per dosiera foliumilo, aŭ sekure forviŝi la aplikaĵon.</p>
+    ]]></string>
+    <string name="help_node"><![CDATA[
+        <h1>Nodoj</h1>
+        <h2>Resumo</h2>
+        <p>Aktualigu la liston de nodoj tirante suben kaj aldonu legosignojn al nodoj por rajtigi
+        Monerujon elekti la plej bonan por vi!</p>
+
+        <h2>Kio estas nodo?</h2>
+        <p>Monerujo uzas foran nodon (kelkfoje nomata \"demono\") por komuniki kun la Monero-reto sen
+        elŝuti la tutan blokĉenon kaj gardi kopion de ĝi.</p>
+
+        <h2>Listo de nodoj</h2>
+        <p>Se la listo malplenas, vi povas mane aldoni novajn nodojn, aŭ lasi Monerujon skani la reton
+        por vi. Aŭ ambaŭ. Legu pli&#8230;</p>
+        <p>La listo de nodoj montras ĉiujn konatajn nodojn. Aldone, la tempindiko de la bloko kiu plej
+        laste koniĝis de ĉiu nodo estas  montrita sub la nodnomo. Apud ĉiu nodo estas bildeto kiu simbolas
+        la respond-sintenon de ĝi (indikilo de la postulinda konekt-nivelo).</p>
+        <p>Ĉiu nodo de la listo povas markiĝi por pli posta uzo. Nodoj kiuj ne markiĝas, forgesiĝos.<p>
+        <p>Ĉiam kiam uzite, Monerujo elektos la plej taŭgan markitan nodon.
+        Tio okazas kontrolante la blokaltecon (kiom ĝisdata estas la nodo?) kaj la respond-sintenon (kiom
+        rapide respondas la nodon?).<p>
+        <p>La listo estas ordigita laŭ tiuj ecoj, do la plej supra nodo uziĝos de Monerujo. La plej subaj
+        nodoj estas ege malrapidaj aŭ nedisponaj.</p>
+
+        <h2>Aldoni nodon</h2>
+        <p>Post tuŝi la &quot;Aldoni Nodon&quot;-butono ĉi-sube, vi devos entajpi la detalojn de la nodo
+        en la sekva formularo.
+        La &quot;Adreso&quot; estas la nomo de la gastiganto aŭ IP-adreso de la nodo - estas la nura
+        deviga entajpo.
+        Entajpu la &quot;Pordont&quot; se la nodo funkcias je nedefaŭlta pordo (ekz. 18089).
+        Vi opcie povas nomi la nodon, tiel ke vi poste rekonu ĝin pli facile.
+        Iuj nodoj postulas ensalutilojn (uzantonomon kaj pasvorton) por uziĝi. Entajpu ilin en la
+        taŭgaj kampoj. Nun vi povas &quot;Testi&quot; tiujn agordojn.
+        La &quot;Testrezulto&quot; aperigos la blokaltecon, la responddaŭron kaj la uzitan IP-adreson.
+        La rezulto eble estos eraro - plej ofte ĉar la provizita nomo de gastiganto ne atingeblas sufiĉe
+        rapide, aŭ ĉar la ensalutiloj ne kongruas.
+        Ankaŭ povas esti ke la kombinaĵo gastigantonomo/pordo ne indikas ekzistantan nodon de Monero!
+        Post la sukceso de la testo (neniu eraro) - vi povas premi &quot;OK&quot; por konservi tiun nodon.</p>
+
+        <h2>Serĉi nodojn</h2>
+        <p>Vi povas aldone skani la reton, serĉante nodojn. Monerujo komencos la skanadon je la pordo 18089.
+        Ĝi komence petos viajn markitajn nodojn je aliaj partoprenantoj de la P2P-reto,
+        kaj poste petos tiujn partoprenantoj je iliaj aliaj konektitaj partoprenantojn,
+        kaj tiel plu.
+        Se vi ne markis nodojn (aŭ se ili ne respondas pri iliaj konektoj), Monerujo direkte petos la
+        pranodojn konservitajn en la kerno de Monero. La skanado haltos kiam 10 foraj nodoj estos trovitaj.</p>
+    ]]></string>
+    <string name="help_ok">Got it!</string>
+    <string name="help_send"><![CDATA[
+        <h1>Sendi</h1>
+        <h2>Adreso de la ricevonto</h2>
+        Jen la publika adreso de la monujo al kiu vi sendas Monerojn. Vi povas kopii tion el via
+        tondujo, skani QR-kodo, aŭ mane entajpi ĝin. Kontrolu ĝin trifoje por certiĝi ke vi ne sendas
+        monon al malĝusta adreso.</p>
+        <p>Aldone al tio, vi ankaŭ povas uzi
+        <ul>
+            <li>iun OpenAlias por XMR aŭ BTC</li>
+            <li>bitmonan-adreson (BTC)<li>
+        </ul>
+        Please note, that sending BTC is processed through the SideShift.ai service (see https://sideshift.ai
+        for details). See the section on sending BTC below.</p>
+
+        <h1>Sendi BTC</h1>
+
+        <h2>SideShift.ai</h2>
+        <p>SideShift.ai estas ekstera liveranto kiu agas kiel ŝanĝisto de Monero al Bitmono. Ni uzas la
+        interfacon de XMR.TR por integrigi pagojn de bitmono en Monerujo. Bonvolu mem legi ĉe
+        https://sideshift.ai kaj decidu ĉu vi volas uzi tion. La Monerujo-teamo ne asocias kun SideShift.ai kaj ne
+        kapablas helpi vin kun ilia servo.</p>
+
+        <h2>Kurzo de SideShift.ai<h2>
+        <p>Sur la \"Kvanto\"-ekrano montriĝos la nunaj parametroj de la SideShift.ai-servo. Ili inkludas la
+        nunan XMR/BTC-kurzon, la superan limon kaj suban limon de la eblaj BTC-transakcioj. Bonvolu
+        noti ke tiu kurzo ĉiam ŝanĝiĝas.</p>
+        <h2>Mendo al SideShift.ai<h2>
+        <p>Sur la \"konfirmi\"-ekrano, vi vidos la efektivan SideShift.ai-mendon. Tiu mendo validas nur dum
+        limigita tempo - vi certe ekvidos retrokalkulon sur la \"Spendi\"-butonon. La kurzo estos
+        eble malsama ol tiu antaŭe montrita.</p>
+
+        <h2>Sekreta ŝlosilo de SideShift.ai<h2>
+        <p>Ĉar Monerujo nur traktas la Monero-flankon de via transakcio, vi uzu la sekretan
+        SideShift.ai-ŝlosilon por sekvi la Bitmono-parton de via mendo sur la hejmpaĝo de SideShift.ai.</p>
+        <h2>La retrokalkulo de SideShift.ai!</h2>
+        <p>Kiam la retrokalkulo atingas nulon, vi devos akiri novan QUOTE de SideShift.ai, reirante al la
+        antaŭa fazo kaj el tie repaŝi ĝis la \"Konfirmi\"-ekrano.</p>
+    ]]></string>
+    <string name="help_tx_details"><![CDATA[
+        <h1>Transakciaj detaloj</h1>
+        <h2>Destino</h2>
+        Jen la publika adreso de la monujo al kiu vi sendas Monerojn.
+
+        <h2>Paga ID</h2>
+        Vi povas uzi pagan IDon por identigi la kialon de la transakcio. Tio estas tute opcia kaj
+        privata. Ekzemple, tio permesas al komercisto kunligi vian transakcion kun varo kiun vi aĉetis.
+
+        <h2>Transakcia ID</h2>
+        Tio identigas vian transakcion, vi povas uzi ĝin por sekvi vian tro daŭran transakction ĉe
+        Monera blokĉen-esplorilo, kiel <a href="https://xmrchain.net/">https://xmrchain.net/</a>
+
+        <h2>Transakcia ŝlosilo</h2>
+        Tio estas la privata ŝlosilo de la transakcio, vi konservu ĝin sekrete. Se iu triulo vidos
+        ĝin, li malkovros kiun subskribon estas via en unu ringo, tiel malprivatigante vian
+        transakcion.
+        <h2>Bloko</h2>
+        Jen la bloko en kiu via transakcio enskribiĝis.
+    ]]></string>
+    <string name="help_uri"><![CDATA[
+        <h1>Using a payment link</h1>
+        <p>You have started monerujo with a payment link. In order to send funds, please do the following:</p>
+        <p>
+        1. Open the wallet you want to spend from<br>
+        2. Wait until the wallet is synced &amp; the "Give" button appears<br>
+        3. Touch the "Give" button
+        </p>
+        <p>The payment details will be filled in. Check them and proceed like for any other transaction.</p>
+    ]]></string>
+    <string name="help_wallet"><![CDATA[
+        <h1>La monujo</h1>
+        <h2>Street Mode</h2>
+        <p>Strata moduso enŝaltiĝas/malŝaltiĝas en la menuo aŭ ĉe la bildeto de la vizaĝo de Gunther.
+        En tiu moduso, via saldo ne montriĝos, sur neniu ekrano, tiel vi povas sekure uzi vian
+        monujon surstrate, trinkeje, aŭ ie publike. Antaŭaj transakcioj ankaŭ kaŝiĝas. Nova
+        transakcioj montriĝos, til vi povos vidi ke vi sendis/ricevis dolĉajn Monerojn!</p>
+
+        <h2>Skanado</h2>
+        Ĉar Monero ŝatas privatumi, je ĉiu starto la monujo devas skani la blokĉenon por vidi ĉu
+        novaj Moneroj sendiĝis al via monujo, kaj via aparato memoras nur la informojn kiuj apartenas
+        al via monujo. Povas daŭri iom da tempo fojfoje, des pli se vi ne sinkronizis de longa tempo.
+        <h2>La saldo</h2>
+        <p><b>Helpon! La saldo de mia monujo malaperis aŭ ne konfirmiĝis!</b><br/>
+        Ne paniku! Kiam vi sendas monon al via monujo, iom el via saldo maldaŭre montriĝos nekonfirmite.
+        Tio okazas kiel rezulto de la maniero laŭ kiu Monero sendiĝas sur la blokĉeno, kaj
+        kiel \"restmono\" traktiĝas.
+        Legu pli pri restmono tie: https://getmonero.org/resources/moneropedia/change.html
+        <h2>Transakcia listo</h2>
+        <p>Listo de la transakcioj de la monujo. En vidaj monujoj, nur la envenaj transakcioj montriĝas.</p>
+    ]]></string>
+    <string name="help_xmrto"><![CDATA[
+        <h1>Elspezi Bitmonon</h1>
+
+        <h2>SideShift.ai</h2>
+        <p>SideShift.ai estas ekstera liveranto kiu agas kiel ŝanĝisto de Monero al Bitmono. Ni uzas la
+        interfacon de XMR.TR por integrigi pagojn de bitmono en Monerujo. Bonvolu mem legi ĉe
+        https://sideshift.ai kaj decidu ĉu vi volas uzi tion. La Monerujo-teamo ne asocias kun SideShift.ai kaj ne
+        kapablas helpi vin kun ilia servo.</p>
+
+        <h2>Kurzo de SideShift.ai<h2>
+        <p>Sur la \"Kvanto\"-ekrano montriĝos la nunaj parametroj de la SideShift.ai-servo. Ili inkludas la
+        nunan XMR/BTC-kurzon, la superan limon kaj suban limon de la eblaj BTC-transakcioj. Bonvolu
+        noti ke tiu kurzo ĉiam ŝanĝiĝas.</p>
+        <h2>Mendo al SideShift.ai<h2>
+        <p>Sur la \"konfirmi\"-ekrano, vi vidos la efektivan SideShift.ai-mendon. Tiu mendo validas nur dum
+        limigita tempo - vi certe ekvidos retrokalkulon sur la \"Spendi\"-butonon. La kurzo estos
+        eble malsama ol tiu antaŭe montrita.</p>
+
+        <h2>Sekreta ŝlosilo de SideShift.ai<h2>
+        <p>Ĉar Monerujo nur traktas la Monero-flankon de via transakcio, vi uzu la sekretan
+        SideShift.ai-ŝlosilon por sekvi la Bitmono-parton de via mendo sur la hejmpaĝo de SideShift.ai.</p>
+        <h2>La retrokalkulo de SideShift.ai!</h2>
+        <p>Kiam la retrokalkulo atingas nulon, vi devos akiri novan QUOTE de SideShift.ai, reirante al la
+        antaŭa fazo kaj el tie repaŝi ĝis la \"Konfirmi\"-ekrano.</p>
+    ]]></string>
+    <string name="info_ledger_enabled">Ledger permesita, frapetu por detaloj.</string>
+    <string name="info_nodes_enabled">Node-o-matiC permesiĝas, frapetu por detaloj.</string>
+    <string name="info_paymentid_integrated">✔ Paga-ID integriĝis</string>
+    <string name="info_prepare_tx">Preparante vian transakcion</string>
+    <string name="info_send_xmrto_error">SideShift.ai eraro (%1$s)</string>
+    <string name="info_send_xmrto_paid">Konfirmo okazonta</string>
+    <string name="info_send_xmrto_parms"><![CDATA[
+        <b>Vi povas sendi %1$s &#8212; %2$s %4$s</b>.<br/>
+        <i><b>SideShift.ai</b> proponas al vi tiun kurzon: <b>%3$s %4$s/XMR</b> <u>nun</u></i>.
+    ]]></string>
+    <string name="info_send_xmrto_query">Informpetante …</string>
+    <string name="info_send_xmrto_sent">%1$s sendiĝis!</string>
+    <string name="info_send_xmrto_success_btc">%1$s %2$s</string>
+    <string name="info_send_xmrto_success_order_label">mendo al SideShift.ai</string>
+    <string name="info_send_xmrto_unpaid">Pago okazonta</string>
+    <string name="info_xmrto"><![CDATA[
+        <b>Vi entajpis %1$s-adreson.</b><br/>
+        <i>Vi sendos XMR-on, kaj per la<b>SideShift.ai</b>-servo, la ricevanto havos %1$s-on.</i>
+    ]]></string>
+    <string name="info_xmrto_ambiguous"><![CDATA[
+        <b>Ambiguous address.</b><br/>
+        <i>Please select the type above.</i>
+    ]]></string>
+    <string name="info_xmrto_enabled">BTC-pago permesita, frapetu por detaloj.</string>
+    <string name="info_xmrto_help"><![CDATA[
+        <b>Please enter or scan a %1$s address.</b><br/>
+        <i>You&apos;ll send XMR and the receiver will get %2$s using the <b>SideShift.ai</b> service.</i>
+    ]]></string>
+    <string name="info_xmrto_help_xmr"><![CDATA[
+        <b>Please enter or scan a Monero address.</b>
+    ]]></string>
+    <string name="label_cancel">Nuligi</string>
+    <string name="label_close">Fermi</string>
+    <string name="label_copy_address">Publika adreso</string>
+    <string name="label_copy_viewkey">Vida ŝlosilo</string>
+    <string name="label_copy_xmrtokey">Ŝlosilo</string>
+    <string name="label_credits">Agnoskoj</string>
+    <string name="label_daemon">Nodo</string>
+    <string name="label_generic_xmrto_error">ERARO JE SideShift.ai</string>
+    <string name="label_login_wallets">Monujoj</string>
+    <string name="label_nodes">Nodoj</string>
+    <string name="label_ok">OK</string>
+    <string name="label_receive_info_gen_qr_code">Tuŝu por QR-kodo</string>
+    <string name="label_restoreheight">Restaŭralteco</string>
+    <string name="label_send_address">Ricevanta adreso</string>
+    <string name="label_send_btc_address">Ricevanta %1$s-adreso</string>
+    <string name="label_send_btc_amount">Kvanto</string>
+    <string name="label_send_btc_xmrto_info">Vizitu SideShift.ai por helpo kaj sekvado</string>
+    <string name="label_send_btc_xmrto_key">SideShift.ai sekreta ŝlosilo</string>
+    <string name="label_send_btc_xmrto_key_lb">Sekreta ŝlosilo\nSideShift.ai</string>
+    <string name="label_send_done">Farite</string>
+    <string name="label_send_notes">Notoj</string>
+    <string name="label_send_progress_create_tx">Preparante la Monero-transakcion</string>
+    <string name="label_send_progress_queryparms">Petante la SideShift.ai-parametrojn</string>
+    <string name="label_send_progress_xmrto_create">Kreante mendon al SideShift.ai</string>
+    <string name="label_send_progress_xmrto_query">Petante SideShift.ai-mendon </string>
+    <string name="label_send_success">Sukcese sendis</string>
+    <string name="label_send_txid">Transakcia ID</string>
+    <string name="label_test">Testo</string>
+    <string name="label_wallet_advanced_details">Tuŝi por pli detalaj informoj.</string>
+    <string name="label_wallet_receive">Ricevi</string>
+    <string name="label_wallet_send">Doni</string>
+    <string name="label_watchonly">(nurvida)</string>
+    <string name="language_system_default">Uzi la sistemlingvon</string>
+    <string name="max_account_warning">Too many unused accounts - use some to enable creating more!</string>
+    <string name="max_subaddress_warning">Too many unused addresses - use some to enable creating more!</string>
+    <string name="menu_about">Pri</string>
+    <string name="menu_backup">Sekurkopio</string>
+    <string name="menu_changepw">Ŝanĝi pasfrazon</string>
+    <string name="menu_daynight">Dark Mode</string>
+    <string name="menu_default_nodes">Restore default nodes</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_deletecache">Reset wallet!</string>
+    <string name="menu_help">Helpo</string>
+    <string name="menu_info">Montru sekretojn</string>
+    <string name="menu_language">Lingvo</string>
+    <string name="menu_ledger_seed">Convert Ledger Seed</string>
+    <string name="menu_privacy">Privateca polikito</string>
+    <string name="menu_receive">Ricevi</string>
+    <string name="menu_rename">Renomi</string>
+    <string name="menu_rescan">Rescan!</string>
+    <string name="menu_restore">Import wallet</string>
+    <string name="menu_share">Kunhavigi</string>
+    <string name="menu_streetmode">Strata moduso</string>
+    <string name="message_camera_not_permitted">Neniu filmilo = Neniu QR-kodo skaniĝas!</string>
+    <string name="message_copy_address">La monujadreso kopiiĝis en la tondujon!</string>
+    <string name="message_copy_txid">La transakcia ID kopiiĝis en la tondujon!</string>
+    <string name="message_copy_viewkey">Vida ŝlosilo kopiiĝis en la tondujon!</string>
+    <string name="message_copy_xmrtokey">Ŝlosilo kopiiĝis en la tondujon!</string>
+    <string name="message_exchange_failed">La kurzo ne haveblas!\nUzu XMR/XMR aŭ reprovu</string>
+    <string name="message_nocopy">Por pli da sekureco, vi ne rajtas kopii tion!</string>
+    <string name="message_strorage_not_permitted">Ni vere bezonas tiujn permesojn je la ekstera memorilo!</string>
+    <string name="message_strorage_not_writable">La ekstera memorilo ne skribeblas! Paniko!</string>
+    <string name="nfc_tag_read_undef">Mi ne komprenas la etikedon!</string>
+    <string name="nfc_tag_read_what">Damne, kion vi volas?!</string>
+    <string name="nfc_tag_size">La etikedo provizas %1$d bajtojn, sed ni bezonas %2$d!</string>
+    <string name="nfc_tag_tap">NFC disponeblas!</string>
+    <string name="nfc_tag_unsupported">Etikedo ne subtenas  NDEF!</string>
+    <string name="nfc_write_failed">Etikedsribo malsukcesis!</string>
+    <string name="nfc_write_successful">Etikedskribo sukcesis</string>
+    <string name="node_address_hint">Gastiga nomo</string>
+    <string name="node_auth_error">AUTENTIĜO MALSUKCESIS</string>
+    <string name="node_create_hint">Tuŝi por elekti aŭ aldoni nodojn</string>
+    <string name="node_fab_add">Aldoni nodon</string>
+    <string name="node_general_error">KONEKTIĜERARO</string>
+    <string name="node_height">Lasta ĝisdatigita bloko: %1$s</string>
+    <string name="node_host_empty">Ni bezonas tion!</string>
+    <string name="node_host_unresolved">Ne povas solvi gastigon</string>
+    <string name="node_name_hint">Nodnomo (Opcia)</string>
+    <string name="node_nobookmark">Aŭtomate memoris la %1$d plej bonajn nodojn</string>
+    <string name="node_pass_hint">Pasvorto (Opcia)</string>
+    <string name="node_port_hint">Pordo</string>
+    <string name="node_port_numeric">Devas esti nombra</string>
+    <string name="node_port_range">Devas esti 1–65535</string>
+    <string name="node_pull_hint">Aldoni nodojn mane aŭ tiru menuon por skani</string>
+    <string name="node_refresh_hint">Tuŝu por aktualigi!</string>
+    <string name="node_refresh_wait">Bonvolu atendi ĝis la fino de la skanado</string>
+    <string name="node_result">Alteco: %1$s (v%2$d), Ping: %3$.0fms, IP: %4$s</string>
+    <string name="node_result_label">Testrezulto:</string>
+    <string name="node_scanning">Skanante la reton…</string>
+    <string name="node_test_error">KONEKTIĜERARO %1$d</string>
+    <string name="node_testing">Testante IP: %1$s …</string>
+    <string name="node_updated_days">Last Block: %1$d days ago</string>
+    <string name="node_updated_hours">Last Block: %1$d hours ago</string>
+    <string name="node_updated_mins">Last Block: %1$d minutes ago</string>
+    <string name="node_updated_now">Last Block: %1$d seconds ago</string>
+    <string name="node_user_hint">Uzantnomo (Opcia)</string>
+    <string name="onboarding_agree">I get it!</string>
+    <string name="onboarding_button_next">Next</string>
+    <string name="onboarding_button_ready">I\'m ready!</string>
+    <string name="onboarding_fpsend_information">You\'re now able to send XMR with just your fingerprint if you enabled it. To request the password, just disable fingerprint access.</string>
+    <string name="onboarding_fpsend_title">Send with fingerprint</string>
+    <string name="onboarding_nodes_information">Nodes connect you to the Monero network. Choose between public nodes or go full cypherpunk using your own.</string>
+    <string name="onboarding_nodes_title">Nodes, your way</string>
+    <string name="onboarding_seed_information">The seed grants full access to whoever has it. If you lose it, we cannot help you recover it and you lose your beloved moneroj.</string>
+    <string name="onboarding_seed_title">Keep your seed safe</string>
+    <string name="onboarding_welcome_information">This app allows you to create and use Monero wallets. You can store your sweet moneroj in them.</string>
+    <string name="onboarding_welcome_title">Welcome to Monerujo!</string>
+    <string name="onboarding_xmrto_information">Monerujo has SideShift.ai support built-in. Just paste or scan a BTC, LTC, ETH, DASH or DOGE address and you\'ll be sending these cryptos by spending XMR.</string>
+    <string name="onboarding_xmrto_title">Send Crypto</string>
+    <string name="open_wallet_ledger_missing">Bonvolu (re)konekti la Ledger-aparaton</string>
+    <string name="password_fair">Nja …</string>
+    <string name="password_good">Provu almenaŭ!</string>
+    <string name="password_strong">Jam pli bone …</string>
+    <string name="password_very_strong">Mojose, vi estas nerdulo!</string>
+    <string name="password_weak">Tajpu plu …</string>
+    <string name="privacy_policy"><![CDATA[
+        <h1>Privateca politiko</h1>
+        <p>Tiu paĝo informas vin pri nia politiko rilate al la kolektado, uzado
+        kaj rivelado de personaj informoj kiujn ni ricevas de uzantoj de la
+        aplikaĵo. (monerujo: Monero Wallet).</p>
+        <p>Uzante la aplikaĵon, vi akceptas la kolektadon kaj uzon de informoj
+        kongrue al tiu politiko.</p>
+        <h2>Kolektitaj datumoj</h2>
+        <p>Persona datumo estas ĉiu ajn datumo kiu povas identigi personon.<p>
+        <p>Monero-ŝlosiloj kaj publikaj adresoj kolektiĝas kaj traktiĝas de la aplikaĵo
+        lokale, por la celo trakti transakciojn, kaj sendiĝas sur la Monero-reto je ĉifrita
+        formo.</p>
+        <p>Aliaj personaj datumoj ne kolektiĝas de la aplikaĵo.</p>
+        <p>Se vi uzas la opcian funkcionon, kiu permesas nombrumi vian pagon je alia valuto (ekz. dolaroj),
+        monerujo informpetos pri la kurzo per la publika interfaco de coinmarketcap.com.
+        Vidu ilian privatecan politikon je https://coinmarketcap.com/privacy por detaloj pri
+        kiel la datumo de viaj petoj kolektiĝos.</p>
+        <p>Se vi uzas la aplikaĵon por pagi al Bitmono-adresoj, vi uzos la SideShift.ai-servon.
+        Vidu ilian privatecan politikon je https://sideshift.ai/ por detaloj. Monerujo sendos al ili la
+        BTC-ricevontadreson kaj kvanton. Via IP-adreso ankaŭ kolekteblos.</p>
+        <h2>Permesoj de la aplikaĵo</h2>
+        <ul>
+        <li>INTERRETO : Konekti kun la Monero-reto per noda demono</li>
+        <li>LEGI_EKSTERAJN_MEMORILOJN : Legi la monujdosierojn kiuj konserviĝas en la aparato</li>
+        <li>SKRIBI_EKSTERAJN_MEMORILOJN : Skribi la monujdosierojn kiuj konserviĝas en la aparato</li>
+        <li>LASI_VEKA : Lasi la aparaton veka dum la sinkronizado</li>
+        <li>FILMILO : Skani QR-kodojn por ricevi Monerojn</li>
+        </ul>
+        <h2>Ŝanĝoj de la privateca politiko</h2>
+        <p>Ni eble ĝisdatigos tiun privatecan politikon de temp\' al tempo. Ni
+        sciigos vin pri ĉiu ŝanĝo tiel : ni sendos la novan privatecan politikon en la
+        aplikaĵon kaj sur la retejo (www.monerujo.io)
+        Ni konsilas al vi, ke vi regule gvatu tiun dokumenton kaze de ŝanĝoj.
+        <p>Tiu privateca politiko ĝisdatiĝis lastfoje la 10an de novembro 2017.
+        </p>
+        <h2>Kontaktu nin</h2>
+        <p>Se vi havas ian demandon pri nia privateca politiko,
+        aŭ pri kiel viaj datumoj kolektiĝas kaj traktiĝas,
+        kontaktu retpoŝte privacy@monerujo.io.
+        </p>
+        ]]></string>
+    <string name="progress_ledger_confirm">Konfirmo je la Ledger estas postulita!</string>
+    <string name="progress_ledger_lookahead">Retrovante subadresojn</string>
+    <string name="progress_ledger_mlsag">Haketumante</string>
+    <string name="progress_ledger_opentx">Matematikumante</string>
+    <string name="progress_ledger_progress">Komunikante kun Ledger</string>
+    <string name="progress_ledger_verify">Kontrolante ŝlosilojn</string>
+    <string name="progress_nfc_write">Skribante etikedon</string>
+    <string name="prompt_changepw">Nova pasfrazo por %1$s</string>
+    <string name="prompt_changepwB">Retajpu pasfrazon por %1$s</string>
+    <string name="prompt_daemon_missing">La nodo devas esti agordita!</string>
+    <string name="prompt_fingerprint_auth">Vi ankaŭ povas malfermi la monujon per fingropremaĵo.\nBonvolu tûsi la sentilon.</string>
+    <string name="prompt_ledger_phrase">Ledger Passphrase (optional)</string>
+    <string name="prompt_ledger_seed">Ledger Seed Words</string>
+    <string name="prompt_ledger_seed_warn">Entering your Ledger Seed here is a major security risk!</string>
+    <string name="prompt_open_wallet">Malfermante la monujon…</string>
+    <string name="prompt_password">Pasvorto por %1$s</string>
+    <string name="prompt_rename">Renomi %1$s</string>
+    <string name="prompt_wrong_net">La monujo ne kongruas kun la elektita reto</string>
+    <string name="receive_amount_hint">Kvanto</string>
+    <string name="receive_amount_nan">Bv. entajpu nombron</string>
+    <string name="receive_amount_negative">Min. 0</string>
+    <string name="receive_amount_too_big">Maks. %1$s</string>
+    <string name="receive_cannot_open">Ne sukcesis malfermi la monujon!</string>
+    <string name="receive_desc_hint">Priskribo (opcia)</string>
+    <string name="rename_failed">Renomado malsukcesis!</string>
+    <string name="rename_progress">Renomigo okazanta</string>
+    <string name="restore_failed">Import failed!</string>
+    <string name="send_address_hint">Ricevanto</string>
+    <string name="send_address_invalid">Tio ne estas valida adreso</string>
+    <string name="send_address_no_dnssec">OpenAlias ne havas DNSSEC - la adreso estas eble uzurpita</string>
+    <string name="send_address_not_openalias">OpenAlias-adreso ne haveblas</string>
+    <string name="send_address_openalias">OpenAlias sekuras ✔</string>
+    <string name="send_address_resolve_openalias">Solvante OpenAlias…</string>
+    <string name="send_address_title">Adreso</string>
+    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount_label">Kvanto</string>
+    <string name="send_amount_title">Kvanto</string>
+    <string name="send_available">Saldo: %1$s XMR</string>
+    <string name="send_available_btc">Saldo: %2$s %3$s (%1$s XMR)</string>
+    <string name="send_confirm_title">Konfirmi</string>
+    <string name="send_create_tx_error_title">Krei transakci-eraron</string>
+    <string name="send_fee">+%1$s Kosto</string>
+    <string name="send_fee_btc_label">Kosto (XMR)</string>
+    <string name="send_fee_label">Kosto</string>
+    <string name="send_generate_paymentid_hint">Generate</string>
+    <string name="send_notes_hint">Privataj notoj (opcia)</string>
+    <string name="send_qr_address_invalid">Tio ne estas kongrua paga QR-kodo</string>
+    <string name="send_qr_invalid">Tio ne estas QR-kodo</string>
+    <string name="send_send_label">Elspezi miajn dolĉajn monerojn</string>
+    <string name="send_send_timed_label">Elspezi miajn dolĉajn monerojn (%1$s)</string>
+    <string name="send_success_title">Farite</string>
+    <string name="send_sweepall">Sendi ĉiujn konfirmitajn monsumojn al tiu konto!</string>
+    <string name="send_title">Sendi</string>
+    <string name="send_total_btc_label">Sumo (XMR)</string>
+    <string name="send_total_label">Sumo</string>
+    <string name="send_xmrto_timeout">Vi atendis tro longe, kara.</string>
+    <string name="service_busy">Mi daŭre okupiĝas pri via lasta monujo …</string>
+    <string name="service_description">monerujo Servo</string>
+    <string name="service_progress">Reordigado …\nTio ja povas daŭri!</string>
+    <string name="shift_checkamount">Check amount and try again</string>
+    <string name="shift_noquote">Cannot get quote</string>
+    <string name="status_remaining">Restaj blokoj</string>
+    <string name="status_synced">Sinkronizas:</string>
+    <string name="status_syncing">Skanante:</string>
+    <string name="status_transaction_failed">Transakcio malsukcesis: %1$s</string>
+    <string name="status_wallet_connect_failed">Nodkonektiĝo malsukcesis!\nKontrolu uzantnomon/pasvorton</string>
+    <string name="status_wallet_connect_ioex">Ne kapablas atingi la nodon!\nProvu alian aŭ reprovu.</string>
+    <string name="status_wallet_connect_wrongversion">Nekongrua nodversio - bonvolu plibonigi!</string>
+    <string name="status_wallet_connecting">Konektiĝas…</string>
+    <string name="status_wallet_disconnected">Malkonektite</string>
+    <string name="status_wallet_loading">Ŝarĝante la monujon …</string>
+    <string name="status_wallet_node_invalid">Nekongrua nodo!\nProvu alian.</string>
+    <string name="status_wallet_unload_failed">La monujkonservoo malsukcesis!</string>
+    <string name="status_wallet_unloaded">La monujo konserviĝis</string>
+    <string name="street_sweep_amount">ĈIO!</string>
+    <string name="subaddress_details_hint">Long-press for details</string>
+    <string name="subaddress_notx_label">No transactions for this subaddress yet</string>
+    <string name="subaddress_select_label">Select a subaddress</string>
+    <string name="subaddress_tx_label">Transactions for this subaddress:</string>
+    <string name="subbaddress_name_hint">Subaddress Name</string>
+    <string name="subbaddress_title">Subaddresses</string>
+    <string name="text_generic_xmrto_error">kodo: %1$d</string>
+    <string name="text_noretry">Uh-oh, ŝajne SideShift.ai ne disponas momente!</string>
+    <string name="text_noretry_monero">Ni blokiĝis ĉi tie!</string>
+    <string name="text_retry">Tuŝu por reprovi</string>
+    <string name="text_send_btc_amount">%1$s %3$s = %2$s XMR</string>
+    <string name="text_send_btc_rate">(kurzo: %1$s %2$s/XMR)</string>
+    <string name="toast_default_nodes">Restoring already in progress…</string>
+    <string name="toast_ledger_attached">%1$s kunligita</string>
+    <string name="toast_ledger_detached">%1$s malligita</string>
+    <string name="toast_ledger_start_app">Start Monero App on %1$s</string>
+    <string name="tx_account">Konto #</string>
+    <string name="tx_amount">Kvanto</string>
+    <string name="tx_blockheight">Bloko</string>
+    <string name="tx_destination">Destino</string>
+    <string name="tx_failed">MALSUCKESIS</string>
+    <string name="tx_fee">Kosto</string>
+    <string name="tx_id">TX ID</string>
+    <string name="tx_key">TX Ŝlosilo</string>
+    <string name="tx_list_amount_failed">(%1$s)</string>
+    <string name="tx_list_amount_negative">- %1$s</string>
+    <string name="tx_list_amount_positive">+ %1$s</string>
+    <string name="tx_list_failed_text">masukcesis</string>
+    <string name="tx_list_fee">- Kosto %1$s</string>
+    <string name="tx_notes">Notoj</string>
+    <string name="tx_notes_hint">(opcia)</string>
+    <string name="tx_paymentId">Paga-ID</string>
+    <string name="tx_pending">OKAZONTE</string>
+    <string name="tx_subaddress">Subadreso</string>
+    <string name="tx_timestamp">Tempindiko</string>
+    <string name="tx_title">Transakciaj detaloj</string>
+    <string name="tx_transfers">Transigoj</string>
+    <string name="wallet_activity_name">Wallet</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s BDX nekonfirmite</string>
+</resources>

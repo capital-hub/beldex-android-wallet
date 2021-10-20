@@ -1,0 +1,35 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Blockhash\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\.cxx\\RelWithDebInfo\\2x4a0395\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Blockhash\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\.cxx\\RelWithDebInfo\\2x4a0395\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "monerujo-RelWithDebInfo-x86": {
+      "artifactName": "monerujo",
+      "buildCommandComponents": [
+        "C:\\Users\\Blockhash\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\.cxx\\RelWithDebInfo\\2x4a0395\\x86",
+        "monerujo"
+      ],
+      "abi": "x86",
+      "output": "C:\\Users\\Blockhash\\StudioProjects\\repository_beldex_android_wallet\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\2x4a0395\\obj\\x86\\libmonerujo.so",
+      "runtimeFiles": [
+        "C:\\Users\\Blockhash\\AppData\\Local\\Android\\Sdk\\ndk\\17.2.4988734\\sources\\cxx-stl\\llvm-libc++\\libs\\x86\\libc++_shared.so"
+      ]
+    }
+  }
+}

@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="daynight_themes">
+        <item>Auto</item>
+        <item>Day</item>
+        <item>Night</item>
+    </string-array>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d uus märguanne</item>
+    <item quantity="other">%d uut märguannet</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Liigu avalehele"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Liigu üles"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Rohkem valikuid"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Valmis"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Kuva kõik"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Valige rakendus"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"VÄLJAS"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"SEES"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"kustuta"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"sisestusklahv"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funktsiooniklahv +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Tõstuklahv +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"tühik"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menüü +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Otsige …"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Päringu tühistamine"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Otsingupäring"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Otsing"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Päringu esitamine"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Häälotsing"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Jaga:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Jagamine rakendusega <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Ahendamine"</string>
+    <string name="about_close">Sulge</string>
+    <string name="about_version">Versioon %1$s (%2$d)</string>
+    <string name="about_whoami">Ma olen monerujo</string>
+    <string name="accounts_drawer_new">Loo konto</string>
+    <string name="accounts_new">Uus konto lisatud #%1$d</string>
+    <string name="accounts_progress_new">Loon kontot</string>
+    <string name="archive_progress">Arhiveerin</string>
+    <string name="backup_failed">Tagavarakoopia ebaõnnestus!</string>
+    <string name="backup_progress">Teostan tagavarakoopiat</string>
+    <string name="backup_success">Tagavarakoopia õnnestus</string>
+    <string name="bad_fingerprint">Sõrmejälge ei tuntud ära. Proovi uuesti.</string>
+    <string name="bad_ledger_seed">Invalid Ledger Seed!</string>
+    <string name="bad_password">Vale parool!</string>
+    <string name="bad_saved_password">Salvestatud parool on vale.\nPalun sisesta parool käsitsi.</string>
+    <string name="bad_wallet">Rahakotti pole olemas!</string>
+    <string name="bottomsheet_action_expand_halfway">Laiendamine poolenisti</string>
+    <string name="changepw_failed">Parooli vahetamine ebaõnnestus!</string>
+    <string name="changepw_progress">Vahetan parooli</string>
+    <string name="changepw_success">Parool vahetatud</string>
+    <string name="character_counter_content_description">Sisestatud tähemärgid: %1$d/%2$d</string>
+    <string name="character_counter_overflowed_content_description">Tähemärgipiirang on ületatud: %1$d/%2$d</string>
+    <string name="clear_text_end_icon_content_description">Kustuta tekst</string>
+    <string name="credits_text"><![CDATA[
+        <b>Autorid</b>
+        <br/>
+        m2049r, baltsar777, anhdres, keejef,
+        rehrar, EarlOfEgo, ErCiccione jt
+        <br/><br/>
+        <a href="https://monerujo.io/">monerujo.io</a>
+        ]]></string>
+    <string name="delete_alert_message">This wallet will be deleted. Your funds will be gone forever unless you have your seed or a working backup to recover it.</string>
+    <string name="delete_alert_no">Ei, tänan!</string>
+    <string name="delete_alert_yes">Täpselt nii!</string>
+    <string name="delete_failed">Delete failed!</string>
+    <string name="deletecache_alert_message">This wallet will be reset, losing all off-chain data (like notes, account &amp; subaddress names, private transaction keys, ...)! Use this ONLY if this wallet is corrupt and does not load!</string>
+    <string name="details_alert_message">Nüüd näidatakse tundlikku infot.\nPiilu oma seljataha!</string>
+    <string name="details_alert_no">Vii mind tagasi!</string>
+    <string name="details_alert_yes">Olen turvalises kohas</string>
+    <string name="details_title">Lisainfo</string>
+    <string name="error_icon_content_description">Viga</string>
+    <string name="exposed_dropdown_menu_content_description">Kuva rippmenüü</string>
+    <string name="fab_create_new">Loo uus rahakott</string>
+    <string name="fab_restore_key">Taasta rahakott privaatvõtmetest</string>
+    <string name="fab_restore_ledger">Taasta seadmelt Ledger Nano S</string>
+    <string name="fab_restore_seed">Taasta rahakott 25-sõnalisest seemnest</string>
+    <string name="fab_restore_viewonly">Taasta rahakott vaatamiseks</string>
+    <string name="generate_address_hint">Avalik aadress</string>
+    <string name="generate_address_label">Avalik aadress</string>
+    <string name="generate_address_label_sub">Avalik alamaadress #%1$d: %2$s</string>
+    <string name="generate_bad_passwordB">Paroolid ei kattu</string>
+    <string name="generate_buttonGenerate">Loo mulle juba üks rahakott!</string>
+    <string name="generate_button_accept">Olen mnemoonilise seemne üles kirjutanud</string>
+    <string name="generate_check_address">Sisesta korrektne  aadress</string>
+    <string name="generate_check_key">Sisesta korrektne võti</string>
+    <string name="generate_check_mnemonic">Sisesta oma 25-sõnaline seeme</string>
+    <string name="generate_crazypass_label">Rahakoti failide taastamise parool</string>
+    <string name="generate_empty_passwordB">Parool ei saa olla tühi</string>
+    <string name="generate_fingerprint_hint">Luba rahakoti avamine sõrmejäljega</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>Sõrmejäljega avamine</strong>
+        <p>Kui sõrmejäljega avamine on sisse lülitatud, saad kontoseisu vaadata ja raha vastu võtta ilma parooli sisestamata.</p>
+        <p>Kuid kõrgema turvalisuse nimel palutakse sul sisestada parool siis, kui vaatad rahakoti infot või saadad raha.</p>
+        <strong>Turvahoiatus</strong>
+        <p>Lõpetuseks, monerujo tahab sulle meelde tuletada, et igaüks, kes pääseb ligi sinu sõrmejäljele, saab vaadata su kontoseisu.</p>
+        <p>Näiteks on võimalik pahatahtlikel inimestel nii avada su rahakott, kui sa magad.</p>
+        <strong>Oled kindel, et soovid selle aktiveerida?</strong>
+    ]]></string>
+    <string name="generate_mnemonic_hint">25-sõnaline mnemooniline seeme</string>
+    <string name="generate_mnemonic_label">Mnemooniline seeme</string>
+    <string name="generate_name_hint">Rahakoti nimi</string>
+    <string name="generate_password_hint">Rahakoti parool</string>
+    <string name="generate_restoreheight_error">Sisesta plokinumber või kuupäev (YYYY-MM-DD)</string>
+    <string name="generate_restoreheight_hint">Taastamise plokinumber või kuupäev (YYYY-MM-DD)</string>
+    <string name="generate_spendkey_hint">Kulutamise võti</string>
+    <string name="generate_spendkey_label">Kulutamise võti</string>
+    <string name="generate_title">Loo rahakott</string>
+    <string name="generate_viewkey_hint">Vaatamise võti</string>
+    <string name="generate_viewkey_label">Vaatamise võti</string>
+    <string name="generate_wallet_created">Rahakott loodud</string>
+    <string name="generate_wallet_creating">Loon rahakotti</string>
+    <string name="generate_wallet_dot">Nimi ei saa alata märgiga .</string>
+    <string name="generate_wallet_exists">Rahakott juba eksisteerib!</string>
+    <string name="generate_wallet_name">Anna mulle nimi!</string>
+    <string name="generate_wallet_type_key">Võtmed</string>
+    <string name="generate_wallet_type_new">Uus</string>
+    <string name="generate_wallet_type_seed">Seeme</string>
+    <string name="generate_wallet_type_view">Vaatamiseks</string>
+    <string name="gunther_says">There is nothing here\nPlease create or restore a wallet</string>
+    <string name="help_create_keys"><![CDATA[
+        <h1>Loo rahakott - võtmetest</h1>
+        <p>If you are recovering your wallet using your keys!</p>
+        <p>Enter a unique wallet name and password. The password is used for securing your wallet data on the device.
+        Use a strong password - even better use a passphrase.<p>
+        <p>Enter your Monero Address in the field \"Public Address\" and fill out \"View Key\" and  \"Spend Key\".</p>
+        <p>Enter the block number of the first transaction used for this address in the
+        field \"Restore Height\". You can also use a date in the format YYYY-MM-DD. If you are not sure,
+        enter an approximate date/blockheight <em>before</em> you first used this wallet address.</p>
+    ]]></string>
+    <string name="help_create_ledger"><![CDATA[
+        <h1>Loo rahakott - Ledger</h1>
+        <p>You want to recover your wallet from your Ledger Nano S device.</p>
+        <p>Your secret keys never leave the Ledger device, so you need it plugged in every
+        time you want to access your wallet.</p>
+        <p>Enter a unique wallet name and password. The password is used for securing your wallet data on the Android
+        device. Use a strong password - even better use a passphrase.</p>
+        <p>Enter the block number of the first transaction used for this address in the
+        field \"Restore Height\". You can also use a date in the format YYYY-MM-DD. If you are not sure,
+        enter an approximate date/blockheight <em>before</em> you first used this wallet address.</p>
+    ]]></string>
+    <string name="help_create_new"><![CDATA[
+        <h1>Loo rahakott - uus</h1>
+        <p>If you need a new Monero Address!</p>
+        <p>Enter a unique wallet name and password.
+        The password is used for securing your wallet data on the device. Use a strong password -
+        even better use a passphrase.</p>
+        <h2>Note your Mnemonic Seed!</h2>
+        <p>On the following screen you will find your 25-word \"Mnemonic Seed\".
+        This is the only data needed to recover your wallet at a later point
+        and gain full access to your funds.
+        Keeping this secure and private is very important, as it gives <em>anyone</em>
+        full access to your funds!</p>
+        <p>If you lose your wallet password, you can still recover your wallet with the Mnemonic Seed.</p>
+        <p>There is no way to recover your Mnemonic Seed, if you lose it all your funds will be lost!
+        The Mnemonic Seed can also never be changed, and if it is stolen or otherwise compromised,
+        you will have to move your funds to new wallet (with a new Mnemonic Seed). Therefore, it is best
+        that you backup your Mnemonic Seed by writing it down and storing it in <em>multiple</em> safe
+        and secure places.</p>
+    ]]></string>
+    <string name="help_create_seed"><![CDATA[
+        <h1>Loo rahakott - seemnest</h1>
+        <p>If you already have a Monero Address and want to recover the transactions from the blockchain!</p>
+        <p>Enter a unique wallet name and password. The password is used for securing your wallet data on the device.
+        Use a strong password - even better use a passphrase.</p>
+        <p>Enter your Seed in the field \"Mnemonic Seed\".<p>
+        <p>Enter the block number of the first transaction used for this address in the
+        field \"Restore Height\". You can also use a date in the format YYYY-MM-DD. If you are not sure,
+        enter an approximate date/blockheight <em>before</em> you first used this wallet address.</p>
+    ]]></string>
+    <string name="help_create_view"><![CDATA[
+        <h1>Loo rahakott - vaatamiseks</h1>
+        <p>If you just want to monitor incoming transactions to a wallet!</p>
+        <p>Enter a unique wallet name and password. The password is used for securing your wallet data on the device.
+        Use a strong password - even better use a passphrase.<p>
+        <p>Enter your Monero Address in the field \"Public Address\" and fill out the \"View Key\".</p>
+        <p>Enter the block number of the first transaction used for this address in the
+        field \"Restore Height\". You can also use a date in the format YYYY-MM-DD. If you are not sure,
+        enter an approximate date/blockheight <em>before</em> you first used this wallet address.</p>
+    ]]></string>
+    <string name="help_details"><![CDATA[
+        <h1>Rahakoti info</h1>
+        <h2>Avalik aadress</h2>
+        Your public address is like your bank account number you can share this with anyone without
+        having to fear losing your Monero. People will send Monero to your wallet using this address.
+        <h2>Mnemooniline seeme</h2>
+        This is the only data needed to recover your wallet at a later point and gain full access to
+        your funds. Keeping this private and secure is very important, as it gives <em>anyone</em> full
+        access to your Monero! If you haven’t written this down somewhere safe please do!
+        <h2>Rahakoti failide taastamise parool</h2>
+        Make sure you write this password down. If you reset your device or uninstall the app, you
+        will need it to access your wallet again.<br/>
+        <h3>CrAzYpass</h3>
+        If the password displayed here is 52 alphanumeric characters in groups of 4 - congratulations!
+        Your wallet files are secured with a 256-bit key generated by your device&apos;s security
+        features based on the passphrase you chose (on creation or by changing it). This makes it
+        extremely difficult to hack!<br/>
+        This feature is mandatory for all newly created wallets.
+        <h3>Vananenud parool</h3>
+        If you see your passphrase here, your wallet files are not as secure as when using
+        a CrAzYpass. To fix this, simply select \"Change Passphrase\" from the menu. After entering
+        a new passphrase (maybe even the same one as before) the app will generate a CrAzYpass for
+        you and secure your wallet files with it. Write it down!
+        <h3>CrAzYpass rahakotid</h3>
+        If you ever need to reinstall Monerujo (for example after resetting your phone or switching
+        to a new one) or you want to use your wallet files on a different device or PC, you have to
+        use this Recovery Password in order to access your wallet again.<br/>
+        By selecting \"Change Passphrase\" from the menu, you can choose another passphrase. Beware
+        that this will generate a new Recovery Password. Write it down!
+        <h2>Vaatamise võti</h2>
+        Your view key can be used to monitor incoming transactions to your wallet without giving
+        permission to spend the funds inside your wallet.
+        <h2>Kulutamise võti</h2>
+        Your spend key allows anyone to spend the Monero associated with your wallet, so don’t tell
+        anyone this key, keep it safe like your Mnemonic Seed.
+    ]]></string>
+    <string name="help_list"><![CDATA[
+        <h1>Rahakottide nimekiri</h1>
+        <h2>Server</h2>
+        <p>Monerujo uses a Remote Node to communicate with the Monero Network without having
+        to download and store a copy of the whole blockchain itself. You can find a list of popular
+        remote nodes or learn how to run your own remote node here https://moneroworld.com/<p>
+        <p>Monerujo comes with some Remote Nodes preset. It remembers the last five nodes used.</p>
+        <h2>Rahakotid</h2>
+        <p>Here you see your wallets. They are located in the <tt>monerujo</tt> folder
+        in the internal storage of your device. You can use a file explorer app to see them.
+        You should make backups of this folder on a regular basis to off-device storage in
+        case your device explodes or gets stolen.</p>
+        <p>Select a wallet to open it or press the \"+\" to create a new one.
+        Or select one of the wallet operations:</p>
+        <h3>Info</h3>
+        <p>Show the wallet details, seed &amp; keys.</p>
+        <h3>Küsi raha</h3>
+        <p>Make a QR code for receiving Moneroj.</p>
+        <h3>Nimeta ümber</h3>
+        <p>Rename the wallet. Backups are not renamed.</p>
+        <h3>Tagavarakoopia</h3>
+        <p>Make a copy of the wallet in the <tt>backups</tt> folder inside the <tt>monerujo</tt>
+        overwriting previous copies there.</p>
+        <h3>Arhiveeri</h3>
+        <p>Make a backup and delete the wallet afterwards. The copy remains in the <tt>backups</tt>
+        folder. If you no longer need your backups you should delete them with a file explorer or
+        secure delete app.</p>
+    ]]></string>
+    <string name="help_node"><![CDATA[
+        <h1>Nodes</h1>
+        <h2>TL;DR</h2>
+        <p>Refresh the nodes list by pulling down &amp; bookmark 3&#8211;5 nodes to allow Monerujo
+        to choose the best one for you!</p>
+        <h2>What&apos;s a Node?</h2>
+        <p>Monerujo uses a Remote Node (sometimes also called Daemon) to communicate with
+        the Monero Network without having to download and store a copy of the
+        whole blockchain itself.<p>
+        <h2>Node List</h2>
+        <p>If the list is empty, you can either add new nodes manually or let Monerujo
+        scan the network for you. Or both. Read on&#8230;</p>
+        <p>The node list shows all currently known nodes. Additionally, the timestamp
+        of the latest block known to each node is shown under the node name. An icon
+        representing the node&apos;s response behaviour
+        (which indicates the level of connectivity to be expected)
+        is shown next to each node.</p>
+        <p>Any node in the list can be bookmarked for later use.
+        Nodes which are not bookmarked will be forgotten.<p>
+        <p>Monerujo will choose the optimal bookmarked node each time you use it.
+        It does this by checking the blockheight (how up-to-date
+        is the node?) as well as the response behaviour (how fast does the node respond to requests?).</p>
+        <p>The list is sorted by these characteristics, so the top node would be the one Monerujo
+        would choose right now. The bottom of the list would show very slow or unavailable nodes.</p>
+        <h2>Add a Node</h2>
+        <p>By touching the &quot;Add Node&quot; button at the bottom, you will be asked to
+        enter the node details in the following dialog.
+        The &quot;Address&quot; is the hostname or IP-address of the node - this is the only
+        mandatory entry.
+        Enter the &quot;Port&quot; if the node runs on a non-default port (e.g. 18089).
+        You can also optionally name the node, so you can identify it easier later on.
+        Some nodes require credentials to use them. Enter the provided username &amp;
+        password in the appropriate fields. Now you can &quot;Test&quot; these setting.
+        The &quot;Test Results&quot; will display the blockheight, response time and actual IP used.
+        The result may also be an error - usually because the hostname provided is
+        not reachable in a sensible amount of time or the credentials are incorrect.
+        Or the hostname/port combination does not point to an actual Monero Node!
+        Once the test passes (no error) - you&apos;re set to press &quot;OK&quot; to save &amp;
+        bookmark this node.</p>
+        <h2>Scan for Nodes</h2>
+        <p>Additionally, you can scan the network for nodes. Monerujo will start
+        scanning the network for Remote Nodes on port 18089. It begins by asking your
+        bookmarked nodes for other peers in the Monero P2P network and then continues
+        by asking those for their peers, and so on. If you have no bookmarked nodes
+        (or they don&apos;t tell us about their peers),
+        Monerujo will go straight to the Monero seed nodes hardcoded into Monero. The
+        scan stops when it finds 10 remote nodes in total.</p>
+    ]]></string>
+    <string name="help_ok">Got it!</string>
+    <string name="help_send"><![CDATA[
+        <h1>Saatmine</h1>
+        <h2>Saaja aadress</h2>
+        <p>This is the public address of the wallet you are sending Moneroj to, you can copy this from
+        your clipboard, scan a QR code or enter it manually. Make sure you triple check this to
+        ensure you aren’t sending coins to the wrong address.</p>
+        <p>In addition to using an XMR address, you can also use
+        <ul>
+            <li>an OpenAlias for XMR or BTC</li>
+            <li>a BTC address</li>
+        </u>
+        Please note, that sending BTC is processed through the SideShift.ai service (see https://sideshift.ai
+        for details). See the section on sending BTC below.</p>
+        <h1>Bitcoini (BTC) saatmine</h1>
+        <h2>SideShift.ai</h2>
+        <p>SideShift.ai is a third party service which acts as an exchange from Monero to Bitcoin.
+        We use the SideShift.ai API to integrate Bitcoin payments into Monerujo. Please check out
+        https://sideshift.ai and decide for yourself if this is something you want to use. The Monerujo
+        Team is not associated with SideShift.ai and cannot help you with their service.</p>
+        <h2>SideShift.ai vahetuskurss<h2>
+        <p>On the \"Amount\" screen you will be shown the current parameters of the SideShift.ai service. These
+        include the current exchange rate as well as upper and lower BTC limits. Note that this
+        rate is not guaranteed at this point.</p>
+        <h2>SideShift.ai tellimus<h2>
+        <p>On the \"Confirm\" screen, you will see the actual SideShift.ai order. This order is valid for
+        a limited time - you may notice a countdown on the \"Spend\" button. The exchange rate may
+        be different to the indicative one shown on previous screens.</p>
+        <h2>SideShift.ai privaatvõti<h2>
+        <p>Since Monerujo only handles the Monero part of your transaction your SideShift.ai secret key
+        can be used to track the Bitcoin part of your order on the SideShift.ai homepage.</p>
+        <h2>SideShift.ai loendur</h2>
+        <p>Once the countdown reaches zero, you need to get a new quote from SideShift.ai by going back to the
+        previous step and then coming back to the \"Confirm\" screen.</p>
+    ]]></string>
+    <string name="help_tx_details"><![CDATA[
+        <h1>Ülekannete info</h1>
+        <h2>Sihtkoht</h2>
+        This is the public address of the wallet you sent Monero to
+        <h2>Makse ID</h2>
+        You can use a Payment ID to identify the reason you sent Monero between two parties this is
+        fully optional and private. For example it can allow a Business to reconcile your transaction
+        with an item you bought.
+        <h2>Ülekande ID (TX ID)</h2>
+        This is your Transaction ID you can use it to identify your obfuscated transaction on a Monero
+        Blockchain explorer like <a href="https://xmrchain.net/">https://xmrchain.net/</a>
+        <h2>Ülekande võti (TX KEY)</h2>
+        This is your transaction private key, keep this safe as revealing this to a third party
+        reveals which signature in a ring is yours, thereby making your transaction transparent.
+        <h2>Plokk</h2>
+        This was the block your transaction was included in.
+    ]]></string>
+    <string name="help_uri"><![CDATA[
+        <h1>Using a payment link</h1>
+        <p>You have started monerujo with a payment link. In order to send funds, please do the following:</p>
+        <p>
+        1. Open the wallet you want to spend from<br>
+        2. Wait until the wallet is synced &amp; the "Give" button appears<br>
+        3. Touch the "Give" button
+        </p>
+        <p>The payment details will be filled in. Check them and proceed like for any other transaction.</p>
+    ]]></string>
+    <string name="help_wallet"><![CDATA[
+        <h1>Rahakott</h1>
+        <h2>Avalik režiim</h2>
+        <p>Street mode can be enabled/disabled in the menu or Gunther\'s head icon. In this mode, your
+        balance is not shown on any screen so you can safely use your wallet on the street, a pub or
+        other public place. Previous transactions are also hidden. New transactions will be shown, so
+        you can see that you have sent/received sweet Moneroj!</p>
+        <h2>Uuendamine</h2>
+        Because Monero likes to keep things private, every time you open a Monerujo wallet we have to
+        scan the blockchain to see if any new Moneroj have been sent to your wallet, this only
+        stores information to your phone which belongs to your wallet. Sometimes it can take a while
+        because you haven’t synced in a long time.
+        <h2>Kontojääk</h2>
+        <p><b>Help! My wallet balance has disappeared or is unconfirmed!</b><br/>
+        Don’t panic! When you send funds from your wallet, some of your balance will temporarily show
+        as unconfirmed.
+        This happens as a result of how Monero is exchanged on the blockchain and how change works.
+        Read more about change at https://getmonero.org/resources/moneropedia/change.html
+        <h2>Ülekannete ajalugu</h2>
+        <p>A list of the wallet transactions. In view wallets, only incoming transactions are shown.</p>
+    ]]></string>
+    <string name="help_xmrto"><![CDATA[
+        <h1>Bitcoini (BTC) saatmine</h1>
+        <h2>SideShift.ai</h2>
+        <p>SideShift.ai is a third party service which acts as an exchange from Monero to Bitcoin.
+        We use the SideShift.ai API to integrate Bitcoin payments into Monerujo. Please check out
+        https://sideshift.ai and decide for yourself if this is something you want to use. The Monerujo
+        Team is not associated with SideShift.ai and cannot help you with their service.</p>
+        <h2>SideShift.ai vahetuskurss<h2>
+        <p>On the \"Amount\" screen you will be shown the current parameters of the SideShift.ai service. These
+        include the current exchange rate as well as upper and lower BTC limits. Note that this
+        rate is not guaranteed at this point.</p>
+        <h2>SideShift.ai tellimus<h2>
+        <p>On the \"Confirm\" screen, you will see the actual SideShift.ai order. This order is valid for
+        a limited time - you may notice a countdown on the \"Spend\" button. The exchange rate may
+        be different to the indicative one shown on previous screens.</p>
+        <h2>SideShift.ai privaatvõti<h2>
+        <p>Since Monerujo only handles the Monero part of your transaction your SideShift.ai secret key
+        can be used to track the Bitcoin part of your order on the SideShift.ai homepage.</p>
+        <h2>SideShift.ai loendur</h2>
+        <p>Once the countdown reaches zero, you need to get a new quote from SideShift.ai by going back to the
+        previous step and then coming back to the \"Confirm\" screen.</p>
+    ]]></string>
+    <string name="icon_content_description">Dialoogi ikoon</string>
+    <string name="info_ledger_enabled">Ledger\'i tugi sisse lülitatud, puuduta lisainfo saamiseks.</string>
+    <string name="info_nodes_enabled">Node-o-matiC sisse lülitatud, puuduta lisainfo saamiseks.</string>
+    <string name="info_paymentid_integrated">✔ Makse ID integreeritud</string>
+    <string name="info_prepare_tx">Valmistan ülekannet ette</string>
+    <string name="info_send_xmrto_error">SideShift.ai viga (%1$s)</string>
+    <string name="info_send_xmrto_paid">Ootan kinnitust</string>
+    <string name="info_send_xmrto_parms"><![CDATA[
+        <b>Sa saad saata %1$s &#8212; %2$s %4$s</b>.<br/>
+        <i><b>SideShift.ai</b> annab <u>hetkel</u> vahetuskursiks <b>%3$s %4$s/XMR</b></i>.
+    ]]></string>
+    <string name="info_send_xmrto_query">Küsin …</string>
+    <string name="info_send_xmrto_sent">%1$s saadetud!</string>
+    <string name="info_send_xmrto_success_btc">%1$s %2$s</string>
+    <string name="info_send_xmrto_success_order_label">SideShift.ai tellimus</string>
+    <string name="info_send_xmrto_unpaid">Ootan makset</string>
+    <string name="info_xmrto"><![CDATA[
+        <b>Sa sisestasid %1$s aadressi.</b><br/>
+        <i>See tähendab, et sa saadad Monerosid ning kohale jõuavad %1$s kasutades SideShift.ai teenust.</i>
+    ]]></string>
+    <string name="info_xmrto_ambiguous"><![CDATA[
+        <b>Ambiguous address.</b><br/>
+        <i>Please select the type above.</i>
+    ]]></string>
+    <string name="info_xmrto_enabled">Bitcoini maksed sisse lülitatud, puuduta lisainfo saamiseks.</string>
+    <string name="info_xmrto_help"><![CDATA[
+        <b>Please enter or scan a %1$s address.</b><br/>
+        <i>You&apos;ll send XMR and the receiver will get %2$s using the <b>SideShift.ai</b> service.</i>
+    ]]></string>
+    <string name="info_xmrto_help_xmr"><![CDATA[
+        <b>Please enter or scan a Monero address.</b>
+    ]]></string>
+    <string name="item_view_role_description">Vaheleht</string>
+    <string name="label_cancel">Katkesta</string>
+    <string name="label_close">Sulge</string>
+    <string name="label_copy_address">Avalik aadress</string>
+    <string name="label_copy_viewkey">Vaatamise võti</string>
+    <string name="label_copy_xmrtokey">Võti</string>
+    <string name="label_credits">Autorid</string>
+    <string name="label_daemon">Server</string>
+    <string name="label_generic_xmrto_error">SideShift.ai viga</string>
+    <string name="label_login_wallets">Rahakotid</string>
+    <string name="label_nodes">Serverid</string>
+    <string name="label_ok">OK</string>
+    <string name="label_receive_info_gen_qr_code">Puuduta QR koodi saamiseks</string>
+    <string name="label_restoreheight">Taastamise plokinumber</string>
+    <string name="label_send_address">Sihtkoha address</string>
+    <string name="label_send_btc_address">Sihtkoha %1$s aadress</string>
+    <string name="label_send_btc_amount">Kogus</string>
+    <string name="label_send_btc_xmrto_info">Külasta SideShift.ai lisainfo saamiseks &amp; jälgin</string>
+    <string name="label_send_btc_xmrto_key">SideShift.ai privaatvõti</string>
+    <string name="label_send_btc_xmrto_key_lb">Privaatvõti\nSideShift.ai</string>
+    <string name="label_send_done">Tehtud</string>
+    <string name="label_send_notes">Kommentaarid</string>
+    <string name="label_send_progress_create_tx">Valmistan ette Monero ülekannet</string>
+    <string name="label_send_progress_queryparms">Küsin SideShift.ai parameetreid</string>
+    <string name="label_send_progress_xmrto_create">Loon SideShift.ai tellimust</string>
+    <string name="label_send_progress_xmrto_query">Küsin SideShift.ai tellimust</string>
+    <string name="label_send_success">Edukalt saadetud</string>
+    <string name="label_send_txid">Ülekande ID</string>
+    <string name="label_test">Testi</string>
+    <string name="label_wallet_advanced_details">Puuduta lisainfo saamiseks</string>
+    <string name="label_wallet_receive">Küsi raha</string>
+    <string name="label_wallet_send">Saada</string>
+    <string name="label_watchonly">(Ainult vaatamiseks)</string>
+    <string name="language_system_default">Kasuta süsteemi keelt</string>
+    <string name="material_clock_toggle_content_description">Valige AM või PM</string>
+    <string name="material_hour_selection">Valige tund</string>
+    <string name="material_hour_suffix">Kell %1$s</string>
+    <string name="material_minute_selection">Minutite valimine</string>
+    <string name="material_minute_suffix">%1$s minutit</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Aktiveerige kellaaja sisestamiseks kellarežiim.</string>
+    <string name="material_timepicker_hour">Tunnid</string>
+    <string name="material_timepicker_minute">Minut</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Aja valimine</string>
+    <string name="material_timepicker_text_input_mode_description">Aktiveerige kellaaja sisestamiseks tekstisisestusrežiim.</string>
+    <string name="max_account_warning">Too many unused accounts - use some to enable creating more!</string>
+    <string name="max_subaddress_warning">Too many unused addresses - use some to enable creating more!</string>
+    <string name="menu_about">Meist</string>
+    <string name="menu_backup">Tagavarakoopia</string>
+    <string name="menu_changepw">Vaheta parooli</string>
+    <string name="menu_daynight">Dark Mode</string>
+    <string name="menu_default_nodes">Restore default nodes</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_deletecache">Reset wallet!</string>
+    <string name="menu_help">Abi</string>
+    <string name="menu_info">Näita salajast infot</string>
+    <string name="menu_language">Keel</string>
+    <string name="menu_ledger_seed">Convert Ledger Seed</string>
+    <string name="menu_privacy">Privaatsuspoliitika</string>
+    <string name="menu_receive">Küsi raha</string>
+    <string name="menu_rename">Nimeta ümber</string>
+    <string name="menu_rescan">Rescan!</string>
+    <string name="menu_restore">Import wallet</string>
+    <string name="menu_share">Jaga</string>
+    <string name="menu_streetmode">Avalik režiim</string>
+    <string name="message_camera_not_permitted">Pole kaamerat = pole QR koodide lugemist!</string>
+    <string name="message_copy_address">Rahakoti aadress on kopeeritud lõikepuhvrisse!</string>
+    <string name="message_copy_txid">Ülekande ID on kopeeritud lõikepuhvrisse!</string>
+    <string name="message_copy_viewkey">Vaatamise võti on kopeeritud lõikepuhvrisse!</string>
+    <string name="message_copy_xmrtokey">Võti on kopeeritud lõikepuhvrisse!</string>
+    <string name="message_exchange_failed">Vahetuskursi küsimine ebaõnnestus!\nKasuta XMR/XMR või proovi uuesti</string>
+    <string name="message_nocopy">Lõikepuhvrisse kopeerimine on turvakaalutlustel keelatud!</string>
+    <string name="message_strorage_not_permitted">Mälusse kirjutamine on tegelikult meile väga oluline!</string>
+    <string name="message_strorage_not_writable">Mälusse kirjutamine ei õnnestunud! Paanika-Jaanika!</string>
+    <string name="mtrl_badge_numberless_content_description">Uus märguanne</string>
+    <string name="mtrl_chip_close_icon_content_description">Üksuse %1$s eemaldamine</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Rohkem kui %1$d uut märguannet</string>
+    <string name="mtrl_picker_a11y_next_month">Vaheta järgmisele kuule</string>
+    <string name="mtrl_picker_a11y_prev_month">Vaheta eelmisele kuule</string>
+    <string name="mtrl_picker_announce_current_selection">Praegune valik: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Valige kuupäev</string>
+    <string name="mtrl_picker_date_header_unselected">Valitud kuupäev</string>
+    <string name="mtrl_picker_day_of_week_column_header">Päevade veerg: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Sobimatu vorming.</string>
+    <string name="mtrl_picker_invalid_format_example">Näide: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Kasutage: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Sobimatu vahemik.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Mine aastasse %1$s</string>
+    <string name="mtrl_picker_out_of_range">Vahemikust väljas: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Alguskuupäev – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – lõppkuupäev</string>
+    <string name="mtrl_picker_range_header_selected">%1$s–%2$s</string>
+    <string name="mtrl_picker_range_header_title">Valige vahemik</string>
+    <string name="mtrl_picker_range_header_unselected">Alguskuupäev – lõppkuupäev</string>
+    <string name="mtrl_picker_save">Salvesta</string>
+    <string name="mtrl_picker_text_input_date_hint">Kuupäev</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Lõppkuupäev</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Alguskuupäev</string>
+    <string name="mtrl_picker_text_input_day_abbr">p</string>
+    <string name="mtrl_picker_text_input_month_abbr">k</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Lülitu kalendrisisestusrežiimile</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Puudutage, et lülituda päeva valimisele</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Lülitu tekstisisestusrežiimile</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Puudutage, et lülituda aasta valimisele</string>
+    <string name="nfc_tag_read_undef">Ma ei oska seda silti lugeda!</string>
+    <string name="nfc_tag_read_what">Ma ei tea, mida sa tahad!</string>
+    <string name="nfc_tag_size">Sildil on %1$d baiti, kuid meil on vaja %2$d!</string>
+    <string name="nfc_tag_tap">NFC on saadaval!</string>
+    <string name="nfc_tag_unsupported">Silt ei toeta NDEF\'i!</string>
+    <string name="nfc_write_failed">Sildi kirjutamine ebaõnnestus!</string>
+    <string name="nfc_write_successful">Sildi kirjutamine õnnestus</string>
+    <string name="node_address_hint">Aadress</string>
+    <string name="node_auth_error">SISSE LOGIMINE EBAÕNNESTUS</string>
+    <string name="node_create_hint">Puuduta serverite valimiseks või lisamiseks</string>
+    <string name="node_fab_add">Lisa server</string>
+    <string name="node_general_error">ÜHENDUSE VIGA</string>
+    <string name="node_height">Viimane uuendatud plokk: %1$s</string>
+    <string name="node_host_empty">Meil on seda vaja!</string>
+    <string name="node_host_unresolved">Aadressi lahendmine ebaõnnestus</string>
+    <string name="node_name_hint">Serveri nimi (valikuline)</string>
+    <string name="node_nobookmark">Automaatselt salvestati parimad %1$d serverit</string>
+    <string name="node_pass_hint">Parool (valikuline)</string>
+    <string name="node_port_hint">Port</string>
+    <string name="node_port_numeric">Peab olema arv</string>
+    <string name="node_port_range">Peab olema 1–65535</string>
+    <string name="node_pull_hint">Lisa serverid käsitsi või pühi sõrmega alla, et otsida</string>
+    <string name="node_refresh_hint">Puuduta värskendamiseks!</string>
+    <string name="node_refresh_wait">Palun oota otsimise lõpuni</string>
+    <string name="node_result">Kõrgus: %1$s (v%2$d), Ping: %3$.0fms, IP: %4$s</string>
+    <string name="node_result_label">Testi tulemus:</string>
+    <string name="node_scanning">Otsin võrgust…</string>
+    <string name="node_test_error">ÜHENDUSE VIGA %1$d</string>
+    <string name="node_testing">Testimise IP: %1$s …</string>
+    <string name="node_updated_days">Last Block: %1$d days ago</string>
+    <string name="node_updated_hours">Last Block: %1$d hours ago</string>
+    <string name="node_updated_mins">Last Block: %1$d minutes ago</string>
+    <string name="node_updated_now">Last Block: %1$d seconds ago</string>
+    <string name="node_user_hint">Kasutajanimi (valikuline)</string>
+    <string name="onboarding_agree">I get it!</string>
+    <string name="onboarding_button_next">Next</string>
+    <string name="onboarding_button_ready">I\'m ready!</string>
+    <string name="onboarding_fpsend_information">You\'re now able to send XMR with just your fingerprint if you enabled it. To request the password, just disable fingerprint access.</string>
+    <string name="onboarding_fpsend_title">Send with fingerprint</string>
+    <string name="onboarding_nodes_information">Nodes connect you to the Monero network. Choose between public nodes or go full cypherpunk using your own.</string>
+    <string name="onboarding_nodes_title">Nodes, your way</string>
+    <string name="onboarding_seed_information">The seed grants full access to whoever has it. If you lose it, we cannot help you recover it and you lose your beloved moneroj.</string>
+    <string name="onboarding_seed_title">Keep your seed safe</string>
+    <string name="onboarding_welcome_information">This app allows you to create and use Monero wallets. You can store your sweet moneroj in them.</string>
+    <string name="onboarding_welcome_title">Welcome to Monerujo!</string>
+    <string name="onboarding_xmrto_information">Monerujo has SideShift.ai support built-in. Just paste or scan a BTC, LTC, ETH, DASH or DOGE address and you\'ll be sending these cryptos by spending XMR.</string>
+    <string name="onboarding_xmrto_title">Send Crypto</string>
+    <string name="open_wallet_ledger_missing">Palun (taas)ühenda seade Ledger</string>
+    <string name="password_fair">Meh …</string>
+    <string name="password_good">Sa suudad veelgi paremini!</string>
+    <string name="password_strong">Jõuad peagi kohale …</string>
+    <string name="password_toggle_content_description">Parooli kuvamine</string>
+    <string name="password_very_strong">Hurraa, h2kker1 stiilis!</string>
+    <string name="password_weak">Jätka tippimist …</string>
+    <string name="privacy_policy"><![CDATA[
+        <h1>Privaatsuspoliitika</h1>
+        <p>See leht informeerib sind personaalsete andmete kogumise, kasutamise ja
+        avaldamise osas, mida saame meie äpi (monerujo: Monero Wallet) kasutajatelt.
+        </p>
+        <p>Äppi kasutades nõustute teabe kogumise ja kasutamisega vastavalt sellele
+        poliitikale.
+        </p>
+        <h2>Kogutud andmed</h2>
+        <p>Isikuandmed on igasugused andmed, mis võivad isikut tuvastada.
+        </p>
+        <p>Monero võtmeid ja avalikke aadresse kogutakse ja töödeldakse äpisiseselt
+        tehingute töötlemiseks ja edastatakse Monero võrku krüptitud kujul.
+        </p>
+        <p>Rakendus ei kogu muid isikuandmeid.</p>
+        <p>Kui kasutate vahetusfunktsiooni, kasutab monerujo selleks coinmarketcap.com\'i
+        avaliku API funktsiooni. Vaadake nende privaatsuspoliitikat aadressil
+        https://coinmarketcap.com/privacy, et saada üksikasju, kuidas teie päringute kohta
+        andmeid kogutakse.</p>
+        <p>Kui kasutate äppi BTC-aadressitele raha saatmiseks, siis kasutatakse selleks
+        SideShift.ai teenust. Lisateabe saamiseks vaadake nende privaatsuspoliitikat aadressil
+        https://sideshift.ai/. Monerujo saadab neile BTC sihtkoha aadressi ja summa. Koguda
+        võidakse ka teie IP aadressi.</p>
+        <h2>Äpi õigused</h2>
+        <ul>
+        <li>INTERNET : Monero võrguga ühenduse loomine Monero Daemoni sõlmpunkti kaudu</li>
+        <li>READ_EXTERNAL_STORAGE : Seadmesse salvestatud rahakoti failide lugemiseks</li>
+        <li>WRITE_EXTERNAL_STORAGE : Rahakoti failide seadmesse salvestamiseks</li>
+        <li>WAKE_LOCK : Sünkroonimise ajal hoiab seadme ärkvel</li>
+        <li>CAMERA : QR-koodi lugemine Monero saamiseks</li>
+        </ul>
+        <h2>Privaatsuspoliitika muudatused</h2>
+        <p>Me võime aeg-ajalt seda privaatsuspoliitikat uuendada. Teatame teile kõigist
+        muudatustest, avaldades uued privaatsuseeskirjad äpis ja veebis (www.monerujo.io)
+        Soovitame teil seda privaatsuspoliitikat perioodiliselt üle vaadata juhuks,
+        kui vahepeal on toimunud muutusi.
+        </p>
+        <p>Seda privaatsuspoliitikat uuendati viimati: 10. november, 2017.
+        </p>
+        <h2>Võta meiega ühendust</h2>
+        <p>Kui teil on mingeid küsimusi meie privaatsuseeskirjade kohta või kuidas teie
+        andmeid kogutakse ja töödeldakse, siis palume saata e-post aadressile
+        privacy@monerujo.io.
+        </p>
+        ]]></string>
+    <string name="progress_ledger_confirm">Seadmelt Ledger on vajalik kinnitus!</string>
+    <string name="progress_ledger_lookahead">Otsin alamaadresse</string>
+    <string name="progress_ledger_mlsag">Segan juppe räsiga</string>
+    <string name="progress_ledger_opentx">Arvutan keerulisi tehteid</string>
+    <string name="progress_ledger_progress">Suhtlen seadmega Ledger</string>
+    <string name="progress_ledger_verify">Kontrollin võtmeid</string>
+    <string name="progress_nfc_write">Kirjutan silti</string>
+    <string name="prompt_changepw">Uus parool rahakotile %1$s</string>
+    <string name="prompt_changepwB">Korda parooli rahakotile %1$s</string>
+    <string name="prompt_daemon_missing">Server peab olema valitud!</string>
+    <string name="prompt_fingerprint_auth">Sa saad rahakoti avamiseks kasutada ka sõrmejälge.\nSelleks puuduta sõrmejäljelugejat.</string>
+    <string name="prompt_ledger_phrase">Ledger Passphrase (optional)</string>
+    <string name="prompt_ledger_seed">Ledger Seed Words</string>
+    <string name="prompt_ledger_seed_warn">Entering your Ledger Seed here is a major security risk!</string>
+    <string name="prompt_open_wallet">Avan rahakoti…</string>
+    <string name="prompt_password">Prool rahakotile %1$s</string>
+    <string name="prompt_rename">Nimeta ümber %1$s</string>
+    <string name="prompt_wrong_net">Rahakott ei ühildu valitud võrguga</string>
+    <string name="receive_amount_hint">Kogus</string>
+    <string name="receive_amount_nan">XMR pole arv</string>
+    <string name="receive_amount_negative">Vähemalt 0</string>
+    <string name="receive_amount_too_big">Kuni %1$s</string>
+    <string name="receive_cannot_open">Rahakotti ei õnnestunud avada!</string>
+    <string name="receive_desc_hint">Kommentaarid (valikuline)</string>
+    <string name="rename_failed">Ümber nimetamine ebaõnnestus!</string>
+    <string name="rename_progress">Nimetan ümber</string>
+    <string name="restore_failed">Import failed!</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Otsing"</string>
+    <string name="send_address_hint">Saaja</string>
+    <string name="send_address_invalid">See pole sobiv aadress</string>
+    <string name="send_address_no_dnssec">OpenAlias ilma DNSSEC\'ita - aadress võib olla võltsitud</string>
+    <string name="send_address_not_openalias">OpenAlias aadress pole saadaval</string>
+    <string name="send_address_openalias">OpenAlias secure ✔</string>
+    <string name="send_address_resolve_openalias">Lahendan OpenAlias…</string>
+    <string name="send_address_title">Aadress</string>
+    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount_label">Kogus</string>
+    <string name="send_amount_title">Kogus</string>
+    <string name="send_available">Kontojääk: %1$s XMR</string>
+    <string name="send_available_btc">Kontojääk: %2$s %3$s (%1$s XMR)</string>
+    <string name="send_confirm_title">Kinnita</string>
+    <string name="send_create_tx_error_title">Viga ülekande genereerimisel</string>
+    <string name="send_fee">+%1$s teenustasu</string>
+    <string name="send_fee_btc_label">Teenustasu (XMR)</string>
+    <string name="send_fee_label">Teenustasu</string>
+    <string name="send_generate_paymentid_hint">Genereeri</string>
+    <string name="send_notes_hint">Privaatsed kommentaarid (valikuline)</string>
+    <string name="send_qr_address_invalid">See pole sobiv QR kood</string>
+    <string name="send_qr_invalid">See pole QR kood</string>
+    <string name="send_send_label">Saada mu kallid Monerod teele</string>
+    <string name="send_send_timed_label">Saada mu kallid Monerod (%1$s)</string>
+    <string name="send_success_title">Tehtud</string>
+    <string name="send_sweepall">Saada kõik selle konto kinnitatud vahendid!</string>
+    <string name="send_title">Saada</string>
+    <string name="send_total_btc_label">Kokku (XMR)</string>
+    <string name="send_total_label">Kokku</string>
+    <string name="send_xmrto_timeout">Sõber, sa ootasid liiga kaua!</string>
+    <string name="service_busy">Ma tegelen ikka veel su eelmise rahakotiga …</string>
+    <string name="service_description">monerujo teenus</string>
+    <string name="service_progress">Teen ettevalmistusi …\nSee võib aega võtta!</string>
+    <string name="shift_checkamount">Check amount and try again</string>
+    <string name="shift_noquote">Cannot get quote</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="status_remaining">Plokki veel</string>
+    <string name="status_synced">Uuendatud:</string>
+    <string name="status_syncing">Uuendamine:</string>
+    <string name="status_transaction_failed">Ülekanne ebaõnnestus: %1$s</string>
+    <string name="status_wallet_connect_failed">Serveriga ühendumine ebaõnnestus!\nKontrolli kasutajanime/parooli</string>
+    <string name="status_wallet_connect_ioex">Server ei vastanud!\nProovi uuesti või vali teine server.</string>
+    <string name="status_wallet_connect_wrongversion">Serveri versioon ei sobi - palun uuenda!</string>
+    <string name="status_wallet_connecting">Ühendun …</string>
+    <string name="status_wallet_disconnected">Lahti ühendatud</string>
+    <string name="status_wallet_loading">Laen rahakotti …</string>
+    <string name="status_wallet_node_invalid">Ebasobilik server!\nVali mõni teine.</string>
+    <string name="status_wallet_unload_failed">Rahakoti salvestamine ebaõnnestus!</string>
+    <string name="status_wallet_unloaded">Rahakott salvestatud</string>
+    <string name="street_sweep_amount">EVERYTHING!</string>
+    <string name="subaddress_details_hint">Long-press for details</string>
+    <string name="subaddress_notx_label">No transactions for this subaddress yet</string>
+    <string name="subaddress_select_label">Select a subaddress</string>
+    <string name="subaddress_tx_label">Transactions for this subaddress:</string>
+    <string name="subbaddress_name_hint">Subaddress Name</string>
+    <string name="subbaddress_title">Subaddresses</string>
+    <string name="text_generic_xmrto_error">Kood: %1$d</string>
+    <string name="text_noretry">Oh ei, SideShift.ai ei ole hetkel saadaval!</string>
+    <string name="text_noretry_monero">Nüüd jõudsime küll tupikusse!</string>
+    <string name="text_retry">Puuduta uuesti proovimiseks</string>
+    <string name="text_send_btc_amount">%1$s %3$s = %2$s XMR</string>
+    <string name="text_send_btc_rate">(Kurss: %1$s %2$s/XMR)</string>
+    <string name="toast_default_nodes">Restoring already in progress…</string>
+    <string name="toast_ledger_attached">%1$s lisatud</string>
+    <string name="toast_ledger_detached">%1$s eemaldatud</string>
+    <string name="toast_ledger_start_app">Start Monero App on %1$s</string>
+    <string name="tx_account">Konto #</string>
+    <string name="tx_amount">Kogus</string>
+    <string name="tx_blockheight">Plokk</string>
+    <string name="tx_destination">Sihtkoht</string>
+    <string name="tx_failed">EBAÕNNESTUS</string>
+    <string name="tx_fee">Teenustasu</string>
+    <string name="tx_id">Ülekande ID</string>
+    <string name="tx_key">Ülekande võti</string>
+    <string name="tx_list_amount_failed">(%1$s)</string>
+    <string name="tx_list_amount_negative">- %1$s</string>
+    <string name="tx_list_amount_positive">+ %1$s</string>
+    <string name="tx_list_failed_text">ebaõnnestus</string>
+    <string name="tx_list_fee">- teenustasu %1$s</string>
+    <string name="tx_notes">Kommentaarid</string>
+    <string name="tx_notes_hint">(valikuline)</string>
+    <string name="tx_paymentId">Makse ID</string>
+    <string name="tx_pending">OOTEL</string>
+    <string name="tx_subaddress">Alamaadress</string>
+    <string name="tx_timestamp">Aeg</string>
+    <string name="tx_title">Ülekande lisainfo</string>
+    <string name="tx_transfers">Ülekanded</string>
+    <string name="wallet_activity_name">Rahakott</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s BDX kinnitamata</string>
+</resources>
